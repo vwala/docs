@@ -11,6 +11,5 @@ yarn build
 # Release
 yarn deploy
 
-
 # Commit dev changes
 git add . && git commit -m "fixes" && git push
