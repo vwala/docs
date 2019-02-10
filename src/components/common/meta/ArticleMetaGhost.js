@@ -44,7 +44,7 @@ const ArticleMetaGhost = ({ data, canonical, fetchAuthorData, title, overwriteDe
                 <meta property="article:published_time" content={ghostPost.published_at} />
                 <meta property="article:modified_time" content={ghostPost.updated_at} />
                 {publicTags.map((keyword, i) => (<meta property="article:tag" content={keyword} key={i} />))}
-                <meta property="article:author" content="https://www.facebook.com/ghost/" />
+                <meta property="article:author" content="https://www.facebook.com/vwalamarketing/" />
 
                 <meta name="twitter:title"
                     content={
@@ -68,8 +68,8 @@ const ArticleMetaGhost = ({ data, canonical, fetchAuthorData, title, overwriteDe
                 <meta name="twitter:data1" content={author.name} />
                 <meta name="twitter:label2" content="Filed under" />
                 <meta name="twitter:data2" content={primaryTag} />
-                <meta name="twitter:site" content="@tryghost" />
-                <meta name="twitter:creator" content="@tryghost" />
+                <meta name="twitter:site" content="@vwalamarketing" />
+                <meta name="twitter:creator" content="@vwalamarketing" />
                 <script type="application/ld+json">{`
                     {
                         "@context": "https://schema.org/",

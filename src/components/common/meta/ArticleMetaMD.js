@@ -40,8 +40,8 @@ const ArticleMetaMD = ({ data, canonical }) => {
                 <meta name="twitter:data1" content={`${post.timeToRead} min read`} />
                 {primaryTag ? <meta name="twitter:label2" content="Filed under" /> : null}
                 {primaryTag ? <meta name="twitter:data2" content={primaryTag} /> : null}
-                <meta name="twitter:site" content="@tryghost" />
-                <meta name="twitter:creator" content="@tryghost" />
+                <meta name="twitter:site" content="@vwalamarketing" />
+                <meta name="twitter:creator" content="@vwalamarketing" />
                 <script type="application/ld+json">{`
                     {
                         "@context": "https://schema.org/",
@@ -52,7 +52,7 @@ const ArticleMetaMD = ({ data, canonical }) => {
                             "sameAs": [
                                 "https://vwa.la/",
                                 "https://www.facebook.com/ghost/",
-                                "https://twitter.com/tryghost/"
+                                "https://twitter.com/vwalamarketing/"
                             ]
                         },
                         ${fm.keywords && fm.keywords.length ? `"keywords": "${_.join(fm.keywords, `, `)}",` : ``}
