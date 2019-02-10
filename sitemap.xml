@@ -172,7 +172,6 @@
 <url> <loc>http://ghost.local:8000/merchant/customisation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/merchant/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/merchant/how-do-influencer-links-work/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://ghost.local:8000/merchant/how-our-pricing-works/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/merchant/influencer-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/merchant/how-to-create-a-test-account-or-bulk-upload-data/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/merchant/influencer-discount-code-link-misuse/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -214,6 +213,7 @@
 <url> <loc>http://ghost.local:8000/releases/2019-01-31/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/releases/2018-10-15/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/merchant/paying-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://ghost.local:8000/merchant/how-our-pricing-works/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/api/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/faq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://ghost.local:8000/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
