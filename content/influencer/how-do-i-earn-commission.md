@@ -40,7 +40,7 @@ You can create a product specific influencer link, by adding the following to an
 **Product specific**  
 [https://www.nipandfab.com.au/collections/teen-skin-fix/products/teen-skin-fix-zero-shine-moisturiser?ac=**MYCODE**](https://www.nipandfab.com.au/collections/teen-skin-fix/products/teen-skin-fix-zero-shine-moisturiser?ac=MYCODE)
 
-So if your referrer discount code was sarah, replace _?ac=MYCODE_ with _?ac=sarah_.
+So if your influencer discount code was sarah, replace _?ac=MYCODE_ with _?ac=sarah_.
 
 How do I earn commission?
 -------------------------

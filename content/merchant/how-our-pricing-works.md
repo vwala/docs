@@ -10,7 +10,7 @@ sidebar: "merchant"
 rank: 2
 ---
 
-[![](/images/merchant/pricing.png)](https://www.vwa.la/#/pricing) 
+Flexible, fair pricing 
 
 All of our plans:
 
@@ -21,6 +21,8 @@ All of our plans:
 *   Are in USD.
 
 We offer the following plans. They are designed to be cheaper as your sales volume grows and you upgrade.
+
+[![](/images/merchant/pricing.png)](https://www.vwa.la/#/pricing) 
 
 [Startup plan](https://www.vwa.la/#/pricing)
 --------------------------------------------
@@ -42,7 +44,7 @@ Eventually your sales will outgrow the start-up plan and you will want to **redu
 FAQ
 ---
 
-**How is per influencer** **order commission calculated?**
+####How is per influencer order commission calculated?
 
 For every influencer order, commission is calculated based on the order total, minus customer discounts, taxes and shipping costs.
 
@@ -53,21 +55,19 @@ I.e.
 *   The order amount would equal $24
 *   Our commission for that order would be calculated as X% of $24. E.g. on the standard plan, 1.95% of $24 would be $0.468.
 
-**What if I change my plan?**
+####What if I change my plan?
 
 It's free to upgrade / downgrade your plan at any time. If you change billing plan mid-month, we pro-rata your billing.
 
-    Billing plans shown as of 01/08/2017
-
-**How am I billed?**
+####How am I billed?
 
 All billing is through your Shopify account.
 
-**How long is a billing cycle?**
+####How long is a billing cycle?
 
 Our billing cycles are exactly 30 days, commencing from the date of install.
 
-**Which plans include a 14 free trial?**
+####Which plans include a 14 free trial?
 
 The 14 day trial applies to all plans.
 

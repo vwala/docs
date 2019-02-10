@@ -60,7 +60,7 @@ We recommend that you invite your best customers to join your influencer marketi
 
 We highly recommend that you partner with high value social media influencers. These people will become your VIP influencers. It's no secret that direct engagement with the right people on social media can generate substantial leads and sales for your store. Just make sure that the people you approach have a direct synergy with your brand.
 
-With this approach, you may wish to consider creating an influencer specific promotion (i.e. sales campaign) for your VIPs. This will enable you to entice and manage these VIP referrers with a tailor made commission policy.
+With this approach, you may wish to consider creating an influencer specific promotion (i.e. sales campaign) for your VIPs. This will enable you to entice and manage these VIP influencers with a tailor made commission policy.
 
   
 We hope this helps you towards your own success. Still have questions? Or need help getting started? Get in touch, we're here to help :)

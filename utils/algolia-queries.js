@@ -62,10 +62,13 @@ const mdQueries = markdownQueryConfig.map(({ section, indexName }) => {
     return {
         query: allMarkdownPosts(section, algoliaMarkdownFields),
         indexName,
-        transformer: ({ data }) => data
-            .allMarkdownRemark.edges
-            .map(mdNodeMap)
-            .reduce(fragmentTransformer, []),
+        transformer: ({ data }) => {
+            console.log(data)
+            return data
+                .allMarkdownRemark.edges
+                .map(mdNodeMap)
+                .reduce(fragmentTransformer, [])
+        },
 
     }
 })
@@ -100,4 +103,4 @@ const mdQueries = markdownQueryConfig.map(({ section, indexName }) => {
 // module.exports = [mdQueries[1]]
 
 // The REAL DEAL
-module.exports = ghostQueries.concat(mdQueries)
+module.exports = mdQueries // ghostQueries.concat(mdQueries)

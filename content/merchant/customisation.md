@@ -18,7 +18,7 @@ You can customise:
 *   The appearance and behaviour of your influencer sign-up page
 *   Business and notification rules that change the behaviour of your influencer marketing program.
 
-Your branding (logo and colour)
+Your branding
 -------------------------------
 
 You can change the logo and primary colour of your [vwa.la](http://vwa.la) dashboard, in-store widget and sign-up page.

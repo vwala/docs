@@ -14,13 +14,13 @@ How to create an influencer account
 
 To sign-up a new influencer, you can use the in-store widget or; share you sign-up link.
 
-E.g. [**yourstore.com**/referrer-signup.](http://mystore.com/referrer-signup)
+E.g. [**yourstore.com**/referrer-signup.](http://mystore.com/influencer-signup)
 
 _Replace_ [_yourstore.com_](http://mystore.com) _with your domain name._  
   
 When an influencer signs up:
 
-*   They must choose a unique, personalized referrer ID (i.e. jen).
+*   They must choose a unique, personalized influencer ID (i.e. jen).
 *   We uses this ID to automatically create their influencer link and discount code for your store. E.g. link = [yourstore.com/jen](http://mystore.com/jen), discount code = jen.
 *   The ID must be unique to your store. I.e. it must not be the same as an existing discount code.
 

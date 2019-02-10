@@ -16,7 +16,7 @@ A promotion is the same as a _sales campaign_ but instead of being specific to a
   
 A promotion defines:
 
-*   The commission an influencer will earn when a lead\* makes an order using the influencer's discount code or link. \*A lead is a customer who the referrer brought to the store.
+*   The commission an influencer will earn when a lead\* makes an order using the influencer's discount code or link. \*A lead is a customer who the influencer brought to the store.
 *   The discount that a customer will receive when they make an order using a influencer's discount code or link.
 *   Any rules that may affect the influencer's commission. E.g. whether the influencer will earn commission only on specific products or if the order value exceeds a minimum amount.
 

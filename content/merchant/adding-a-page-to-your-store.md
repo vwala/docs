@@ -46,11 +46,11 @@ When using the HTML template, you must switch the Shopify create/edit page's tex
 The template should be customised to suit your store. You must:
 
 *   Change any text/URLs that do not match your store / promotion policy.
-*   Optionally, change the word influencer. We have used the word influencer in this template, however you can change it to affiliate or referrer if that is preferred. [They mean the same thing](/merchant/is-referralaffiliateinfluencer-marketing-the-same-thing).
+*   Optionally, change the word influencer. We have used the word influencer in this template, however you can change it to affiliate or influencer if that is preferred. [They mean the same thing](/merchant/is-referralaffiliateinfluencer-marketing-the-same-thing).
 
 **How does this HTML open the sign-up page / dashboard?**
 
-We want [vwa.la](http://vwa.la) to be as close to a 100% white label UX as possible. This means that when requested by the user, we dynamically embed the [vwa.la](http://vwa.la) referrer sign-up / login page and dashboard into your store front using some HTML magic. To open or close these [vwa.la](http://vwa.la) pages within your store, you must embed the following HTML snippet.
+We want [vwa.la](http://vwa.la) to be as close to a 100% white label UX as possible. This means that when requested by the user, we dynamically embed the [vwa.la](http://vwa.la) influencer sign-up / login page and dashboard into your store front using some HTML magic. To open or close these [vwa.la](http://vwa.la) pages within your store, you must embed the following HTML snippet.
 
     <a href="#" onclick="script:window.dispatchEvent(new Event('vwala-toggle'));">sign up or log in</a>
 

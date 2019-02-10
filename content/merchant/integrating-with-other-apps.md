@@ -24,4 +24,4 @@ At present, we have 1st class integration with Mailchimp (my account > store set
 
 **Other**
 
-If your provider is not supported let us know. Otherwise, we have solved integration with 3rd party email solutions in a general way. All you need to do is export your referrers from [vwa.la](http://vwa.la) and import them into your email program of choice. See [/merchant/exporting-your-data](/merchant/exporting-your-data) for details on how to do this.
+If your provider is not supported let us know. Otherwise, we have solved integration with 3rd party email solutions in a general way. All you need to do is export your influencers from [vwa.la](http://vwa.la) and import them into your email program of choice. See [/merchant/exporting-your-data](/merchant/exporting-your-data) for details on how to do this.

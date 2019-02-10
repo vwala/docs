@@ -33,17 +33,18 @@ const REQUIRED_SETTINGS = {
 const getIndexByName = name => client.initIndex(name)
 
 const setSettingsForIndex = (name) => {
-    console.log(name)
+    console.log(1, name)
     const index = getIndexByName(name)
 
     index
         .setSettings(REQUIRED_SETTINGS)
         .then(() => index.getSettings())
-        .then(settings => console.log(name, settings))
+        .then(settings => console.log(2, name, settings))
 }
 
 client
     .listIndexes()
     .then(({ items }) => {
+        console.log(items)
         items.forEach(item => setSettingsForIndex(item.name))
     })

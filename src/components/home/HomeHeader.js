@@ -23,7 +23,7 @@ const HomeHeader = () => (
                     icon="rocket"
                     color="purple"
                 >
-                    Everything a merchant needs to know to be successful
+                    Everything a merchant needs to know
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
@@ -32,7 +32,7 @@ const HomeHeader = () => (
                     icon="rocket"
                     color="blue"
                 >
-                    Everything a referrer/influencer/affiliate needs to know
+                    Everything an influencer needs to know
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
@@ -41,7 +41,7 @@ const HomeHeader = () => (
                     icon="blocks"
                     color="midgrey"
                 >
-                    Keeping you up to date with our latest features / fixes
+                    Keep up to date with our releases
                 </HomeHeaderBox>
             </section>
         </div>

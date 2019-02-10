@@ -24,7 +24,7 @@ Yes they can. By default, an influencer link will send a lead to your store's ho
   
 E.g.
 
-[**mystore.com**/collections/makeup/products/mac-foundation?ac=**InfluencerCodeHere**](http://mystore.com/collections/makeup/products/mac-foundation?ac=ReferrerCodeHere) 
+[**mystore.com**/collections/makeup/products/mac-foundation?ac=**InfluencerCodeHere**](http://mystore.com/collections/makeup/products/mac-foundation?ac=InfluencerCodeHere) 
 
 Important: Replace [mystore.com](http://mystore.com) with your domain name.
 

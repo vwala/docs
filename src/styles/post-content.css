@@ -157,7 +157,7 @@
 }
 
 .post-content a {
-    color: var(--blue-d2);
+    color: var(--blue);
     word-break: break-word;
     text-decoration: none;
     /* box-shadow: rgba(62, 176, 239, 0.4) 0 -1px 0 inset; */

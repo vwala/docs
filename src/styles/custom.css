@@ -734,20 +734,37 @@ kbd {
 }
 
 .merchant-color {
-    color: #0e73e7;
-}
-
-.b--concept-color {
-    border-color: #0e73e7;
-}
-
-.concept-color {
     color: #7726A0;
 }
 
-.b--concept-color {
+.b--merchant-color {
     border-color: #7726A0;
 }
+
+.influencer-color {
+    color: #00bfc8;
+}
+
+.b--influencer-color {
+    border-color: #00bfc8;
+}
+
+.releases-color {
+    color: #555;
+}
+
+.b--releases-color {
+    border-color: #555;
+}
+
+.user-color {
+    color: #0e73e7;
+}
+
+.b--user-color {
+    border-color: #0e73e7;
+}
+
 
 /* Tutorials */
 /* ----------------------------------------------------------------------- */

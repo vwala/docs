@@ -1,17 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
-import {
-    Highlight,
-    Snippet,
-    Index,
-    Configure,
-    connectAutoComplete,
-} from 'react-instantsearch-dom'
-import Autosuggest from 'react-autosuggest'
+import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
+import React from 'react';
+import Autosuggest from 'react-autosuggest';
+import { Configure, connectAutoComplete, Highlight, Index, Snippet } from 'react-instantsearch-dom';
+import { searchConfig } from '../../../../utils/query-config';
+import { Spirit } from '../../../styles/spirit-styles';
 
-import { Spirit } from '../../../styles/spirit-styles'
-import { searchConfig } from '../../../../utils/query-config'
 
 const HitTemplate = ({ hit }) => (
     <Link to={hit.url} className="tdn db pt3 pb3 blue search-result nl5 nr11 pl5 pr11 br3 br--left">
@@ -72,12 +66,9 @@ class Results extends React.Component {
 
     renderSectionTitle({ index }) {
         const labelClass = {
-            faq: `faq-color b--faq-color`,
-            concept: `concept-color b--concept-color`,
-            setup: `setup-color b--setup-color`,
-            api: `middarkgrey b--middarkgrey`,
-            tutorial: `tutorial-color b--tutorial-color`,
-            integration: `integration-color b--integration-color`,
+            merchant: `merchant-color b--merchant-color`,
+            influencer: `influencer-color b--influencer-color`,
+            user: `user-color b--user-color`
         }
 
         return <span className={`br-pill bg-white ba pa1 pl2 pr2 nowrap ${labelClass[index] || `midgrey b--midgrey`}`}>{searchConfig[index]}</span>
@@ -127,12 +118,9 @@ class Results extends React.Component {
                     renderSectionTitle={this.renderSectionTitle}
                     getSectionSuggestions={this.getSectionSuggestions}
                 />
-                <Index indexName="faq" />
-                <Index indexName="concept" />
-                <Index indexName="setup" />
-                <Index indexName="api" />
-                <Index indexName="tutorial" />
-                <Index indexName="integration" />
+                <Index indexName="merchant" />
+                <Index indexName="influencer" />
+                {/* <Index indexName="user" /> */}
             </>
         )
     }

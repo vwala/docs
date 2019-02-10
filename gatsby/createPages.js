@@ -34,78 +34,78 @@ module.exports = async ({ graphql, actions }) => {
     })
 
     // Query for each of the tags that we defined above
-    ghostQueryConfig.forEach(({ tag, section, template, tagsTemplate }) => {
-        queryPromises.push(new Promise((resolve, reject) => {
-            graphql(allGhostPosts(tag))
-                .then((result) => {
-                    if (result.errors) {
-                        return reject(result.errors)
-                    }
+    // ghostQueryConfig.forEach(({ tag, section, template, tagsTemplate }) => {
+    //     queryPromises.push(new Promise((resolve, reject) => {
+    //         graphql(allGhostPosts(tag))
+    //             .then((result) => {
+    //                 if (result.errors) {
+    //                     return reject(result.errors)
+    //                 }
 
-                    const items = result.data.allGhostPost.edges
+    //                 const items = result.data.allGhostPost.edges
 
-                    // Create a tags archive page per primary internal tag as defined per ghostPostToQuery
-                    // The URL of each tags archive page will contain the current internal tag slug and
-                    // the tag slug, e. g. `/faq/errors/` or `/tutorials/themes/`
-                    if (tagsTemplate) {
-                        let tagArchives = []
+    //                 // Create a tags archive page per primary internal tag as defined per ghostPostToQuery
+    //                 // The URL of each tags archive page will contain the current internal tag slug and
+    //                 // the tag slug, e. g. `/faq/errors/` or `/tutorials/themes/`
+    //                 if (tagsTemplate) {
+    //                     let tagArchives = []
 
-                        _.forEach(items, ({ node }) => {
-                            // Remove all internal tags
-                            const filteredTags = node.tags.filter(tag => !tag.slug.match(/^hash-/))
+    //                     _.forEach(items, ({ node }) => {
+    //                         // Remove all internal tags
+    //                         const filteredTags = node.tags.filter(tag => !tag.slug.match(/^hash-/))
 
-                            _.forEach(filteredTags, tag => tagArchives.push(tag))
-                        })
+    //                         _.forEach(filteredTags, tag => tagArchives.push(tag))
+    //                     })
 
-                        // Remove invalid values and duplicates
-                        tagArchives = _.uniqBy(_.compact(tagArchives), `slug`)
+    //                     // Remove invalid values and duplicates
+    //                     tagArchives = _.uniqBy(_.compact(tagArchives), `slug`)
 
-                        _.forEach(tagArchives, (tag) => {
-                            tag.url = urlUtils.urlForGhostTag(tag, section)
+    //                     _.forEach(tagArchives, (tag) => {
+    //                         tag.url = urlUtils.urlForGhostTag(tag, section)
 
-                            createPage({
-                                path: tag.url,
-                                component: path.resolve(tagsTemplate),
-                                context: {
-                                    // Data passed to context is available
-                                    // in page queries as GraphQL variables.
-                                    // TODO: this could be refactored to be an object
-                                    // not sure if it interfers with search
-                                    tagSlug: tag.slug,
-                                    tagName: tag.name,
-                                    tagURL: tag.url,
-                                    tagDescription: tag.description,
-                                    tagImage: tag.feature_image,
-                                    tagMetaTitle: tag.meta_title,
-                                    tagMetaDescription: tag.meta_description,
-                                    section: section,
-                                },
-                            })
-                        })
-                    }
+    //                         createPage({
+    //                             path: tag.url,
+    //                             component: path.resolve(tagsTemplate),
+    //                             context: {
+    //                                 // Data passed to context is available
+    //                                 // in page queries as GraphQL variables.
+    //                                 // TODO: this could be refactored to be an object
+    //                                 // not sure if it interfers with search
+    //                                 tagSlug: tag.slug,
+    //                                 tagName: tag.name,
+    //                                 tagURL: tag.url,
+    //                                 tagDescription: tag.description,
+    //                                 tagImage: tag.feature_image,
+    //                                 tagMetaTitle: tag.meta_title,
+    //                                 tagMetaDescription: tag.meta_description,
+    //                                 section: section,
+    //                             },
+    //                         })
+    //                     })
+    //                 }
 
-                    _.forEach(items, ({ node }) => {
-                        // Update the existing URL field to reflect the URL in Gatsby and
-                        // not in Ghost. Also needed to link to related posts.
-                        node.url = urlUtils.urlForGhostPost(node, section)
+    //                 _.forEach(items, ({ node }) => {
+    //                     // Update the existing URL field to reflect the URL in Gatsby and
+    //                     // not in Ghost. Also needed to link to related posts.
+    //                     node.url = urlUtils.urlForGhostPost(node, section)
 
-                        createPage({
-                            path: node.url,
-                            component: path.resolve(template),
-                            context: {
-                                // Data passed to context is available
-                                // in page queries as GraphQL variables.
-                                slug: node.slug,
-                                relatedPosts: getRelatedPosts(node, result.data.allGhostPost.edges),
-                                section,
-                            },
-                        })
-                    })
+    //                     createPage({
+    //                         path: node.url,
+    //                         component: path.resolve(template),
+    //                         context: {
+    //                             // Data passed to context is available
+    //                             // in page queries as GraphQL variables.
+    //                             slug: node.slug,
+    //                             relatedPosts: getRelatedPosts(node, result.data.allGhostPost.edges),
+    //                             section,
+    //                         },
+    //                     })
+    //                 })
 
-                    return resolve()
-                })
-        }))
-    })
+    //                 return resolve()
+    //             })
+    //     }))
+    // })
 
     queryPromises.push(new Promise((resolve, reject) => {
         graphql(allMarkdownPosts())
