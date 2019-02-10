@@ -1,0 +1,37 @@
+- groups:
+  - group: Merchant help
+    items:
+      - title: Getting started
+        link: /merchant/getting-started/
+      - title: is-referral-affiliate-influencer-marketing-the-same-thing
+        link: /merchant/is-referral-affiliate-influencer-marketing-the-same-thing
+      - title: how-our-pricing-works
+        link: /merchant/how-our-pricing-works
+      - title: installation-guide
+        link: /merchant/installation-guide
+      - title: customisation
+        link: /merchant/customisation
+      - title: adding-a-page-to-your-store
+        link: /merchant/adding-a-page-to-your-store
+      - title: how-to-create-a-test-account-or-bulk-upload-data
+        link: /merchant/how-to-create-a-test-account-or-bulk-upload-data
+      - title: how-do-influencer-links-work
+        link: /merchant/how-do-influencer-links-work
+      - title: inviting-influencers
+        link: /merchant/inviting-influencers
+      - title: promotions
+        link: /merchant/promotions
+      - title: influencer-commission
+        link: /merchant/influencer-commission
+      - title: influencer-group-specific-commission
+        link: /merchant/influencer-group-specific-commission
+      - title: paying-commission
+        link: /merchant/paying-commission
+      - title: can-i-have-multiple-stores
+        link: /merchant/can-i-have-multiple-stores
+      - title: integrating-with-other-apps
+        link: /merchant/integrating-with-other-apps
+      - title: influencer-discount-code-link-misuse
+        link: /merchant/influencer-discount-code-link-misuse
+      - title: exporting-your-data
+        link: /merchant/exporting-your-data

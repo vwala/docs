@@ -1,0 +1,120 @@
+---
+title: "Customising vwa.la"
+meta_title: "Customising the appearance and behaviour of vwa.la"
+meta_description: ""
+keywords:
+    - merchant
+    - help
+sidebar: "merchant"
+rank: 5
+---
+
+Customisation is an important goal for us. We want you to have full control over the appearance and behaviour of [vwa.la](http://vwa.la). All customisation can be done from your [vwa.la](http://vwa.la) dashboard (I.e. my account > store settings page).
+
+You can customise:
+
+*   Your branding (logo and primary brand colour)
+*   The appearance and behaviour of your in-store sign-up widget
+*   The appearance and behaviour of your influencer sign-up page
+*   Business and notification rules that change the behaviour of your influencer marketing program.
+
+Your branding (logo and colour)
+-------------------------------
+
+You can change the logo and primary colour of your [vwa.la](http://vwa.la) dashboard, in-store widget and sign-up page.
+
+![](/images/merchant/2019-01-20-08-55-22.png)
+
+**The Logo image** must be a URL. We recommend that you re-use the logo from your store page that is being hosted by [http://cdn.shopify.com.](http://cdn.shopify.com) To get the URL, go to your store page and right-click on your logo image. Then copy and paste the URL into the [vwa.la](http://vwa.la) store settings form. You will see a preview if successful. Make sure you prefix the URL with http:// or https://.
+
+**The primary color** must be a dark color as white text will be displayed on top of it. It will be used in both the sign-up page and the widget's 'call to action' button. To find your colour, you can use [http://www.color-hex.com/.](http://www.color-hex.com/)
+
+And here are the results!
+
+#### Variant: Themed In-store widget (embedded in your store)
+
+Our in-store widget allows your influencers to signup, login and use their marketing dashboard from within your store. When you customise your [vwa.la](http://vwa.la) theme, these pages will appear as follows:
+
+    Example theme color: green
+
+**Launcher (bottom right)**
+
+![](/images/merchant/2019-01-20-09-28-04.png)
+
+Note: The launcher is optional/configurable. See below for details.**  
+  
+Signup/login page**
+
+When your in-store widget launcher is clicked, your influencer signup/login page will appear as follows.
+
+![](/images/merchant/2019-01-20-09-18-09.png)
+
+#### Variant: Themed influencer signup/login page (not embedded)
+
+If you share your influencer signup link to potential influencers, the influencer signup/login page will appear in a full browser window as follows:
+
+![](/images/merchant/2019-01-20-09-19-48.png)
+
+In-store widget launcher
+------------------------
+
+When you install vwa.la, we automatically install our in-store widget launcher into your store front. This is to help you quickly set up a way to promote your influencer marketing program to potential influencers. When someone clicks the launcher, your influencer signup/login page will appear. The launcher is optional and configurable. You can:
+
+*   Enable/disable it on either desktop/mobile devices
+*   Change it's position and;
+*   Customize it's text
+
+![](/images/merchant/2019-01-20-08-55-56.png)
+
+**My changes are not visible?  
+**It can take a few minutes before your widget changes are applied. Please wait a few minutes and then refresh your store page.
+
+**Are there any alternatives to using the widget?  
+**Yes. You can disable the widget on desktop/mobile devices and then instead [add a Shopify Page to your store.](/merchant/adding-a-page-to-your-store)
+
+Business rules
+--------------
+
+You can change the behavior of [vwa.la](http://vwa.la) in the business rules section (my account > store settings). Please see the tool-tips within the forms for more detail.
+
+**General rules**
+
+![](/images/merchant/2019-01-20-09-04-53.png)
+
+**Commission tracking rules**
+
+![](/images/merchant/2019-01-20-09-04-40.png)
+
+**Commission payment rules**
+
+![](/images/merchant/2019-01-20-09-10-23.png)
+
+Notification rules
+------------------
+
+You can change which events trigger an email to be sent.
+
+![](/images/merchant/2019-01-20-09-06-56.png)
+
+Marketplace rules
+-----------------
+
+We offer brands and influencers a marketplace to discover each other. You can remove your store from the market here (i.e. disable 'show to influencers').
+
+![](/images/merchant/2019-01-20-09-08-55.png)
+
+Email templates
+---------------
+
+You can configure the email templates that we send to your influencers on your behalf. Our templates support variables as well as HTML tags (i.e. you can embed images, gifs, bold text etc).  
+
+![](/images/merchant/2019-01-20-09-07-03.png)
+
+Email marketing integration
+---------------------------
+
+You can sync your influencers data to Mailchimp or Klaviyo. If your preferred platform is not supported reach out to us. You can also export your influencer data to CSV from the influencer page.
+
+![](/images/merchant/2019-01-20-09-13-20.png)
+
+If you need anything else, reach out and let us know :)

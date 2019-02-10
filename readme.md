@@ -1,4 +1,2 @@
-Resources
----------
-
-https://jekyllrb.com/docs/github-pages/
+# References
+- https://github.com/svg/svgo/issues/622
