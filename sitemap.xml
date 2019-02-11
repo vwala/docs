@@ -6,10 +6,7 @@
 <url> <loc>https://docs.vwa.la/influencer/how-do-i-find-stores-to-promote/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/influencer/so-im-an-influencer-what-now/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/influencer/what-are-store-promotions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://docs.vwa.la/user/how-do-i-change-my-email/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://docs.vwa.la/user/how-to-pronounce-vwa.la/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/releases/2017-03-10/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://docs.vwa.la/user/i-cant-log-in/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/releases/2017-03-20/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/releases/2017-05-01/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/releases/2017-05-05/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -57,6 +54,9 @@
 <url> <loc>https://docs.vwa.la/merchant/paying-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/merchant/promotions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/merchant/influencer-group-specific-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://docs.vwa.la/user/how-to-pronounce-vwa.la/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://docs.vwa.la/user/i-cant-log-in/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://docs.vwa.la/user/how-do-i-change-my-email/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/api/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/faq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
