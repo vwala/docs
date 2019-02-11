@@ -122,7 +122,7 @@ let run = async (subject, title) => {
             let rank = parseInt(extractToken(raw, /rank: (\d+)/i, 1) || 0)
 
             routes.push({
-                uri: `/${subject}/` + file.replace(/\.md/g, "").replace(/( ){2,}/g, "-").replace(/[^a-zA-Z0-9-]/g, "").toLowerCase(),
+                uri: `/${subject}/` + file.replace(/\.md/g, "").replace(/( ){2,}/g, "-").replace(/[^a-zA-Z0-9-]/g, "").toLowerCase() + "/",
                 title,
                 subTitle,
                 rank

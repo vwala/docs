@@ -18,7 +18,7 @@ const HomeHeader = () => (
 
             <section className="grid-12 gutter-row-20 gutter-36-ns mt10 mt20-ns mt25-l miw-100 miw-auto-ns home-main-box-margin-ns z-999">
                 <HomeHeaderBox
-                    to="/merchant/getting-started"
+                    to="/merchant/getting-started/"
                     title="Merchant help"
                     icon="rocket"
                     color="purple"
@@ -27,7 +27,7 @@ const HomeHeader = () => (
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
-                    to="/influencer/getting-started"
+                    to="/influencer/getting-started/"
                     title="Influencer help"
                     icon="rocket"
                     color="blue"
@@ -36,7 +36,7 @@ const HomeHeader = () => (
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
-                    to="/releases/2019-01-31"
+                    to="/releases/2019-01-31/"
                     title="Product releases"
                     icon="blocks"
                     color="midgrey"

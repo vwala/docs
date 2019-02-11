@@ -1,10 +1,10 @@
 const Promise = require(`bluebird`)
 const path = require(`path`)
 const _ = require(`lodash`)
-const { allGhostPosts, allMarkdownPosts } = require(`../utils/node-queries`)
-const { ghostQueryConfig } = require(`../utils/query-config`)
-const urlUtils = require(`../utils/urls`)
-const getRelatedPosts = require(`../utils/getRelatedPosts`)
+const { allMarkdownPosts } = require(`../utils/node-queries`)
+// const { ghostQueryConfig } = require(`../utils/query-config`)
+// const urlUtils = require(`../utils/urls`)
+// const getRelatedPosts = require(`../utils/getRelatedPosts`)
 
 module.exports = async ({ graphql, actions }) => {
     const { createPage } = actions
@@ -16,21 +16,21 @@ module.exports = async ({ graphql, actions }) => {
         fromPath: `/merchant`,
         isPermanent: true,
         redirectInBrowser: true,
-        toPath: `/merchant/getting-started`,
+        toPath: `/merchant/getting-started/`,
     })
 
     createRedirect({
         fromPath: `/influencer`,
         isPermanent: true,
         redirectInBrowser: true,
-        toPath: `/influencer/getting-started`,
+        toPath: `/influencer/getting-started/`,
     })
 
     createRedirect({
         fromPath: `/releases`,
         isPermanent: true,
         redirectInBrowser: true,
-        toPath: `/releases/2019-01-31`,
+        toPath: `/releases/2019-01-31/`,
     })
 
     // Query for each of the tags that we defined above

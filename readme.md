@@ -6,16 +6,15 @@ export ALGOLIA_ADMIN_KEY=
 yarn build
 ```
 
-# References
-- https://github.com/svg/svgo/issues/622
-
-
 # Release
 ```
 yarn deploy
 ```
 
-# Commit dev changes
+# Commit changes & release  
 ```
-git add . && git commit -m "fixes" && git push
+git add . && git commit -m "fixes" && git push && yarn deploy
 ```
+
+# Useful links
+- https://github.com/svg/svgo/issues/622

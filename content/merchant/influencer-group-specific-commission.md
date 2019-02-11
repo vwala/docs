@@ -11,8 +11,7 @@ rank: 12
 
 You can reward influencers differently by segmenting your influencers into groups. You can then set group specific commission rules in your promotion policy.
 
-Instructions
-------------
+##Instructions
 
 *   Go to the influencer page
 *   Select the influencer group tab and create a new group (you can re-name groups by clicking on the name column).
@@ -36,18 +35,21 @@ What group names should I choose?
 
 It is common to use influencer groups to create tiered commission structures for your influencers. Here are some common naming conventions that you can use:
 
-**Suggested pattern 1  
-**Bronze (rename the default group)  
+**Suggested pattern 1**
+
+Bronze (rename the default group)  
 Silver  
 Gold
 
-**Suggested pattern 2  
-**Newbie (rename the default group)  
+**Suggested pattern 2**
+
+Newbie (rename the default group)  
 Standard  
 VIP
 
-**Suggested pattern 3  
-**Tier 1 (rename the default group)  
+**Suggested pattern 3**
+
+Tier 1 (rename the default group)  
 Tier 2  
 Tier 3
 
