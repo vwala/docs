@@ -13,7 +13,7 @@ yarn deploy
 
 # Commit changes & release  
 ```
-git add . && git commit -m "fixes" && git push && yarn deploy
+yarn deploy && git add . && git commit -m "fixes" && git push
 ```
 
 # Useful links
