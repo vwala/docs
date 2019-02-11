@@ -6,6 +6,7 @@ keywords:
     - user
     - help
 sidebar: "user"
+rank: 2
 ---
 
 For Merchants
@@ -16,4 +17,4 @@ For the time being, we have disabled the ability to change your email address. T
 For Influencers
 ---------------
 
-We will be adding this feature soon. If you need help, please contact us.
+If you're an influencer, you can change your email address via the `My Account > User Settings` page. Click the `pen` icon next to the email field and enter your new email twice. When you change your email, you will be automatically logged out. You will need to log back in using the new email address.

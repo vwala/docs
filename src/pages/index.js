@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Layout } from '../components/common/layout';
 import { getMetaImageUrls, MetaData } from '../components/common/meta';
-import { HomeHeader } from '../components/home';
+import { HomeAPIBox, HomeHeader } from '../components/home';
+import { Spirit } from '../styles/spirit-styles';
 
 
 const HomePage = ({ data, location }) => {
@@ -29,6 +30,18 @@ const HomePage = ({ data, location }) => {
                 header={<HomeHeader />}
             >
                 <div className="pt-vw3 home-main-box-padding-ns">
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <div className={`${Spirit.page.xl}`}>
+                            <HomeAPIBox
+                                to="/user"
+                                title="Account help"
+                                icon="sdks"
+                            >
+                                Account management help
+                        </HomeAPIBox>
+                        </div>
+                    </div>
+
                     {/* <div className={`${Spirit.page.xl} grid-12 gutter-row-20 gutter-40-ns`}>
 
                         <section className="col-12 col-6-ns flex flex-column justify-between mt4 mt0-ns">

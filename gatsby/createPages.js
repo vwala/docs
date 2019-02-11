@@ -33,6 +33,13 @@ module.exports = async ({ graphql, actions }) => {
         toPath: `/releases/2019-01-31/`,
     })
 
+    createRedirect({
+        fromPath: `/user`,
+        isPermanent: true,
+        redirectInBrowser: true,
+        toPath: `/user/i-cant-log-in/`,
+    })
+
     // Query for each of the tags that we defined above
     // ghostQueryConfig.forEach(({ tag, section, template, tagsTemplate }) => {
     //     queryPromises.push(new Promise((resolve, reject) => {

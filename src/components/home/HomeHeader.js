@@ -45,7 +45,7 @@ const HomeHeader = () => (
                 </HomeHeaderBox>
             </section>
         </div>
-    </div>
+    </div >
 )
 
 export default HomeHeader

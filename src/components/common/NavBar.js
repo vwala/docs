@@ -35,6 +35,7 @@ const NavBar = ({ theme, location }) => {
                 {location && location.pathname && <>
                     <Link to="/merchant" className={`${themeClasses[theme].menuItem} nowrap f8 pa3 mr1 mr3-l nl3`}>Merchant help</Link>
                     <Link to="/influencer" className={`${themeClasses[theme].menuItem} nowrap f8 pa3 mr1 mr3-l nl3`}>Influencer help</Link>
+                    <Link to="/user" className={`${themeClasses[theme].menuItem} nowrap f8 pa3 mr1 mr3-l nl3`}>Account help</Link>
                     <Link to="/releases" className={`${themeClasses[theme].menuItem} nowrap f8 pa3 mr1 mr3-l nl3`}>Product releases</Link>
                 </>}
             </div>
