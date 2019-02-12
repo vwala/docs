@@ -56,6 +56,7 @@
     "gatsby-plugin-algolia": "0.3.0",
     "gatsby-plugin-catch-links": "2.0.8",
     "gatsby-plugin-force-trailing-slashes": "1.0.4",
+    "gatsby-plugin-google-analytics": "^2.0.13",
     "gatsby-plugin-intercom-spa": "^0.1.0",
     "gatsby-plugin-manifest": "2.0.10",
     "gatsby-plugin-offline": "^2.0.17",
