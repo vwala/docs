@@ -5,6 +5,14 @@ const isAfter = require("date-fns/is_after")
 const parse = require("date-fns/parse")
 const request = require('request');
 
+let groupBy = (xs, key) => {
+    return xs.reduce(function (rv, x) {
+        (rv[x[key]] = rv[x[key]] || []).push(x);
+        return rv;
+    }, {});
+}
+
+
 let getFiles = (directory) => {
 
     return promisify(fs.readdir)(directory).then((filenames) => {
@@ -95,6 +103,15 @@ let download = (uri, filename, callback) => {
     })
 }
 
+let cheatSheet = []
+
+let saveCheatSheet = () => {
+    let targetPath = `../utils/cheatsheet.yaml`
+    yaml.sync(targetPath, cheatSheet)
+}
+
+
+
 let run = async (subject, title) => {
 
     try {
@@ -106,7 +123,6 @@ let run = async (subject, title) => {
         let isReleases = subject == "releases"
 
         let files = await getFiles(sourceDir)
-        let images = []
         let links = []
 
         for (let file of files) {
@@ -174,8 +190,6 @@ let run = async (subject, title) => {
             // }
         }
 
-        console.log(images)
-
         if (isReleases) {
 
             // Use time as page title
@@ -200,6 +214,16 @@ let run = async (subject, title) => {
                 return 0
             })
         }
+
+        cheatSheet.push({
+            subject,
+            routes: routes.map(x => {
+                return {
+                    title: x.title,
+                    uri: `https://docs.vwa.la${x.uri}`
+                }
+            })
+        })
 
         // Transform routes into YAML string 
         let yamlItems = []
@@ -235,7 +259,9 @@ Promise.all([
     run("influencer", "Help"),
     run("releases", "Releases"),
     run("user", "User account help")
-])
+]).then(() => {
+    saveCheatSheet()
+})
 
 // .then(x => {
 //     console.log("done")
