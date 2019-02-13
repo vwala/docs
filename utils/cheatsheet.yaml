@@ -1,0 +1,126 @@
+- subject: user
+  routes:
+    - title: I can't log in
+      uri: 'https://docs.vwa.la/user/i-cant-log-in/'
+    - title: How do I change my email?
+      uri: 'https://docs.vwa.la/user/how-do-i-change-my-email/'
+    - title: How to pronounce vwa.la?
+      uri: 'https://docs.vwa.la/user/how-to-pronounce-vwala/'
+- subject: influencer
+  routes:
+    - title: Getting started
+      uri: 'https://docs.vwa.la/influencer/getting-started/'
+    - title: How do I earn commission?
+      uri: 'https://docs.vwa.la/influencer/how-do-i-earn-commission/'
+    - title: 'So Im an influencer, what now?'
+      uri: 'https://docs.vwa.la/influencer/so-im-an-influencer-what-now/'
+    - title: Free product
+      uri: 'https://docs.vwa.la/influencer/free-product/'
+    - title: What are store promotions?
+      uri: 'https://docs.vwa.la/influencer/what-are-store-promotions/'
+    - title: How do I find stores to promote?
+      uri: 'https://docs.vwa.la/influencer/how-do-i-find-stores-to-promote/'
+- subject: merchant
+  routes:
+    - title: 'Is referral, affiliate and influencer marketing the same thing?'
+      uri: >-
+        https://docs.vwa.la/merchant/is-referral-affiliate-influencer-marketing-the-same-thing/
+    - title: How our pricing works
+      uri: 'https://docs.vwa.la/merchant/how-our-pricing-works/'
+    - title: Getting started
+      uri: 'https://docs.vwa.la/merchant/getting-started/'
+    - title: Installation Guide
+      uri: 'https://docs.vwa.la/merchant/installation-guide/'
+    - title: Customising vwa.la
+      uri: 'https://docs.vwa.la/merchant/customisation/'
+    - title: Adding a page to your store
+      uri: 'https://docs.vwa.la/merchant/adding-a-page-to-your-store/'
+    - title: >-
+        How to create a test influencer account or bulk upload influencers from
+        another platform?
+      uri: >-
+        https://docs.vwa.la/merchant/how-to-create-a-test-account-or-bulk-upload-data/
+    - title: How do influencer links work?
+      uri: 'https://docs.vwa.la/merchant/how-do-influencer-links-work/'
+    - title: Inviting influencers
+      uri: 'https://docs.vwa.la/merchant/inviting-influencers/'
+    - title: Promotions
+      uri: 'https://docs.vwa.la/merchant/promotions/'
+    - title: Influencer commission
+      uri: 'https://docs.vwa.la/merchant/influencer-commission/'
+    - title: Influencer/group specific commission
+      uri: 'https://docs.vwa.la/merchant/influencer-group-specific-commission/'
+    - title: Paying commission
+      uri: 'https://docs.vwa.la/merchant/paying-commission/'
+    - title: Can I have multiple stores?
+      uri: 'https://docs.vwa.la/merchant/can-i-have-multiple-stores/'
+    - title: Integrating with other apps
+      uri: 'https://docs.vwa.la/merchant/integrating-with-other-apps/'
+    - title: Influencer discount code / link misuse
+      uri: 'https://docs.vwa.la/merchant/influencer-discount-code-link-misuse/'
+    - title: Exporting your data
+      uri: 'https://docs.vwa.la/merchant/exporting-your-data/'
+- subject: releases
+  routes:
+    - title: '2019-01-31'
+      uri: 'https://docs.vwa.la/releases/2019-01-31/'
+    - title: '2018-12-07'
+      uri: 'https://docs.vwa.la/releases/2018-12-07/'
+    - title: '2018-10-15'
+      uri: 'https://docs.vwa.la/releases/2018-10-15/'
+    - title: '2018-09-15'
+      uri: 'https://docs.vwa.la/releases/2018-09-15/'
+    - title: '2018-08-30'
+      uri: 'https://docs.vwa.la/releases/2018-08-30/'
+    - title: '2018-07-20'
+      uri: 'https://docs.vwa.la/releases/2018-07-20/'
+    - title: '2018-07-08'
+      uri: 'https://docs.vwa.la/releases/2018-07-08/'
+    - title: '2018-07-01'
+      uri: 'https://docs.vwa.la/releases/2018-07-01/'
+    - title: '2018-04-20'
+      uri: 'https://docs.vwa.la/releases/2018-04-20/'
+    - title: '2018-03-25'
+      uri: 'https://docs.vwa.la/releases/2018-03-25/'
+    - title: '2018-02-10'
+      uri: 'https://docs.vwa.la/releases/2018-02-10/'
+    - title: '2018-01-25'
+      uri: 'https://docs.vwa.la/releases/2018-01-25/'
+    - title: '2018-01-20'
+      uri: 'https://docs.vwa.la/releases/2018-01-20/'
+    - title: '2018-01-14'
+      uri: 'https://docs.vwa.la/releases/2018-01-14/'
+    - title: '2017-12-24'
+      uri: 'https://docs.vwa.la/releases/2017-12-24/'
+    - title: '2017-12-06'
+      uri: 'https://docs.vwa.la/releases/2017-12-06/'
+    - title: '2017-10-18'
+      uri: 'https://docs.vwa.la/releases/2017-10-18/'
+    - title: '2017-09-30'
+      uri: 'https://docs.vwa.la/releases/2017-09-30/'
+    - title: '2017-09-16'
+      uri: 'https://docs.vwa.la/releases/2017-09-16/'
+    - title: '2017-08-30'
+      uri: 'https://docs.vwa.la/releases/2017-08-30/'
+    - title: '2017-08-17'
+      uri: 'https://docs.vwa.la/releases/2017-08-17/'
+    - title: '2017-08-06'
+      uri: 'https://docs.vwa.la/releases/2017-08-06/'
+    - title: '2017-07-20'
+      uri: 'https://docs.vwa.la/releases/2017-07-20/'
+    - title: '2017-07-01'
+      uri: 'https://docs.vwa.la/releases/2017-07-01/'
+    - title: '2017-06-24'
+      uri: 'https://docs.vwa.la/releases/2017-06-24/'
+    - title: '2017-06-13'
+      uri: 'https://docs.vwa.la/releases/2017-06-13/'
+    - title: '2017-06-01'
+      uri: 'https://docs.vwa.la/releases/2017-06-01/'
+    - title: '2017-05-05'
+      uri: 'https://docs.vwa.la/releases/2017-05-05/'
+    - title: '2017-05-01'
+      uri: 'https://docs.vwa.la/releases/2017-05-01/'
+    - title: '2017-03-20'
+      uri: 'https://docs.vwa.la/releases/2017-03-20/'
+    - title: '2017-03-10'
+      uri: 'https://docs.vwa.la/releases/2017-03-10/'

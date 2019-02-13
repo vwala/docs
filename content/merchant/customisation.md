@@ -106,9 +106,29 @@ We offer brands and influencers a marketplace to discover each other. You can re
 Email templates
 ---------------
 
-You can configure the email templates that we send to your influencers on your behalf. Our templates support variables as well as HTML tags (i.e. you can embed images, gifs, bold text etc).  
+In this section, you can customise the email templates that we send to your influencers. 
 
 ![](/images/merchant/2019-01-20-09-07-03.png)
+
+Our templates support variables as well as HTML tags (i.e. you can embed images, gifs, bold text etc). Below are a few examples that may be useful.
+
+**Adding images**
+
+```
+<img src="https://media.giphy.com/media/WAfGpVI1pI3e/giphy.gif" height="176" />
+```
+
+**Adding video**
+
+The best solution to adding video to your email templates, is to simply include the video URL as plain text. This is because the majority of email programs (i.e. gmail, outlook) do not support video in email. [Read more here](https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/). If you wish to use HTML to embed your video regardless, then the following example is your best approach - it will render a fallback image if your video is blocked.
+
+```
+<video src="https://www.w3schools.com/html/mov_bbb.mp4" width="320" height="176" controls>
+    <a href="https://yourwebsite.com" >
+        <img src="https://www.emailonacid.com/images/blog_images/Emailology/2013/html5_video/bunny-fallback.jpg" height="176" width="320" />
+    </a>
+</video>
+```
 
 Email marketing integration
 ---------------------------
