@@ -154,13 +154,10 @@ Alternatively you can choose to pay your influencers using Shopify gift cards.
 By Bank Account
 ---------------
 
-Alternatively you can choose to pay your influencers manually using your bank account or another means of transfer.
+Alternatively you can choose to pay your influencers their commission manually i.e. using your bank account or another means of transfer. 
 
-**How do payments by bank account work?  
-**The process of paying order commission manually using your bank account is the same as when paying by PayPal.
-
-*   This can be done in the exact same way that you pay via PayPal. Except you must choose the "Pay by other" option from the action menu. See the PayPal guide for details on setting up a commission payment.
-*   Once you click the 'Pay by other' action, a payment form will appear. Double check the payment filter then click Yes to complete the payment. This will immediately mark the orders as "commission paid" and will notify the affected influencers. You'll then need to handle the actual transfer of money yourself outside of [vwa.la.](http://vwa.la)
+*  This can be done in the exact same way that you pay via PayPal. Except you must choose the "Pay by other" option from the action menu. See the PayPal guide for details on setting up a commission payment.
+*  Once you click the 'Pay by other' action, a payment form will appear. Double check the payment filter then click Yes to complete the payment. This will immediately mark the orders as "commission paid" and will notify the affected influencers. You'll then need to handle the actual transfer of money yourself outside of [vwa.la.](http://vwa.la)
 
 ![](/images/merchant/2019-02-02-16-58-58.png)
 
