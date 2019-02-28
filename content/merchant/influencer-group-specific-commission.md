@@ -20,11 +20,11 @@ You can reward influencers differently by segmenting your influencers into group
 
 #### Create / re-name influencer groups
 
-![](/images/merchant/_create_ag.png)
+![](/images/merchant/create_ag.png)
 
 #### Assign 1 or more influencers to a group
 
-![](/images/merchant/_change_ag.png)
+![](/images/merchant/change_ag.png)
 
 #### Then go to the promotion policy page and configure commission rules
 

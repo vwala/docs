@@ -14,13 +14,13 @@ How do I sign-up influencers?
 
 Below we've outlined a few approaches that you can use to sign-up your influencers.
 
-##Option 1: Share your influencer sign up link directly
+##Option 1: Share the link to your influencer sign up page
 
 We've created a branded link for your store already.
 
 E.g. [http://**mystore.com**/referrer-signup](http://amt1.myshopify.com/referrer-signup)
 
-Simply replace `mystore.com` with the domain name of your store and then share the link. The great thing about this link is that it's branded and it pre-fills the influencer sign up form fields with your store's promotion policy.**  
+Simply replace `mystore.com` with the domain name of your store and then share the link. The great thing about this link is that it's branded and it pre-fills the influencer sign up form fields with your store's promotion policy.
   
 ##Option 2: Invite customers to become influencers from your website
 
@@ -29,13 +29,11 @@ When you install [vwa.la](https://www.vwa.la), we automatically install a lightw
 1.  Educating your customers about your influencer marketing program and;
 2.  Signing them up as influencer marketers.
 
-You can disabled or customise the behaviour of the widget from within your [vwa.la](http://vwa.la) dashboard (Go to My Account > Store Settings tab).
-
-In this example, the widget has been configured to be green and on the bottom left of the store's page.
+You can disabled or customise the behaviour of the widget via `my account > store settings`
 
 ##Option 3: Create a landing page on your store  
   
-Another great strategy is to [create a page on your site](http://help.vwa.la/merchant-help/adding-a-page-to-your-store). The page will introduce your customers / influencers to your influencer marketing program. The great thing about this approach is that it creates a branded marketing funnel that is sure to catch the attention on potential influencers and will go a long way to increasing your sign-up conversion rate. If you choose to add a page, you may want to consider hiding your in-store widget (option 2).
+Another great strategy is to [create a page on your site](/merchant/adding-a-page-to-your-store/). The page will introduce your customers / influencers to your influencer marketing program. The great thing about this approach is that it creates a branded marketing funnel that is sure to catch the attention on potential influencers and will go a long way to increasing your sign-up conversion rate. If you choose to add a page, you may want to consider hiding your in-store widget (option 2).
   
 ##Option 4: Invite customers to become influencers via email
 

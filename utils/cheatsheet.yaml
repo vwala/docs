@@ -18,8 +18,6 @@
       uri: 'https://docs.vwa.la/influencer/free-product/'
     - title: What are store promotions?
       uri: 'https://docs.vwa.la/influencer/what-are-store-promotions/'
-    - title: How do I find stores to promote?
-      uri: 'https://docs.vwa.la/influencer/how-do-i-find-stores-to-promote/'
 - subject: merchant
   routes:
     - title: 'Is referral, affiliate and influencer marketing the same thing?'

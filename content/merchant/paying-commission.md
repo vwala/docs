@@ -22,8 +22,7 @@ We support multiple payment methods. You can pay influencer commission by **cash
 *   Gift cards
 *   Fixed price discount codes
 
-PayPal
-------
+## PayPal
 
 The simplest approach is to use our PayPal integration. PayPal provides the ability to pay multiple influencers in a single secure step.
 
@@ -134,27 +133,24 @@ If the influencer does not yet have a PayPal account, payments will be marked as
 **I support multiple currencies, which one does** [**vwa.la**](http://vwa.la) **use?**  
 Your store may allow for the user to change currency. However, Shopify only supports a single operating currency. This means that from Shopify's perspective, all products and customer orders are always in your operating currency. [Vwa.la](http://Vwa.la) only uses your operating currency when calculating commission calculations and making payments.
 
-Cryptocurrency
--------------
+##Cryptocurrency
 
-We are investigating the potential of using Cryptocurrency to pay out influencer commission. If this is important to you, let us know!
+We are investigating the potential of using Cryptocurrency to pay out influencer commission. If this is important to you let us know!
 
-Store credit (Gift Card)
-------------------------
+##Store credit
 
-Alternatively you can choose to pay your influencers using Shopify gift cards.
+You can choose to pay your influencers their commission using store credit.
 
-*   This can be done in the exact same way that you pay via PayPal. Except you must choose the "Pay by Store Credit" option from the action menu. See the PayPal guide for details on setting up a commission payment.
-*   It is important to note that you can only pay one influencer at a time with this feature.
-*   Once you click the 'Pay by store credit' action, a payment form will appear. The payment form will display the total commission that will be paid. Shopify does not allow 3rd party applications to automatically create gift cards on your store's behalf. Therefore, you'll need to create a gift card or single use fixed amount discount code manually in your Shopify admin console for the displayed amount. Once you've created the gift card/code, you must copy and paste it into the payment form. Then click Yes.
-*   [Vwa.la](http://Vwa.la) will then mark the affected orders as 'commission paid' and will send a notification to the influencer with their gift card information.
+* This can be done in the exact same way that you pay via PayPal. Except you must choose the "Pay by Store Credit" option from the action menu. See the PayPal guide for details on setting up a commission payment.
+* It is important to note that you can only pay one influencer at a time with this feature.
+* Once you click the 'Pay by store credit' action, a payment form will appear. The payment form will display the total commission that will be paid. Shopify does not allow 3rd party applications to automatically create gift cards on your store's behalf. Therefore, you'll need to create a gift card or single use fixed amount discount code manually in your Shopify admin console for the displayed amount. Once you've created the gift card/discount code, you must copy and paste it into the payment form. Then click Yes.
+* [Vwa.la](http://Vwa.la) will then mark the affected orders as 'commission paid' and will send a notification to the influencer with their gift card / discount code information.
 
 ![](/images/merchant/2019-02-02-16-58-32.png)
 
-By Bank Account
----------------
+## By Bank Account
 
-Alternatively you can choose to pay your influencers their commission manually i.e. using your bank account or another means of transfer. 
+You can choose to pay your influencers their commission outside of vwa.la, using your bank account or another means of transfer. 
 
 *  This can be done in the exact same way that you pay via PayPal. Except you must choose the "Pay by other" option from the action menu. See the PayPal guide for details on setting up a commission payment.
 *  Once you click the 'Pay by other' action, a payment form will appear. Double check the payment filter then click Yes to complete the payment. This will immediately mark the orders as "commission paid" and will notify the affected influencers. You'll then need to handle the actual transfer of money yourself outside of [vwa.la.](http://vwa.la)
@@ -164,21 +160,21 @@ Alternatively you can choose to pay your influencers their commission manually i
 No commission payable message
 -----------------------------
 
-If there is no commission that can be paid at this time, you'll receive the following message. This message will display when:
+You will receive the following message if there is no commission that can be paid at this time. This occurs when:
 
-*   There is no unpaid commission or;
-*   Unpaid commission exists, but it belongs to orders that are unpaid by the customer, unfulfilled by you, younger than 30 days or do not meet your minimum commission payout criteria. (All of these commission rules can be disabled or customized via the commission rules section within my account > store settings).
+* There is no unpaid commission or;
+* Unpaid commission exists, but it belongs to orders that are unpaid by the customer, unfulfilled by you, younger than 30 days or do not meet your minimum commission payout criteria. 
+* All of these commission rules can be disabled or customized. See the section below for more detail.
 
 ![](/images/merchant/2019-02-02-16-53-50.png)
 
-Payment rules / customization
-------------------------------
+## Payment rules / customization
 
 To prevent incorrect payments, we will only allow you to pay commission on orders that are:
 
 *   Paid
 *   Fulfilled (delivered)
-*   At least 30 days old (configurable via your [vwa.la](http://vwa.la) accounts page)
+*   At least 30 days old
 
 We also allow you to set rules that require influencers to have met the following minimum criteria before they are eligible to be paid:
 
@@ -186,6 +182,8 @@ We also allow you to set rules that require influencers to have met the followin
 *   Generated a minimum number of orders 
 
 All of these rules can be customized via my account > store settings.   
+
+## FAQ
 
 **What about order changes, cancellations or refunds?**  
 We track the life-cycle of your orders. This ensures that order changes (i.e. refunds / cancellations etc.) trigger re-calculations of influencer commissions.

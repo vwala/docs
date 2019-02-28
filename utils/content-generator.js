@@ -127,7 +127,12 @@ let run = async (subject, title) => {
 
         for (let file of files) {
 
-            console.log(file)
+            // console.log(file)
+
+            if (file.indexOf(".archived") > -1) {
+                console.log("Skipping", file)
+                continue
+            }
 
             let inPath = sourceDir + file
             let raw = await readFile(inPath)

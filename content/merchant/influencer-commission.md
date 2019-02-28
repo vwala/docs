@@ -39,7 +39,7 @@ E.g.
 How do I customize commission (promotion policy)?
 --------------------------------------------------
 
-You can customize your commission rules from the promotion policy page. Your promotion policy is like a sales campaign. You use it to organise your influencer marketers and control their behavior / rewards. You can also [segment your influencers into groups](http://help.vwa.la/merchant-help/referrergroup-specific-commission) and reward them differently.  
+You can customize your commission rules from the promotion policy page. Your promotion policy is like a sales campaign. You use it to organise your influencer marketers and control their behavior / rewards. You can also [segment your influencers into groups](/merchant/influencer-group-specific-commission/) and reward them differently.  
 
 How commission is paid?
 -----------------------

@@ -8,23 +8,34 @@ keywords:
 sidebar: "merchant"
 rank: 16
 ---
-Whilst most influencers who join your referral marketing program do the right thing by your brand, occasionally you will find influencers who misuse their influencer discount codes by creating self-purchases or by spamming them across the web.
+How we can work together to ensure influnecers to the right thing
+
+Most influencers who join your marketing program will do the right thing by your brand. Occasionally you will find influencers who misuse their influencer discount codes by creating personal orders or by spamming them across the web.
+
+## What we do
+
+To protect you from this issue, we have a robust anti-fraud system that automatically detects and blocks personal orders. You'll receive a notification from us when such an event occurs.
+
+## What you can do 
 
 Here is what you need to do to protect your brand:
 
-Define your T&Cs
-----------------
+#### Be exclusive
 
-We recommend you create a store page that introduces your influencer marketing program and states your terms and conditions clearly.
+You can disable automatic approval of new influencer sign-ups and force influencers to provide their social media accounts. This can be done via `my account > store settings > business rules`. This has the added benefit of making your marketing program feel more exclusive.
 
-Follow the steps outlined [here](/merchant/adding-a-page-to-your-store) to create your own store page.
+#### Define your T&Cs
 
-Cancel their account
---------------------
+We recommend you outline your T&Cs to all new influencers clearly. This can/should be done by ensure that you have customised the followed:
 
-If you no longer wish to partner with the influencer, you can delete their account by revoking their discount links / codes. You can do this from the [vwa.la](http://vwa.la) > Influencer Codes page.
+- [Create a page](/merchant/adding-a-page-to-your-store) on your store that introduces your influencer marketing program and states your T&Cs clearly. 
+- Customise your new influencer welcome email template (via `my account > store settings`)
+- Ensure your promotion policy is correctly set up
 
-Cancel their order commission
------------------------------
+#### Cancel their account
 
-If you do not want to disable the influencers' account, you can void any order commission that they have earned. You can do this from the [vwa.la](http://vwa.la) > Orders page. Simply select the orders you want to cancel and then click the 'Cancel orders' button at the bottom of the page.
+If you no longer wish to partner with the influencer, you can delete their account (from the influencers page) or you can revoke their account temporarily (from the influencer codes page).
+
+#### Cancel their order commission
+
+You can void any influencer commission that they have earned. You can do this from the orders page. Simply select the orders in the table that you want to cancel and then click the 'Cancel commission' button at the bottom of the page. If you make a mistake, this can be reversed.

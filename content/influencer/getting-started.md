@@ -13,7 +13,7 @@ Congratulations on joining our influencer marketing program. This article is her
 What is an influencer?
 ----------------------
 
-An influencer (also known as an affiliate or referrer) is a person who promotes a brand(s) to their audience and affects the audience's purchasing decisions. An influencer is able to do this through their authority, knowledge or relationship with their audience.
+An influencer (also known as an affiliate or referrer) is a person who promotes a brand to their audience and affects the audience's purchasing decisions. An influencer is able to do this through their authority, knowledge or relationship with their audience.
 
 Being an influencer can be rewarding. If you refer someone to a store and they then make a purchase, you will be paid a sales commission by the store. The sales commission will be a % of the total order value (minus any customer discounts, shipping and taxes)
 
@@ -28,10 +28,12 @@ Benefits of being an influencer
 What do I do as an influencer?
 ------------------------------
 
-When you join a store's influencer marketing program, you will be issued a unique, personalised influencer link and discount code for that store. Your job is to use your link or discount code to promote the store's brand and products via your website, blog or social media channel(s). You can do this in a few ways:
+When you join a store's influencer marketing program, you will be issued a unique, personalised link and discount code for that store. Your job is to use your link or code to promote the store's brand and products via your website, blog or social media channel(s). You can do this in many ways, for example:
 
-*   Creating product review blogs / vlogs. E.g. a Youtube review
-*   Share the store's branding, posts or ads (with your link/code included)
+*   Posting your personal content that promotes the brand's products
+*   Creating product review blogs or vlogs. E.g. a Youtube review
+*   Sharing the store's posts or ads (with your link/code included)
+*   Word of mouth marketing 
 
 Where do I get my influencer link / discount code?
 --------------------------------------------------
@@ -65,11 +67,6 @@ You should not:
 *   Post your influencer code on coupon websites and;
 *   Buy products using your influencer discount code. **Note:** most stores don't accept this behaviour, however a few do. Check each store's terms and conditions or reach out to the store directly via their customer support (via their web page) to confirm.
 
-How do I find more brands to promote?
---------------------------------------
-
-Please [read](/influencer/how-do-i-find-stores-to-promote)
-
 What is vwa.la?
 ---------------
 
@@ -80,7 +77,3 @@ With your [vwa.la](http://vwa.la) account, you can:
 *   Get your store specific influencer link and discount code
 *   View your influencer leads and sales
 *   View your sale commission (owed and paid)
-
-**Can I promote multiple stores with** [**vwa.la?**](http://vwa.la)
-
-You can promote multiple brands from the same [vwa.la](http://vwa.la) account (but you must use the same email address).

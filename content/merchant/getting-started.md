@@ -27,5 +27,5 @@ Recommended reading
 --------------------
 
 *   [How do influencers earn commission](/merchant/influencer-commission) and how are commissions calculated / paid?
-*   [Paying commission](/merchant/paying-commission) using PayPal, gift cards or manually (via bank transfer)
+*   [Paying commission](/merchant/paying-commission)
 *   [What are promotions](/merchant/promotions) and how do they work?
