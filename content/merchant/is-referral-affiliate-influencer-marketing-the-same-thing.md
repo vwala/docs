@@ -11,4 +11,4 @@ rank: 1
 
 Yep, that's right. 
 
-Referral/affiliate/influencer marketing mean the same thing. The industry just hasn't decided which term works the best. So feel free to use whichever term suits your brand the best!
+Referral/affiliate/influencer marketing bascially mean the same thing. There are subtle differences, but they are trivial in practice. So feel free to use whichever term suits your brand the best!
