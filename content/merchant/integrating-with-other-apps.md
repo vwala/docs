@@ -28,6 +28,21 @@ If your provider is not supported let us know. Otherwise, we have solved integra
 
 To integrate with ReCharge, you'll need to ensure that ReCharge creates orders with the influencers discount code. You'll need to set this up manually for each ReCharge subscription using ReCharge.
 
+## Wordpress
+
+If your store front is a Wordpress website and not a fully featured Shopify store, it is important to note that vwa.la will work, but will work with limited functionality. This is because Wordpress lacks the integration capabilities that we require to provide our full suite of features. 
+
+The following features will work with wordpress:
+
+- Influencer commission tracking via discount code
+- Influencer sign ups via a URL
+- Influencer dashboard / management 
+
+The following features will not work with wordpress:
+
+- Influencer links and link based commission tracking
+- Embedding our influencer signup/login/marketing dashboard within your store front. 
+
 ## Other
 We also support the following 3rd party services:
 
