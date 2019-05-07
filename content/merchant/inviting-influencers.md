@@ -46,6 +46,12 @@ If you have existing social media channels (i.e. Facebook, Instagram, Youtube), 
 FAQ
 ---
 
+#### Do you provide influencers?
+
+Your store is automatically listed in our influencer marketplace. This allows influencers to discover your brand/products and optionally, join your marketing program. These 'organic' influencer sign-ups can help grow your marketing program and can assist in creating a continual stream of promotional activity for your store.
+
+Note: You can hide your store from the marketplace via `my accont > store settings > marketplace`. 
+
 #### Who should I share my sign-up link with?
 
 There are two groups of people that you want to engage.
