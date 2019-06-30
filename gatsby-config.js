@@ -12,11 +12,6 @@ require(`dotenv`).config({
     path: `.env.${process.env.NODE_ENV}`,
 })
 
-if (!process.env.GHOST_API_URL || !process.env.GHOST_API_KEY) {
-    throw new Error(
-        `GHOST_API_URL and GHOST_API_KEY are required to build. Check the CONTRIBUTING guide.`
-    )
-}
 
 const SERVICE_WORKER_KILL_SWITCH = (process.env.SERVICE_WORKER_KILL_SWITCH === `true`) || false
 
@@ -58,14 +53,6 @@ const plugins = [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-yaml`,
-    {
-        resolve: `gatsby-source-ghost`,
-        options: {
-            apiUrl: `${process.env.GHOST_API_URL}`,
-            contentApiKey: `${process.env.GHOST_API_KEY}`,
-        },
-    },
-    // `gatsby-plugin-catch-links`,
     {
         resolve: 'gatsby-plugin-intercom-spa',
         options: {

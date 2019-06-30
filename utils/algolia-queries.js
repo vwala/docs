@@ -1,19 +1,8 @@
-const { allGhostPosts, allMarkdownPosts } = require(`./node-queries`)
-const { ghostQueryConfig, markdownQueryConfig } = require(`./query-config`)
+const { allMarkdownPosts } = require(`./node-queries`)
+const { markdownQueryConfig } = require(`./query-config`)
 const { fragmentTransformer } = require(`./algolia-transforms`)
 const urlUtils = require(`./urls`)
 
-const algoliaGhostFields = `
-    objectID:id
-    slug
-    title
-    html
-    image: feature_image
-    tags {
-        name
-        slug
-    }
-`
 
 const algoliaMarkdownFields = `
     objectID:id
@@ -42,21 +31,6 @@ const mdNodeMap = ({ node }) => {
     return node
 }
 
-const ghostQueries = ghostQueryConfig.map(({ tag, section, indexName }) => {
-    return {
-        query: allGhostPosts(tag, algoliaGhostFields),
-        indexName,
-        transformer: ({ data }) => data
-            .allGhostPost.edges
-            .map(({ node }) => {
-                // @TODO is there some other way to do this?!
-                node.section = section
-                node.url = urlUtils.urlForGhostPost(node, section)
-                return node
-            })
-            .reduce(fragmentTransformer, []),
-    }
-})
 
 const mdQueries = markdownQueryConfig.map(({ section, indexName }) => {
     return {

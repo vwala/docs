@@ -1,10 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import url from 'url'
-
-import ArticleMetaGhost from './ArticleMetaGhost'
-import ArticleMetaMD from './ArticleMetaMD'
-import WebsiteMeta from './WebsiteMeta'
+import PropTypes from 'prop-types';
+import React from 'react';
+import url from 'url';
+// import ArticleMetaGhost from './ArticleMetaGhost'
+import ArticleMetaMD from './ArticleMetaMD';
+import WebsiteMeta from './WebsiteMeta';
 
 const MetaData = ({
     data,
@@ -23,16 +22,17 @@ const MetaData = ({
 
     if (type === `article`) {
         if (ghostPost) {
-            return (
-                <ArticleMetaGhost
-                    data={data}
-                    canonical={canonical}
-                    fetchAuthorData={fetchAuthorData}
-                    title={title}
-                    image={image}
-                    overwriteDefaultImage={overwriteDefaultImage}
-                />
-            )
+            // return (
+            //     <ArticleMetaGhost
+            //         data={data}
+            //         canonical={canonical}
+            //         fetchAuthorData={fetchAuthorData}
+            //         title={title}
+            //         image={image}
+            //         overwriteDefaultImage={overwriteDefaultImage}
+            //     />
+            // )
+            return null
         } else if (markdownRemark) {
             return (
                 <ArticleMetaMD

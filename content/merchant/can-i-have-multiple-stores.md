@@ -8,6 +8,7 @@ keywords:
 sidebar: "merchant"
 rank: 14
 ---
+
 Yes, you can.
 
 You can manage multiple Shopify stores from a single [vwa.la](http://vwa.la) account if, those stores use the same email address. You can then manage your influencer marketing program for both stores from the same [vwa.la](http://vwa.la) user account. Simply log in, go to your dashboard menu and then select the store you want to manage from menu as below:

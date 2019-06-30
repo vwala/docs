@@ -60,6 +60,8 @@
       uri: 'https://docs.vwa.la/merchant/exporting-your-data/'
 - subject: releases
   routes:
+    - title: '2019-05-31'
+      uri: 'https://docs.vwa.la/releases/2019-05-31/'
     - title: '2019-01-31'
       uri: 'https://docs.vwa.la/releases/2019-01-31/'
     - title: '2018-12-07'
