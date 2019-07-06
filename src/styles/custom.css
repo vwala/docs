@@ -126,8 +126,11 @@ kbd {
 @media (--breakpoint-medium) { .h0-m { height: 0; } }
 @media (--breakpoint-large) { .h0-l { height: 0; } }
 
+
 .mw-content {
     max-width: 76rem;
+    border-radius: 4px;
+    margin-top: 4rem;
 }
 
 .pv6px {
@@ -726,9 +729,8 @@ kbd {
 /* Core Concepts */
 /* ----------------------------------------------------------------------- */
 .bg-concepts {
-    /* background: url(../images/bg-concepts.svg) bottom center no-repeat, linear-gradient(60deg, #6B23AE 0%, #C86DD7 100%); */    
     background: #00bfc8;
-    background-image: url(../images/hero.png);
+    background-image: linear-gradient(120deg, #00BFC8 1%, #00BFC8 14%, #40BAF5 97%);
     background-size: cover;
     background-position: center;
 }
@@ -763,96 +765,6 @@ kbd {
 
 .b--user-color {
     border-color: #0e73e7;
-}
-
-
-/* Tutorials */
-/* ----------------------------------------------------------------------- */
-.bg-tutorials {
-    background: url(../images/bg-concepts.svg) center center no-repeat, linear-gradient(60deg, #118CA4 0%, #54E4B6 100%);
-}
-
-.bg-tutorial-color {
-    background-color: #35BCAD;
-}
-
-.tutorial-green,
-.tutorial-color {
-    color: #35BCAD;
-}
-
-.b--tutorial-color {
-    border-color: #35BCAD;
-}
-
-.stroke-tutorial-green g,
-.stroke-tutorial-green path {
-    stroke: #35BCAD;
-}
-
-.fill-tutorial-green g,
-.fill-tutorial-green path {
-    fill: #35BCAD;
-}
-
-.tutorial-featured-post {
-    border-top: 4px solid #35BCAD;
-}
-
-.tutorial-post-card {
-    min-height: 280px;
-}
-
-.tutorial-post-card h2 {
-    transition: all 0.4s ease;
-}
-
-.tutorial-post-card:hover h2 {
-    color: #35BCAD;
-}
-
-.tutorial-feature-image {
-    width: 24px;
-    height: auto;
-}
-
-.tutorial-feature-image g,
-.tutorial-feature-image path {
-    stroke: #35BCAD;
-}
-
-/* FAQ */
-/* ----------------------------------------------------------------------- */
-.bg-faq {
-    background: url(../images/bg-setup.svg) center center no-repeat, linear-gradient(60deg, #A4116E 0%, #E454C5 100%);
-}
-
-.faq-content {
-    margin-top: -18px;
-}
-
-.bg-faq-color {
-    background: #D948B0;
-}
-
-.b--faq-color {
-    border-color: #D948B0;
-}
-
-.faq-color {
-    color: #D948B0;
-}
-
-.faq-question h4 {
-    transition: all 0.4s ease;
-}
-
-.faq-question:hover h4 {
-    color: #D948B0;
-}
-
-.faq-question:last-of-type {
-    border-bottom: none;
 }
 
 

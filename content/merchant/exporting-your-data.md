@@ -9,7 +9,7 @@ keywords:
 sidebar: "merchant"
 rank: 17
 ---
-You can export your influencer data from [vwa.la.](http://vwa.la) This is useful for:
+You can export your influencer data from [vwa.la.](https://vwa.la) This is useful for:
 
 *   Syncing your influencers with your email service (i.e. Gmail)
 *   Syncing your influencers with your email marketing service (i.e. Mailchimp)

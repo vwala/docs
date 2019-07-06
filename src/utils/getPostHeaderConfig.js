@@ -75,7 +75,7 @@ export const getPostHeaderConfig = ({ pathname }) => {
     // Header XXX
     if (pathname.match(/^\/merchant\//i)) {
         postHeaderConfig.title = `Merchant help`
-        postHeaderConfig.mainLink = `/merchant/getting-started/`
+        postHeaderConfig.mainLink = `/merchant/welcome/`
         postHeaderConfig.bgClass = `bg-concepts`
     }
 

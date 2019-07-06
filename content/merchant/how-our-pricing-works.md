@@ -7,7 +7,7 @@ keywords:
     - merchant
     - help
 sidebar: "merchant"
-rank: 2
+rank: 3
 ---
 
 Flexible, fair pricing 
@@ -39,7 +39,7 @@ See the FAQ section for a example of how commission is calculated.
 [Growth/Standard plans](https://www.vwa.la/#/pricing)
 -----------------------------------------------------
 
-Eventually your sales will outgrow the start-up plan and you will want to **reduce your costs**. So once you start earning a ROI from [vwa.la](http://vwa.la), it will be cheaper for you to upgrade to either the growth or standard plans. These plans offer a progressively cheaper commission fee.
+Eventually your sales will outgrow the start-up plan and you will want to **reduce your costs**. So once you start earning a ROI from [vwa.la](https://vwa.la), it will be cheaper for you to upgrade to either the growth or standard plans. These plans offer a progressively cheaper commission fee.
 
 FAQ
 ---
@@ -71,4 +71,4 @@ Our billing cycles are exactly 30 days, commencing from the date of install.
 
 The 14 day trial applies to all plans.
 
-This trial period is intended for evaluation use. To protect our business from those who wish to run pre-sales activities on [vwa.la](http://vwa.la) and then cancel before the trial period ends, we reserve the right to charge you commission per referral order during the trial period if your referral sales volumes are significant.
+This trial period is intended for evaluation use. To protect our business from those who wish to run pre-sales activities on [vwa.la](https://vwa.la) and then cancel before the trial period ends, we reserve the right to charge you commission per referral order during the trial period if your referral sales volumes are significant.

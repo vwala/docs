@@ -9,12 +9,12 @@ keywords:
 sidebar: "influencer"
 rank: 2
 ---
-In [vwa.la](http://vwa.la) you will earn sales commission on all non-personal orders that are created using either your influencer link or discount code.
+In [vwa.la](https://vwa.la) you will earn sales commission on all non-personal orders that are created using either your influencer link or discount code.
 
 Where is my influencer link / code?
 -----------------------------------
 
-When you join a store's influencer marketing program, you'll be issued a unique referral link and discount code. You can find both your link and discount code on the [vwa.la](http://vwa.la) > Home page, within the Discount Codes / Links table.
+When you join a store's influencer marketing program, you'll be issued a unique referral link and discount code. You can find both your link and discount code on the [vwa.la](https://vwa.la) > Home page, within the Discount Codes / Links table.
 
 ![](/images/influencer/2018-12-22-11-01-26.png)
 
@@ -25,7 +25,7 @@ Why is my account pending, approved or revoked?**
 You account (and it's discount code and link) can only be used if your account status is active.
 
 *   **Pending:** If your account status pending  this means that your account is pending approval by the store. Please wait for the store to approve your account before using your code or link. Once approved, you will be notified by email.
-*   Note: Some stores require you to link your preferred social media account (i.e. that will be used for marketing) before your account will be approved. You should do this on sign-up to fast track the approval process. It is important to note that [vwa.la](http://vwa.la) only stores limited information about you - specifically, we only store your social media username and your average # of posts, comments and reactions within the last 30 days)
+*   Note: Some stores require you to link your preferred social media account (i.e. that will be used for marketing) before your account will be approved. You should do this on sign-up to fast track the approval process. It is important to note that [vwa.la](https://vwa.la) only stores limited information about you - specifically, we only store your social media username and your average # of posts, comments and reactions within the last 30 days)
 *   **Cancelled\\Revoked:** If the status is cancelled, the store has cancelled your discount code / link.
 *   **Approved**: You're ready to start marketing and earning! ??
 
@@ -57,12 +57,12 @@ We use cookies, local storage and IP matching to track your influencer leads. Th
 Yes, your influencer discount code is automatically added to the customers' cart when they click your influencer link. This approach simplifies their shopping experience and increases your conversion rate.
 
 **Does the customer receive a discount when using my influencer discount code?**  
-Yes, the customer will receive a discount when they use your influencer discount code. The exact amount is set by the store. Check the [vwa.la](http://vwa.la) > Promotions page for the customer discount (%) value.
+Yes, the customer will receive a discount when they use your influencer discount code. The exact amount is set by the store. Check the [vwa.la](https://vwa.la) > Promotions page for the customer discount (%) value.
 
 How is my commission calculated?
 ---------------------------------
 
-In [vwa.la](http://vwa.la) each store will have one or more influencer promotions. These are like sales promotions but for influencers. Each promotion will define its own influencer commission policy. I.e. If you sell product X you get 15% commission on orders containing X. For every promotion that you join, you will be given a unique, personalised influencer link and discount code. This allows us to track your promotion specific performance and ensure that you earn the correct commission.
+In [vwa.la](https://vwa.la) each store will have one or more influencer promotions. These are like sales promotions but for influencers. Each promotion will define its own influencer commission policy. I.e. If you sell product X you get 15% commission on orders containing X. For every promotion that you join, you will be given a unique, personalised influencer link and discount code. This allows us to track your promotion specific performance and ensure that you earn the correct commission.
 
 When an order is received, we correlate it to a specific promotion. We use the commission rules that the store has specified for that promotion to calculate your commission. Commissions are calculated on the pre-tax and shipping value of the order minus any customer discounts. If an order is refunded or changed, your commission will be re-calculated based on the new value.
 
@@ -76,7 +76,7 @@ E.g.
 How can I track my commission?
 ------------------------------
 
-You can view all orders that your influencer account has generated from the [vwa.la](http://vwa.la) > Orders page. From this page, you'll be able to see:
+You can view all orders that your influencer account has generated from the [vwa.la](https://vwa.la) > Orders page. From this page, you'll be able to see:
 
 *   The order you created
 *   The order's value
@@ -88,7 +88,7 @@ You can view all orders that your influencer account has generated from the [vwa
 How is my sales commission paid?
 --------------------------------
 
-[Vwa.la](http://Vwa.la) allows stores to pay influencer commission using a variety of methods:
+[vwa.la](https://vwa.la) allows stores to pay influencer commission using a variety of methods:
 
 *   By PayPal
 *   By store credit (gift card or single use discount code)
@@ -109,12 +109,12 @@ The above constraints protect all parties from incorrect payments which, can occ
 **What if the order is cancelled?**  
 If the order is cancelled, commissions will not be paid. An order may be cancelled due to fraud, refund or incorrect use of vwa.la (i.e. self-orders, bots, link/code spamming).
 
-**Who pays me?** [**vwa.la**](http://Vwa.la) **or the store?**  
+**Who pays me?** [**vwa.la**](https://vwa.la) **or the store?**  
 The store will pay you via vwa.la, using their chosen payment method.
 
-**How do I tell** [**vwa.la**](http://vwa.la) **which PayPal account to use?**
+**How do I tell** [**vwa.la**](https://vwa.la) **which PayPal account to use?**
 
-Simply make sure that your [vwa.la](http://vwa.la) email address is the same as your PayPal account. You can also add your [vwa.la](http://vwa.la) email address to an existing PayPal account if that suits you.
+Simply make sure that your [vwa.la](https://vwa.la) email address is the same as your PayPal account. You can also add your [vwa.la](https://vwa.la) email address to an existing PayPal account if that suits you.
 
 **Is PayPal required?**
 

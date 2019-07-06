@@ -20,13 +20,12 @@
       uri: 'https://docs.vwa.la/influencer/what-are-store-promotions/'
 - subject: merchant
   routes:
-    - title: 'Is referral, affiliate and influencer marketing the same thing?'
-      uri: >-
-        https://docs.vwa.la/merchant/is-referral-affiliate-influencer-marketing-the-same-thing/
-    - title: How our pricing works
-      uri: 'https://docs.vwa.la/merchant/how-our-pricing-works/'
+    - title: Welcome
+      uri: 'https://docs.vwa.la/merchant/welcome/'
     - title: Getting started
       uri: 'https://docs.vwa.la/merchant/getting-started/'
+    - title: How our pricing works
+      uri: 'https://docs.vwa.la/merchant/how-our-pricing-works/'
     - title: Installation Guide
       uri: 'https://docs.vwa.la/merchant/installation-guide/'
     - title: Customising vwa.la

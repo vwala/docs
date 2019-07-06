@@ -9,7 +9,7 @@ sidebar: "merchant"
 rank: 5
 ---
 
-Customisation is an important goal for us. We want you to have full control over the appearance and behaviour of [vwa.la](http://vwa.la). All customisation can be done from your [vwa.la](http://vwa.la) dashboard (I.e. my account > store settings page).
+Customisation is an important goal for us. We want you to have full control over the appearance and behaviour of [vwa.la](https://vwa.la). All customisation can be done from your [vwa.la](https://vwa.la) dashboard (I.e. my account > store settings page).
 
 You can customise:
 
@@ -21,11 +21,11 @@ You can customise:
 Your branding
 -------------------------------
 
-You can change the logo and primary colour of your [vwa.la](http://vwa.la) dashboard, in-store widget and sign-up page.
+You can change the logo and primary colour of your [vwa.la](https://vwa.la) dashboard, in-store widget and sign-up page.
 
 ![](/images/merchant/2019-01-20-08-55-22.png)
 
-**The Logo image** must be a URL. We recommend that you re-use the logo from your store page that is being hosted by [http://cdn.shopify.com.](http://cdn.shopify.com) To get the URL, go to your store page and right-click on your logo image. Then copy and paste the URL into the [vwa.la](http://vwa.la) store settings form. You will see a preview if successful. Make sure you prefix the URL with http:// or https://.
+**The Logo image** must be a URL. We recommend that you re-use the logo from your store page that is being hosted by [http://cdn.shopify.com.](http://cdn.shopify.com) To get the URL, go to your store page and right-click on your logo image. Then copy and paste the URL into the [vwa.la](https://vwa.la) store settings form. You will see a preview if successful. Make sure you prefix the URL with http:// or https://.
 
 **The primary color** must be a dark color as white text will be displayed on top of it. It will be used in both the sign-up page and the widget's 'call to action' button. To find your colour, you can use [http://www.color-hex.com/.](http://www.color-hex.com/)
 
@@ -33,7 +33,7 @@ And here are the results!
 
 #### Variant: Themed In-store widget (embedded in your store)
 
-Our in-store widget allows your influencers to signup, login and use their marketing dashboard from within your store. When you customise your [vwa.la](http://vwa.la) theme, these pages will appear as follows:
+Our in-store widget allows your influencers to signup, login and use their marketing dashboard from within your store. When you customise your [vwa.la](https://vwa.la) theme, these pages will appear as follows:
 
     Example theme color: green
 
@@ -75,7 +75,7 @@ When you install vwa.la, we automatically install our in-store widget launcher i
 Business rules
 --------------
 
-You can change the behavior of [vwa.la](http://vwa.la) in the business rules section (my account > store settings). Please see the tool-tips within the forms for more detail.
+You can change the behavior of [vwa.la](https://vwa.la) in the business rules section (my account > store settings). Please see the tool-tips within the forms for more detail.
 
 **General rules**
 

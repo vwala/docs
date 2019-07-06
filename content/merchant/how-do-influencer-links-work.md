@@ -30,7 +30,7 @@ Important: Replace [mystore.com](http://mystore.com) with your domain name.
 
 **Can I change the cookie tracking time window?**
 
-Yes. You can change this setting in [vwa.la.](http://vwa.la) Go to my account > store settings.
+Yes. You can change this setting in [vwa.la.](https://vwa.la) Go to my account > store settings.
 
 **If a customer clicks 2 different links from different influencers, do both influencers get commission if that customer makes an order?**
 

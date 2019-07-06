@@ -9,7 +9,7 @@ sidebar: "user"
 rank: 3
 ---
 
-[vwa.la](http://vwa.la) `pronounced vwa-la` is a deliberate mispelling of the French word **voila**
+[vwa.la](https://vwa.la) `pronounced vwa-la` is a deliberate mispelling of the French word **voila**
 
 We would have loved to use the correct spelling, but the domain name was taken! 
 

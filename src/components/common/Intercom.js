@@ -1,5 +1,4 @@
 import * as React from "react";
-import Intercom from "react-intercom";
 
 // export interface IntercomChatProps {
 //     config: Config

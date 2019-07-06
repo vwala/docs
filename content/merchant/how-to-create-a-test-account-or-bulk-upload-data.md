@@ -33,11 +33,11 @@ When you open this link in your browser, you may see the below screenshot.
 
 ![](/images/merchant/2019-02-02-18-41-58.png)
 
-This is because you are already logged in to [vwa.la](http://vwa.la) as a merchant. In this case, you need to either 1) log out of [vwa.la](http://vwa.la) and; then re-open the sign-up page or 2) open the sign-up link in a new browser session (i.e. Chrome = incognito, IE/Edge/Firefox = new session).
+This is because you are already logged in to [vwa.la](https://vwa.la) as a merchant. In this case, you need to either 1) log out of [vwa.la](https://vwa.la) and; then re-open the sign-up page or 2) open the sign-up link in a new browser session (i.e. Chrome = incognito, IE/Edge/Firefox = new session).
 
 #### Important - You must disable our fraud system during testing
 
-[vwa.la](http://vwa.la) has a built-in anti-fraud system**.** This system prevents a influencer from creating personal orders.
+[vwa.la](https://vwa.la) has a built-in anti-fraud system**.** This system prevents a influencer from creating personal orders.
 
 If you have created a test influencer and are creating test orders, you must first enable personal orders before creating your test order. When you have finished your testing, you can then disable personal orders.
 
@@ -48,7 +48,7 @@ You can enable/disable personal orders via my account > store settings > busines
 How to bulk import influencers from another app
 -----------------------------------------------
 
-For those of you who are moving to [vwa.la](http://vwa.la) from another app, we can help you auto-load your influencers into your [vwa.la](http://vwa.la) account. All we need from you is an Excel/CSV file with their account details. Most apps will provide an export feature, if not, you'll need to manually create this file. Then simply email the file to [support@vwa.la](mailto:support@vwa.la) and we will handle the upload process for you.
+For those of you who are moving to [vwa.la](https://vwa.la) from another app, we can help you auto-load your influencers into your [vwa.la](https://vwa.la) account. All we need from you is an Excel/CSV file with their account details. Most apps will provide an export feature, if not, you'll need to manually create this file. Then simply email the file to [support@vwa.la](mailto:support@vwa.la) and we will handle the upload process for you.
 
 At a minimum, the file should contain the following fields:
 

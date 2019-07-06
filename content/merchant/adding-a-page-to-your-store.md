@@ -50,15 +50,15 @@ The template should be customised to suit your store. You must:
 
 **How does this HTML open the sign-up page / dashboard?**
 
-We want [vwa.la](http://vwa.la) to be as close to a 100% white label UX as possible. This means that when requested by the user, we dynamically embed the [vwa.la](http://vwa.la) influencer sign-up / login page and dashboard into your store front using some HTML magic. To open or close these [vwa.la](http://vwa.la) pages within your store, you must embed the following HTML snippet.
+We want [vwa.la](https://vwa.la) to be as close to a 100% white label UX as possible. This means that when requested by the user, we dynamically embed the [vwa.la](https://vwa.la) influencer sign-up / login page and dashboard into your store front using some HTML magic. To open or close these [vwa.la](https://vwa.la) pages within your store, you must embed the following HTML snippet.
 
     <a href="#" onclick="script:window.dispatchEvent(new Event('vwala-toggle'));">sign up or log in</a>
 
-This HTML triggers an event to fire, which our code is listening for. When we receive this event, we dynamically load the [vwa.la](http://vwa.la) app into your store and display it to the user. We take extra care to ensure we load the smallest amount of code possible and only when needed.
+This HTML triggers an event to fire, which our code is listening for. When we receive this event, we dynamically load the [vwa.la](https://vwa.la) app into your store and display it to the user. We take extra care to ensure we load the smallest amount of code possible and only when needed.
 
 The in-line javascript in the onclick event above is what makes this possible. You don't have to use an A tag, you could use a button if you like. You can also use CSS to customise the appearance in any way that you like. 
 
-Here is an example of using a button to trigger the [vwa.la](http://vwa.la) signup/login page to open.
+Here is an example of using a button to trigger the [vwa.la](https://vwa.la) signup/login page to open.
 
     <button type="button" onclick="script:window.dispatchEvent(new Event('vwala-toggle'));">Signup or log in</button>
 
@@ -67,7 +67,7 @@ Here is an example of using a button to trigger the [vwa.la](http://vwa.la) sign
 If your page isn't opening:
 
 *   Re-check your html is correct (checking your browser log for errors is very helpful here i.e. chrome dev tools console).
-*   The bootstrapping code may still be loading into your browser. On a slow network, this could take a few seconds before clicking the link will open the [vwa.la](http://vwa.la) sign-up page.
+*   The bootstrapping code may still be loading into your browser. On a slow network, this could take a few seconds before clicking the link will open the [vwa.la](https://vwa.la) sign-up page.
 
 2\. Link your new page to your stores' menu
 -------------------------------------------

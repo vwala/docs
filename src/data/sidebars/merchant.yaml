@@ -1,12 +1,12 @@
 - groups:
     - group: Help
       items:
-        - title: 'Is referral, affiliate and influencer marketing the same thing?'
-          link: /merchant/is-referral-affiliate-influencer-marketing-the-same-thing/
-        - title: How our pricing works
-          link: /merchant/how-our-pricing-works/
+        - title: Welcome
+          link: /merchant/welcome/
         - title: Getting started
           link: /merchant/getting-started/
+        - title: How our pricing works
+          link: /merchant/how-our-pricing-works/
         - title: Installation Guide
           link: /merchant/installation-guide/
         - title: Customising vwa.la

@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
+import { Spirit } from '../../styles/spirit-styles';
+import { Icon } from '../common';
 
-import { Spirit } from '../../styles/spirit-styles'
-import { Icon } from '../common'
 
 const HomeAPIBox = ({ to, icon, title, children }) => (
     <Link to={to} className="flex items-start pa4 pa7-ns tdn bb b--whitegrey justify-between mih-10 flex-auto api-box">

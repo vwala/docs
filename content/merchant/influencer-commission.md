@@ -9,7 +9,7 @@ sidebar: "merchant"
 rank: 11
 ---
 
-In [vwa.la](http://vwa.la) your influencers earn sales commission on all orders that they create for your store.
+In [vwa.la](https://vwa.la) your influencers earn sales commission on all orders that they create for your store.
 
 How are orders linked to a influencer?
 --------------------------------------

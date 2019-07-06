@@ -6,7 +6,7 @@ keywords:
     - merchant
     - help
 sidebar: "merchant"
-rank: 3
+rank: 2
 ---
 Congratulations on creating your influencer marketing program. This article is here to help you get started!
 

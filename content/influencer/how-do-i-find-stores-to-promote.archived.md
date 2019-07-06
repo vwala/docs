@@ -17,7 +17,7 @@ There are 2 ways to discover stores to promote:
 Marketplace
 -----------
 
-Our marketplace connects our brands with influencers like yourself. You can access the marketplace from the [vwa.la](http://vwa.la) menu.
+Our marketplace connects our brands with influencers like yourself. You can access the marketplace from the [vwa.la](https://vwa.la) menu.
 
     Menu > Find Stores
 
@@ -45,10 +45,10 @@ If you're interested in joining the store, click the 'view website or join' link
 
 #### What is rank? (i.e. A-E ratings)
 
-Each store has a rank. A rank is a relative score used to compare different stores. It is a live score that changes over time. It is based on a store's marketing performance within [vwa.la](http://vwa.la) and factors in variables such as:
+Each store has a rank. A rank is a relative score used to compare different stores. It is a live score that changes over time. It is based on a store's marketing performance within [vwa.la](https://vwa.la) and factors in variables such as:
 
 *   The number of influencers
 *   The number of influencer leads and orders per influencer
 *   The average yield per influencer
 
-You should not use the rank exclusively when choosing a store to promote. All of our brands have great products and sales potential. The rank can however be a useful indicator of their performance within [vwa.la](http://vwa.la) to date.
+You should not use the rank exclusively when choosing a store to promote. All of our brands have great products and sales potential. The rank can however be a useful indicator of their performance within [vwa.la](https://vwa.la) to date.

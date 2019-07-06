@@ -70,9 +70,9 @@ You should not:
 What is vwa.la?
 ---------------
 
-[Vwa.la](http://Vwa.la) provides an influencer marketing platform for online retail stores. We help brands and social media influencers like yourself form marketing partnerships. You market the store and in exchange, they reward you with sales commission. When you sign-up to a store's influencer marketing program, you are actually creating a [vwa.la](http://vwa.la) account.
+[vwa.la](https://vwa.la) provides an influencer marketing platform for online retail stores. We help brands and social media influencers like yourself form marketing partnerships. You market the store and in exchange, they reward you with sales commission. When you sign-up to a store's influencer marketing program, you are actually creating a [vwa.la](https://vwa.la) account.
 
-With your [vwa.la](http://vwa.la) account, you can:
+With your [vwa.la](https://vwa.la) account, you can:
 
 *   Get your store specific influencer link and discount code
 *   View your influencer leads and sales

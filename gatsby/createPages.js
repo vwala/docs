@@ -15,7 +15,7 @@ module.exports = async ({ graphql, actions }) => {
         fromPath: `/merchant`,
         isPermanent: true,
         redirectInBrowser: true,
-        toPath: `/merchant/getting-started/`,
+        toPath: `/merchant/welcome/`,
     })
 
     createRedirect({
