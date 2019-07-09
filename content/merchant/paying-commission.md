@@ -69,6 +69,7 @@ This is the default setting.
 Benefits:
 
 - This approach does not require any initial setup.
+- PayPal does not charge you (the sender) a transaction fee. Instead, the recipient (the influencer) pays a small fee to PayPal.
 
 Limitations:
 
@@ -105,6 +106,7 @@ Limitations:
 - One time setup step.
 - Requires a PayPal business account with the `PayPal Payouts` feature enabled.
 - Requires that you share with us a PayPal API key that allows us to send payments on your behalf. Note: See our notes section below for more information on how we securely store your data.
+- PayPal will charge you (the sender) a [transaction fee](https://developer.paypal.com/docs/payouts/reference/fees/). The recipient (the influencer) will not pay any fees. 
 
 **How it works**
 
@@ -121,6 +123,7 @@ See the setup instructions below.
 **Important notes about the `advanced` method**
 
 - We pay influencers using the currency of your store. You must ensure that your PayPal account has funds in this currency.
+- PayPal will charge you (the sender) a [transaction fee](https://developer.paypal.com/docs/payouts/reference/fees/). The recipient (the influencer) will not pay any fees. 
 - If the payment does not transfer immediately, the recipient has 30 days to accept the payment before PayPal will reverse their payment and return funds to your account. 
 - Your PayPal API key is secured stored in a network isolated database using 256-bit AES encryption. The encryption algorithm uses a randomly generated GUID and salt, both unique to your account. Furthermore, once received, we never transmit this key, hash or salt outside of our internet isolated subnet. 
 
