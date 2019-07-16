@@ -60,14 +60,14 @@ export default class IntercomChat extends React.Component {
         //     log(intercomUser)
         // }
 
-        let intercom_app_id = "dmj68kq8"
+        // let intercom_app_id = "dmj68kq8"
 
-        return <Intercom
-            appID={intercom_app_id}
-        />
+        // return <Intercom
+        //     appID={intercom_app_id}
+        // />
 
         // }
 
-        // return null
+        return null
     }
 }

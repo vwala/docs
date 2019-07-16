@@ -53,13 +53,13 @@ const plugins = [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-yaml`,
-    {
-        resolve: 'gatsby-plugin-intercom-spa',
-        options: {
-            app_id: 'dmj68kq8',
-            include_in_development: true,
-        }
-    },
+    // {
+    //     resolve: 'gatsby-plugin-intercom-spa',
+    //     options: {
+    //         app_id: 'dmj68kq8',
+    //         include_in_development: true,
+    //     }
+    // },
     {
         resolve: `gatsby-plugin-google-analytics`,
         options: {

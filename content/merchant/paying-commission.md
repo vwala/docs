@@ -263,9 +263,13 @@ This can be done by logging into your [PayPal account](https://www.paypal.com) (
 #### Enable `PayPal PayOuts`
 
 - Go to https://developer.paypal.com/developer/accountStatus/
-- Ensure that `PayOuts` is enabled (a green tick in both the sandbox and live columns of the table). Non-US customers may need to contact PayPal support to have this activated.
-
+- Ensure that `PayOuts` is enabled (a green tick in both the sandbox and live columns of the table below). 
 ![](/images/merchant/pp-enable-payouts.png)
+- Non-US customers will need to contact PayPal support by [phone](https://www.paypal.com/au/smarthelp/contact-us) or [email](https://www.paypal-support.com/s/contactsupport) to activate the `PayOuts` feature. This process usually takes 24 hours. If you choose to contact PayPal via email, use the following screenshot as an example of how to complete the form.
+![](/images/merchant/pp-contact-support.png)
+
+*Sample text*
+> I run an online business. We have a team of influencer marketers who promote our products in exchange for commission. Please enable the PayPal payouts technology for my account. It is essential to simplifying the bulk payment of our influencers. Thankyou
 
 #### Create a PayPal REST API app
 

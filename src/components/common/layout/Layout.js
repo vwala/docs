@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 // Additional styles
 import '../../../styles/app.css';
 import { SearchWrapper } from '../search';
+import Footer from './Footer';
 import Header from './Header';
 
 
@@ -23,7 +24,7 @@ const DefaultLayout = ({ location, children, bodyClass, mainClass, header, heade
                 {children}
             </main>
 
-            {/* <Footer /> */}
+            <Footer />
         </SearchWrapper>
 
         {/* <IntercomChat /> */}
