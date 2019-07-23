@@ -36,9 +36,11 @@ const Footer = () => (
                     {/* <li className={`${listItemClass} dn db-l`}><a href="https://twitter.com/tryghost" className={linkClass}>@TryGhost</a></li> */}
                 </ul>
 
-                <ul className="flex list pa0 ma0 items-center">
-                    <li><a href="mailto:support@vwa.la" className="link pa2 midgrey hover-blue dib mr0">support@vwa.la</a></li>
-                </ul>
+                <div className="flex list" style={{ flexDirection: 'column', alignItems: 'flex-end' }}>
+                    <div style={{ marginBottom: 10, fontWeight: 500 }}>Support</div>
+                    <div style={{ marginBottom: 10 }}>Existing users: <a href="https://www.vwa.la/#/dashboard" className="link  midgrey hover-blue dib mr0">Log in</a> and use our in-app chat</div>
+                    <div style={{ marginBottom: 10 }}>New users: <a href="mailto:support@vwa.la" className="link  midgrey hover-blue dib mr0">support@vwa.la</a></div>
+                </div>
             </div>
 
         </section>
