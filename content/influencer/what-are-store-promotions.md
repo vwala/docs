@@ -27,11 +27,11 @@ FAQ
 
 #### How do I view a store promotion details?
 
-To see the promotion details of a store, go to the [vwa.la](https://vwa.la) > Promotion page. This page lists all promotions that are available to your account.
+To see the promotion details of a store, go to the vwa.la > Promotion page. This page lists all promotions that are available to your account.
 
 #### How do I get my discount code / link?
 
-All of your influencer discount codes and links are found in the same place. Go to the [vwa.la](https://vwa.la) > Home > Discount Codes / Links section.
+All of your influencer discount codes and links are found in the same place. Go to the vwa.la > Home > Discount Codes / Links section.
 
 **How do I join a product specific promotion?**  
-When you sign-up to a store's referral marketing program with vwa.la, you are only issued a influencer link / discount code for the store's base promotion. Some stores have additional promotions. You must manually join a product specific promotion first before we will issue you with a promotion specific discount code / link. You can join a promotion by going to [vwa.la](https://vwa.la) > Home > Discount Codes / Links and clicking 'Claim code' for the desired promotion.
+When you sign-up to a store's referral marketing program with vwa.la, you are only issued a influencer link / discount code for the store's base promotion. Some stores have additional promotions. You must manually join a product specific promotion first before we will issue you with a promotion specific discount code / link. You can join a promotion by going to vwa.la > Home > Discount Codes / Links and clicking 'Claim code' for the desired promotion.

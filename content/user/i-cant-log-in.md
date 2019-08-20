@@ -11,7 +11,7 @@ rank: 1
 
 ## I don't know my username/password
 
-**For merchants**: On install, we created a [vwa.la](https://vwa.la) account for you that uses the same email address as your Shopify admin account. We sent an email to that address with your user name (email) and password.
+**For merchants**: On install, we created a vwa.la account for you that uses the same email address as your Shopify admin account. We sent an email to that address with your user name (email) and password.
 
 #### How do I reset my password?
 

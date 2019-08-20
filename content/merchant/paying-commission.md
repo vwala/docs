@@ -92,7 +92,7 @@ To cancel the payment, **DO NOT** close the window. Instead, click the cancel bu
 
 - We pay influencers using the currency of your store. 
 - If the payment does not transfer immediately, the recipient has 14 days to accept the payment before PayPal will reverse their payment and return funds to your account.
-- PayPal limits us to paying a maximum of 6 people at a time. This is a limitation that affects all users of PayPal's adaptive payments broker solution. To work around this issue, simply replay the "Pay all by PayPal" step until all influencers are paid. If you are making payments each month, this should not be an issue. For larger merchants, we are looking at implementing a PayPal per-approval step which will allow you to grant [vwa.la](https://vwa.la) the ability to automate payments from your PayPal account.
+- PayPal limits us to paying a maximum of 6 people at a time. This is a limitation that affects all users of PayPal's adaptive payments broker solution. To work around this issue, simply replay the "Pay all by PayPal" step until all influencers are paid. If you are making payments each month, this should not be an issue. For larger merchants, we are looking at implementing a PayPal per-approval step which will allow you to grant vwa.la the ability to automate payments from your PayPal account.
 
 
 ### Advanced
@@ -154,7 +154,7 @@ DKK
 CZK
 
 #### What if the recipient (influencer) doesn't have a PayPal account?
-This isn't an issue. PayPal payments will work even if the recipient does not have a PayPal account. The influencer will simply need to create a PayPal account using the same email address that they use for [vwa.la](https://vwa.la) to receive their payments. 
+This isn't an issue. PayPal payments will work even if the recipient does not have a PayPal account. The influencer will simply need to create a PayPal account using the same email address that they use for vwa.la to receive their payments. 
  #### What if the recipient's PayPal account is invalid/restricted?
 We (and PayPal) will notify any influencer if their PayPal account is incomplete and requires their attention before PayPal will complete payment. Our orders feature will exclude paying out problematic influencers for 1 week after such an event. This means you can continue paying out other influencers whilst they fix their issue. 
  #### Are there fees? Who pays them?
@@ -163,9 +163,9 @@ PayPal transactions incur a small transaction fee. The fee will be incurred by t
 #### My PayPal transaction failed, PayPal says that I should verify my bank account...
 PayPal takes security and fraud very seriously. If you see this message when trying to transfer money, you'll need to ensure that your bank account is linked to your PayPal account. This process is simple and is secure/safe. PayPal will make 2-3 small deposits into your bank account and will ask you to verify them. Once verified you'll be able to pay your influencers without issue.
 
-#### [vwa.la](https://vwa.la) says that my commission payment is pending, what does that mean?
+#### vwa.la says that my commission payment is pending, what does that mean?
 If the influencer does not yet have a PayPal account, payments will be marked as pending. Once the influencer creates their PayPal account, they will claim your payment and the transaction will be marked as `paid`. 
- #### I support multiple currencies, which one does [vwa.la](https://vwa.la) use?
+ #### I support multiple currencies, which one does vwa.la use?
 Your store may allow for the user to change currency. However, Shopify only supports a single operating currency. This means that from Shopify's perspective, all products and customer orders are always in your operating currency. vwa.la only uses your operating currency when calculating commission calculations and making payments.
 
 ## Store credit

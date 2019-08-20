@@ -9,7 +9,7 @@ sidebar: "merchant"
 rank: 1
 ---
 
-[vwa.la](https://vwa.la) is an influencer marketing platform. We help you create, grow and manage your influencer team. We combine the rich functionality of an affiliate marketing platform, with social media integration.
+vwa.la is an influencer marketing platform. We help you create, grow and manage your influencer team. We combine the rich functionality of an affiliate marketing platform, with social media integration.
 
 New users
 -----------

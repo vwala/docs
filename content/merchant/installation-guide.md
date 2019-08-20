@@ -11,7 +11,7 @@ rank: 4
 
 ## Install
 
-[vwa.la](https://vwa.la) can be quickly installed in two ways:
+vwa.la can be quickly installed in two ways:
 
 *   From the Shopify app store [https://apps.shopify.com/vwala](https://apps.shopify.com/vwala) or;
 *   From the our [merchant signup page.](https://www.vwa.la/#/s/create)
@@ -32,10 +32,10 @@ The final step is to choose a billing plan. We offer a 14 day free trial. Don't 
 To pause your vwa.la account, you can contact us, or you can simply update your promotion policy so that your influencers receive $0 or 0% commission on orders.
 
 #### Full uninstall
-You can uninstall [vwa.la](https://vwa.la) at anytime using your Shopify admin console (apps section). This will disable your influencer marketing program and cancel your billing. We'll let your influencers know too, that way they are aware that their links / codes will no longer be usable and that they should stop their marketing activity. 
+You can uninstall vwa.la at anytime using your Shopify admin console (apps section). This will disable your influencer marketing program and cancel your billing. We'll let your influencers know too, that way they are aware that their links / codes will no longer be usable and that they should stop their marketing activity. 
 
 ## Re-install
 
-Should you wish to re-install [vwa.la](https://vwa.la) at a later time, you can follow the same steps outlined in the installation section above. Re-installing [vwa.la](https://vwa.la) will restore your accounts data and re-activate your influencer marketing program's promotions, links and discount codes.
+Should you wish to re-install vwa.la at a later time, you can follow the same steps outlined in the installation section above. Re-installing vwa.la will restore your accounts data and re-activate your influencer marketing program's promotions, links and discount codes.
 
 Need more info? We're here to help, simply click the chat icon on the bottom-right to start a conversation.

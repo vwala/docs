@@ -22,7 +22,7 @@ You can automatically sync your influencer list (and there marketing performance
 
 **Other**
 
-If your provider is not supported let us know. Otherwise, we have solved integration with 3rd party email solutions in a general way. All you need to do is export your influencers from [vwa.la](https://vwa.la) and import them into your email program of choice. See [exporting your data](/merchant/exporting-your-data/) for details on how to do this.
+If your provider is not supported let us know. Otherwise, we have solved integration with 3rd party email solutions in a general way. All you need to do is export your influencers from vwa.la and import them into your email program of choice. See [exporting your data](/merchant/exporting-your-data/) for details on how to do this.
 
 ## ReCharge
 
