@@ -87,7 +87,7 @@ export const getPostHeaderConfig = ({ pathname }) => {
 
     if (pathname.match(/^\/releases\//i)) {
         postHeaderConfig.title = `Product releases`
-        postHeaderConfig.mainLink = `/releases/2019-01-31/`
+        postHeaderConfig.mainLink = `/releases/2019-08-10/`
         postHeaderConfig.bgClass = `bg-concepts`
     }
 
