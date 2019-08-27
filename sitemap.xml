@@ -44,7 +44,6 @@
 <url> <loc>https://docs.vwa.la/releases/2018-07-01/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/releases/2018-07-20/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/releases/2018-09-15/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://docs.vwa.la/releases/2019-08-10/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/merchant/can-i-have-multiple-stores/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/merchant/adding-a-page-to-your-store/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/merchant/influencer-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -59,5 +58,6 @@
 <url> <loc>https://docs.vwa.la/influencer/what-are-store-promotions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/influencer/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/merchant/paying-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://docs.vwa.la/releases/2019-08-10/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
