@@ -39,7 +39,7 @@ Instagram
 Youtube
 
 *   Similar to Instagram, you can include your discount code in the description section. The great news is Youtube allows URL link to be shared in the same section, so be sure to include your influencer link too!
-*   You can also share your discount code with your followers by mentioning it in your video, simple ??
+*   You can also share your discount code with your followers by mentioning it in your video, simple
 
 Facebook
 
@@ -53,7 +53,7 @@ You can also [create product / collection specific links](/influencer/how-do-i-e
 
 ####Do I inform my followers that I am an influencer for a brand?
 
-It is completely up to you, there is no right or wrong answer ?? Some influencers are comfortable sharing that information with their followers while others don't. The best way to determine whether you should or not is through gauging your relationship with your followers.
+It is completely up to you, there is no right or wrong answer. Some influencers are comfortable sharing that information with their followers while others don't. The best way to determine whether you should or not is through gauging your relationship with your followers.
 
 ####What should I NOT do as an influencer?
 

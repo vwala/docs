@@ -27,7 +27,7 @@ You account (and it's discount code and link) can only be used if your account s
 *   **Pending:** If your account status pending  this means that your account is pending approval by the store. Please wait for the store to approve your account before using your code or link. Once approved, you will be notified by email.
 *   Note: Some stores require you to link your preferred social media account (i.e. that will be used for marketing) before your account will be approved. You should do this on sign-up to fast track the approval process. It is important to note that vwa.la only stores limited information about you - specifically, we only store your social media username and your average # of posts, comments and reactions within the last 30 days)
 *   **Cancelled\\Revoked:** If the status is cancelled, the store has cancelled your discount code / link.
-*   **Approved**: You're ready to start marketing and earning! ??
+*   **Approved**: You're ready to start marketing and earning!
 
 How do I create product specific influencer links?
 --------------------------------------------------
