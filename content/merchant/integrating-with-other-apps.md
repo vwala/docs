@@ -12,15 +12,34 @@ We've had quite a few merchants ask us how to integrate with other apps. We're g
 
 ## Email marketing
 
-**Mailchimp**
+#### Mailchimp
 
-You can automatically sync your influencer list (and there marketing performance stats) to Mailchimp. You can set this up via `my account > store settings > mailchimp`. 
+You can automatically sync your influencer list (and there marketing performance stats) to Mailchimp. You can set this up via `my account > store settings > mailchimp`. Your data will be automatically synced twice per day.
 
-**Klaviyo**
+Your mailchimp list will contain the following influencer fields:
 
-You can automatically sync your influencer list (and there marketing performance stats) to Klaviyo. You can set this up via `my account > store settings > klaviyo`. 
+    First name
+    Last name 
+    Email
+    Group
+    Code
 
-**Other**
+    Stats
+    vCount: Number of leads
+    vuCount: Number of unique leads
+    oCount: Number of orders
+    oSum: Total sum of all orders
+    oConvPc: Lead to Order conversation ratio
+    cSum: Total commission earned for all orders
+    cunCont: Number of orders by new customers
+    curCount:  Number of orders by returning customers
+    cuRatioPc: Ratio of new to returning customers 
+
+#### Klaviyo
+
+You can automatically sync your influencer list (and there marketing performance stats) to Klaviyo. You can set this up via `my account > store settings > klaviyo`. Your data will be automatically synced twice per day.
+
+#### Other
 
 If your provider is not supported let us know. Otherwise, we have solved integration with 3rd party email solutions in a general way. All you need to do is export your influencers from vwa.la and import them into your email program of choice. See [exporting your data](/merchant/exporting-your-data/) for details on how to do this.
 
