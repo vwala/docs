@@ -36,7 +36,7 @@ const HomeHeader = () => (
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
-                    to="/releases/2019-08-10/"
+                    to="/releases/2019-12-10/"
                     title="Product releases"
                     icon="blocks"
                     color="midgrey"
