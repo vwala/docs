@@ -217,30 +217,56 @@ We are investigating the potential of using Cryptocurrency to pay out influencer
 
 ## FAQ
 
-### No commission payable message
+### Why can't I pay commission?
 
-You will receive the following message if there is no commission that can be paid at this time. This occurs when:
+When trying to pay commission, you may see the following message:
 
-- There is no unpaid commission or;
-- Unpaid commission exists, but it belongs to orders that are unpaid by the customer, unfulfilled by you, younger than 15 days or do not meet your minimum commission payout criteria.
-- All of these commission rules can be disabled or customized. See the section below for more detail.
+      You do not have any commission that is owed and payable at this time
 
-![](/images/merchant/2019-02-02-16-53-50.png)
+This is normal behaviour. This occurs when:
 
-### Payment rules / customization
+- You do not owe any commission or;
+- You owe commission, but it is not payable at this time. Payable commission is determined based on your payment rules (which are customisable).
 
-To prevent incorrect payments, we will only allow you to pay commission on orders that are:
+### What are payment rules?
 
-- Paid
-- Fulfilled (delivered)
-- At least 15 days old
+Payment rules ensure that you do not pay commission on orders that are cancelled, refunded or fraudulent. 
 
-We also allow you to set rules that require influencers to have met the following minimum criteria before they are eligible to be paid:
+Therefore to prevent incorrect payments, you can only pay commission that are satisfy the following rules:
 
-- Earned a minimum commission amount or;
-- Generated a minimum number of orders
+- Orders must be:
+   - Paid
+   - Fulfilled (delivered)
+   - At least 15 days old
+- Optionally, you can also require influencers to have met the following minimum criteria before they are eligible to be paid:
+   - Earned a minimum commission amount or;
+   - Generated a minimum number of orders
 
-All of these rules can be customized via my account > store settings.  
+All of these rules are **customisable** (see below). 
+
+### How can I customise my payable commission rules?
+
+Commission payment rules can be customized via `my account > store settings`. Changing the rules here, will affect all future payments.
+
+If you wish to override your payment rules for a single payment only, you can do so from within the payment form. E.g. from the `payment`, `influencer` or `orders` table, select `pay commission`. When the form opens, go to the `prepare payment` step and then click `customise` to reveal a list of payment customisation options. 
+
+### How can I see payable commission?
+
+You can see commission `owed`, `payable` and `paid` stats in the following places:
+
+- The `stats` page. Switch the chart view to `commission`.
+- The `influencer` page. The table has columns with these stats
+- An `influencer`'s profile page. The `overview` section of their profile has a table with columns showing these stats
+
+### I got an error from PayPal
+
+If you are using our `simple` PayPal integration (default behaviour) to pay your influencer's their commission, then you may experience PayPal service outage issues. These issues are infrequent but they can occur. In this situation:
+
+- The commission payment is in a `locked` status
+- No money has or will be transferred from your PayPal account
+- The lock prevents double payment of your commission and will be automatically released in a few hours once the PayPal transation expires. We will then automatically update our records to show that the payment was cancelled. 
+- Once the lock is released you can repeat the payment.
+- If you continue to experience PayPal errors, you should switch to our `advanced` PayPal integration (documented above). This uses a more advanced PayPal technology behind the scenes.
 
 ### Other
 
