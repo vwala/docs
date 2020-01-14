@@ -275,18 +275,21 @@ We track the life-cycle of your orders. This ensures that order changes (i.e. re
 
 ## PayPal advanced setup
 
-Overview:
+Summary:
 
-- You must have a PayPal business account.
-- The PayPal account must have `PayPal PayOuts` enabled.
-- You must create a PayPal REST API app.
-- You must then authorise vwa.la to use this application, by sharing the app's REST API client id and secret (via `my account > store settings > payments`). vwa.la will then securely store this information and use it to make payments to influencers on your behalf (only as requested).
+1. You must have a PayPal business account
+1. The PayPal account must have `PayPal PayOuts` enabled
+1. You must then create a `PayPal REST API application`. This allows 3rd party apps like vwa.la, to send payments on your behalf.
+1. You must then authorise vwa.la to use the `PayPal REST API application`, by copying the `PayPal REST API application`'s credential (client id and secret) and pasting them into your vwa.la PayPal setup form (via `my account > store settings > payments`). vwa.la will then securely store this information and use it to make payments to influencers on your behalf (only as requested)
 
-#### PayPal business account setup
+#### Step 1: PayPal business account setup
 
-This can be done by logging into your [PayPal account](https://www.paypal.com) (or creating one). You will need to link and verify a bank account as well as specify your business number for tax purposes.
+If your PayPal account is not a business account, you must: 
 
-#### Enable `PayPal PayOuts`
+- Log into your [PayPal account](https://www.paypal.com) and;
+- Upgrade it to a business account. This step will require you to link and verify your bank account as well as specify your business number for tax purposes.
+
+#### Step 2: Enable `PayPal PayOuts`
 
 - Go to https://developer.paypal.com/developer/accountStatus/
 - Ensure that `PayOuts` is enabled (a green tick in both the sandbox and live columns of the table below). 
@@ -297,35 +300,31 @@ This can be done by logging into your [PayPal account](https://www.paypal.com) (
 *Sample text*
 > I run an online business. We have a team of influencer marketers who promote our products in exchange for commission. Please enable the PayPal payouts technology for my account. It is essential to simplifying the bulk payment of our influencers. Thankyou
 
-#### Create a PayPal REST API app
+#### Step 3: Create a PayPal REST API app
 
-**In vwa.la**
+**Go to PayPal**
 
-- Go to `my account > store settings > payments`.
-- In the `PayPal setup` section, choose `advanced`. This will prompt you to enter a PayPal client Id and secret.
-- To create these values, you must now go to https://developer.paypal.com/developer/applications/
-
-**In PayPal**
-
-- Go to the `REST API apps` section
+- Go to https://developer.paypal.com/developer/applications/ and in the left menu, click `My Apps & Credentials`. 
 ![](/images/merchant/pp-apps.png)
-- Click `Create App` to create a new PayPal REST application.
+- The main section header will say `My Apps & Credentials`. Below it, there will a `sandbox` and a `live` button. 
+- Click the `live`  button.  
+- Click `Create App` to create a new `live` PayPal REST application and enter the following:
 ![](/images/merchant/pp-new-app.png)   
    - Name: `vwala commission payments` (optional)
-   - Email: Your business account email address
+   - Email: *Your PayPal business account's email address*
    - Save the form
-- Open the app that you have just created
-   - On the top right, select `live`. You can ignore the `sandbox` section, this is for app testing only.
-   - Copy and paste `client id` and `secret` fields into the `vwa.la > my account > store settings > payments` form.
+- Open the app that you have just created. You should now see the applications' `client id` and `secret`. You will need to click `show` to reveal the secret. 
+   - Copy and paste the `client id` and `secret` fields into the `vwa.la > my account > store settings > payments` form (instructions below).
    ![](/images/merchant/pp-live-credentials.png)
    - Ensure that the following options are enabled for the application.
    ![](/images/merchant/pp-live-settings.png)   
  
   
+**Go to vwa.la**
 
-
-**In vwa.la**
-- Click `test` within the vwa.la form to validate that the copied values are correct.
+- Go to `my account > store settings > payments`.
+- In the `PayPal setup` section, choose `advanced`. This will prompt you to copy & paste your PayPal `client Id` and `secret` from the previous step.
+- To verify that your setup is correct, click `test`
 - Click `save`.
 ![](/images/merchant/pp-setup.png)   
 
