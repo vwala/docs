@@ -80,7 +80,7 @@ Limitations:
 When you pay using this payment method:
 
 - We automatically create a PayPal payment and open a PayPal `popup window`. Your browser must **allow popups** from vwa.la.
-- You will be prompted to log in and `approve the payment`.
+- Paypal will then ask you to log in and `approve the payment`. If you don't have a PayPal account, you can alternatively use this form to pay anonymously using your credit card.
 - Once the transaction is approved, your influencers will be notified of their payment via email (from both us and PayPal).
 - Your orders and payment history pages will automatically update to show the current status of the payment (i.e. completed, pending recipient action etc.)
 
@@ -267,6 +267,10 @@ If you are using our `simple` PayPal integration (default behaviour) to pay your
 - The lock prevents double payment of your commission and will be automatically released in a few hours once the PayPal transation expires. We will then automatically update our records to show that the payment was cancelled. 
 - Once the lock is released you can repeat the payment.
 - If you continue to experience PayPal errors, you should switch to our `advanced` PayPal integration (documented above). This uses a more advanced PayPal technology behind the scenes.
+
+### Do I need a PayPal account to pay commission?
+
+If you want to pay commission via PayPal, you can do so anonymously when using our `simple` PayPal integration (default behaviour). I.e. when you use the `pay commission` feature from within the app, we will set up the PayPal payment and redirect you to PayPal's website. You can then ignore the prompt to log in and instead, choose the option to pay anonymously by credit card.
 
 ### Other
 
