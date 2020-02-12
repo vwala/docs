@@ -270,7 +270,11 @@ If you are using our `simple` PayPal integration (default behaviour) to pay your
 
 ### Do I need a PayPal account to pay commission?
 
-If you want to pay commission via PayPal, you can do so anonymously when using our `simple` PayPal integration (default behaviour). I.e. when you use the `pay commission` feature from within the app, we will set up the PayPal payment and redirect you to PayPal's website. You can then ignore the prompt to log in and instead, choose the option to pay anonymously by credit card.
+If you want to pay commission via PayPal, you can do so anonymously when using our `simple` PayPal integration (default behaviour). I.e. when you use the `pay commission` feature from within the app, we will set up the PayPal payment and redirect you to PayPal's website. You can then ignore the prompt to log in and instead, choose the option to pay anonymously by credit card. 
+
+PayPal calls this a `guest` payment. There are some important limitations however: 
+
+- PayPal guest payments [require all recipients to have a PayPal business account](https://web.archive.org/web/20160304223407/https://developer.paypal.com/docs/classic/products/ap-guest-payments/). This is likely not the case, as most influencers will have personal accounts or unclaimed accounts. To use guest payments, you would have to ensure that all of your influencers have a PayPal business account.
 
 ### Other
 
