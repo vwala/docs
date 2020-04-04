@@ -60,5 +60,6 @@
 <url> <loc>https://docs.vwa.la/influencer/so-im-an-influencer-what-now/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/releases/2019-12-10/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/merchant/paying-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://docs.vwa.la/releases/2020-02-01/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
