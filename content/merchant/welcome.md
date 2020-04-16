@@ -11,32 +11,28 @@ rank: 1
 
 vwa.la is an influencer marketing platform. We help you create, grow and manage your influencer team. We combine the rich functionality of an affiliate marketing platform, with social media integration.
 
-New users
------------
+## New users
 
 If you're new to our platform, you will be interested in the following:
 
-*   [Installation](/merchant/installation-guide) 
-*   [Pricing](/merchant/how-our-pricing-works) 
-*   [Post-install customisation](/merchant/getting-started) 
+* [Installation](/merchant/installation-guide) 
+* [Pricing](/merchant/how-our-pricing-works) 
+* [Post-install customisation](/merchant/getting-started) 
 
-Existing users
------------
+## Existing users
 
 vwa.la is highly customisable. Existing users will find the following subjects of importance:
 
-*   [Customisation](/merchant/getting-started) 
-*   [3rd party integration](/merchant/integrating-with-other-apps) 
-*   [Paying commission](/merchant/paying-commission) 
+* [Customisation](/merchant/getting-started) 
+* [3rd party integration](/merchant/integrating-with-other-apps) 
+* [Paying commission](/merchant/paying-commission) 
 
-Need help?
-----------
+## Need help?
 
 You can reach out to our customer support via our in-app chat (preferred) or contact us via [support@vwa.la](mailto:support@vwa.la). Please mention your store name (url) when you contact us. 
 
 
 ## FAQ 
-
 
 #### Is referral, affiliate and influencer marketing the same thing?
 

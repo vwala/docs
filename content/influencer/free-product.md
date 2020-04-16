@@ -6,11 +6,10 @@ keywords:
     - influencer
     - help
 sidebar: "influencer"
-rank: 4
+rank: 5
 ---
 
-Want free product to help promote a store?
-------------------------------------------
+## Want free product to help promote a store?
 
 To help you promote their brand, some stores give their influencers free product.
 

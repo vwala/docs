@@ -13,10 +13,10 @@ Each influencer is given a unique, personalised link and discount code to your s
 
 **What happens when a lead clicks on a referral link?**
 
-*   The lead will be sent to your store (I.e. either your home page or a product/collection page (see below))
-*   We track the lead using a 30 day tracking cookie in their browser.
-*   The lead's shopping cart will be pre-filled with the influencer's discount code. Note: If the lead makes a purchase and doesn't use the discount code and; that purchase was made within the 30 day cookie tracking window, then the order will still be rewarded to the influencer.
-*   We update our statistics and notify both the merchant and influencer of the lead event
+* The lead will be sent to your store (I.e. either your home page or a product/collection page (see below))
+* We track the lead using a 30 day tracking cookie in their browser.
+* The lead's shopping cart will be pre-filled with the influencer's discount code. Note: If the lead makes a purchase and doesn't use the discount code and; that purchase was made within the 30 day cookie tracking window, then the order will still be rewarded to the influencer.
+* We update our statistics and notify both the merchant and influencer of the lead event
 
 **Can a link refer to a specific product / collection?**
 

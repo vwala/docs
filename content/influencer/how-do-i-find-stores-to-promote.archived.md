@@ -11,11 +11,10 @@ rank: 6
 
 There are 2 ways to discover stores to promote:
 
-*   You can use our marketplace to find brands that interest you or;
-*   You can also discover and join a store's influencer marketing program directly from their website.
+* You can use our marketplace to find brands that interest you or;
+* You can also discover and join a store's influencer marketing program directly from their website.
 
-Marketplace
------------
+## Marketplace
 
 Our marketplace connects our brands with influencers like yourself. You can access the marketplace from the vwa.la menu.
 
@@ -25,15 +24,15 @@ Our marketplace connects our brands with influencers like yourself. You can acce
 
 You can search for stores by:
 
-*   Name
-*   Market segment (i.e. product category)
-*   Location
+* Name
+* Market segment (i.e. product category)
+* Location
 
 You can filter stores by:
 
-*   Rank
-*   Relevance to your search query
-*   Top sellers (brands with the highest sales volume)
+* Rank
+* Relevance to your search query
+* Top sellers (brands with the highest sales volume)
 
 Once you find a store that you like, you can click on it's name/thumbnail to see a summary of the store.
 
@@ -47,8 +46,8 @@ If you're interested in joining the store, click the 'view website or join' link
 
 Each store has a rank. A rank is a relative score used to compare different stores. It is a live score that changes over time. It is based on a store's marketing performance within vwa.la and factors in variables such as:
 
-*   The number of influencers
-*   The number of influencer leads and orders per influencer
-*   The average yield per influencer
+* The number of influencers
+* The number of influencer leads and orders per influencer
+* The average yield per influencer
 
 You should not use the rank exclusively when choosing a store to promote. All of our brands have great products and sales potential. The rank can however be a useful indicator of their performance within vwa.la to date.

@@ -13,21 +13,20 @@ Use this guide if you want to create a custom page for your influencer marketing
 
 A custom page has the following benefits:
 
-*   It educates your influencers about your influencer marketing program
-*   It can explain your T&Cs
-*   It can include a link or button that will trigger the influencer sign up / dashboard log in page to appear (these pages appear within your store as a modal window (a.k.a. overlay).
+* It educates your influencers about your influencer marketing program
+* It can explain your T&Cs
+* It can include a link or button that will trigger the influencer sign up / dashboard log in page to appear (these pages appear within your store as a modal window (a.k.a. overlay).
 
-1\. Create a page
------------------
+## 1\. Create a page
 
 To create a page:
 
-*   Go to your shopify admin console
-*   From the left side menu, choose _Sales Channels > Online Store > Pages_
-*   Click 'add page'
-*   Give the page a title i.e. referral program, affiliate program, influencer program
-*   Add your page content (see below for an example HTML template).
-*   Click save
+* Go to your shopify admin console
+* From the left side menu, choose _Sales Channels > Online Store > Pages_
+* Click 'add page'
+* Give the page a title i.e. referral program, affiliate program, influencer program
+* Add your page content (see below for an example HTML template).
+* Click save
 
 #### Example HTML template
 
@@ -45,8 +44,8 @@ When using the HTML template, you must switch the Shopify create/edit page's tex
 **Important**  
 The template should be customised to suit your store. You must:
 
-*   Change any text/URLs that do not match your store / promotion policy.
-*   Optionally, change the word influencer. We have used the word influencer in this template, however you can change it to affiliate or influencer if that is preferred. [They mean the same thing](/merchant/is-referralaffiliateinfluencer-marketing-the-same-thing).
+* Change any text/URLs that do not match your store / promotion policy.
+* Optionally, change the word influencer. We have used the word influencer in this template, however you can change it to affiliate or influencer if that is preferred. [They mean the same thing](/merchant/is-referralaffiliateinfluencer-marketing-the-same-thing).
 
 **How does this HTML open the sign-up page / dashboard?**
 
@@ -66,21 +65,20 @@ Here is an example of using a button to trigger the vwa.la signup/login page to 
 
 If your page isn't opening:
 
-*   Re-check your html is correct (checking your browser log for errors is very helpful here i.e. chrome dev tools console).
-*   The bootstrapping code may still be loading into your browser. On a slow network, this could take a few seconds before clicking the link will open the vwa.la sign-up page.
+* Re-check your html is correct (checking your browser log for errors is very helpful here i.e. chrome dev tools console).
+* The bootstrapping code may still be loading into your browser. On a slow network, this could take a few seconds before clicking the link will open the vwa.la sign-up page.
 
-2\. Link your new page to your stores' menu
--------------------------------------------
+## 2\. Link your new page to your stores' menu
 
 Once your page is created, you'll need to add a link to the page in your menu.
 
-*   Go to your shopify admin console
-*   From the left side menu, choose Sales Channels > Online Store > Navigation
-*   Select 'main menu' in the list
-*   Click 'add menu item' at the bottom
-*   Give the new menu item a title and select the page that you created previously.
-*   Click 'add'
-*   Click 'save menu'
+* Go to your shopify admin console
+* From the left side menu, choose Sales Channels > Online Store > Navigation
+* Select 'main menu' in the list
+* Click 'add menu item' at the bottom
+* Give the new menu item a title and select the page that you created previously.
+* Click 'add'
+* Click 'save menu'
 
 ![](/images/merchant/2017-09-11-14-58-41.png)
 

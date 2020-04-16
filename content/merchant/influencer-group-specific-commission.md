@@ -13,10 +13,10 @@ You can reward influencers differently by segmenting your influencers into group
 
 ##Instructions
 
-*   Go to the influencer page
-*   Select the influencer group tab and create a new group (you can re-name groups by clicking on the name column).
-*   To assign 1 or more influencers to a group, go back to the influencer tab. In the influencer table, select 1 or more influencers and in the action menu, click 'change group'. You can then choose the new group for the selected influencers.
-*   Once you have finished creating groups, you must go to the promotion policy menu and configure the group's commission rules.
+* Go to the influencer page
+* Select the influencer group tab and create a new group (you can re-name groups by clicking on the name column).
+* To assign 1 or more influencers to a group, go back to the influencer tab. In the influencer table, select 1 or more influencers and in the action menu, click 'change group'. You can then choose the new group for the selected influencers.
+* Once you have finished creating groups, you must go to the promotion policy menu and configure the group's commission rules.
 
 #### Create / re-name influencer groups
 
@@ -30,8 +30,7 @@ You can reward influencers differently by segmenting your influencers into group
 
 ![](/images/merchant/2017-10-11-23-34-06.png)
 
-What group names should I choose?
----------------------------------
+## What group names should I choose?
 
 It is common to use influencer groups to create tiered commission structures for your influencers. Here are some common naming conventions that you can use:
 
@@ -55,7 +54,6 @@ Tier 3
 
 These are just suggestions. You can get as creative as you like :)
 
-Is there a best practise for naming groups?
--------------------------------------------
+## Is there a best practise for naming groups?
 
 We recommend that you do not add promotion details (i.e. 15% off) to your group names. This is because it is likely that a group's commission policy will change over time. For this reason, we prohibit symbols from being included in group names.

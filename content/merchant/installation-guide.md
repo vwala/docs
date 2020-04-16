@@ -13,14 +13,10 @@ rank: 4
 
 vwa.la can be quickly installed in two ways:
 
-*   From the Shopify app store [https://apps.shopify.com/vwala](https://apps.shopify.com/vwala) or;
-*   From the our [merchant signup page.](https://www.vwa.la/#/s/create)
+* From the Shopify app store [https://apps.shopify.com/vwala](https://apps.shopify.com/vwala) or;
+* From the our [merchant signup page.](https://www.vwa.la/#/s/create)
 
-During installation, we ask that you specify your base promotion and select a billing plan.
-
-#### Base Promotion
-
-In this step, you'll create a base promotion that will apply to all of your influencers and products. Promotions are a powerful selling tool that you can use to maximise the effectiveness of your influencer marketing program. To learn more, read our [promotions guide](/merchant/promotions).
+During installation, we ask that you select a billing plan.
 
 #### Billing Plan
 

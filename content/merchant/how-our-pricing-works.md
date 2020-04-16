@@ -14,61 +14,62 @@ Flexible, fair pricing
 
 All of our plans:
 
-*   Include 14 days free trial\*
-*   Are full featured (for this reason, we don't have fixed price plans)
-*   Can be changed or cancelled at any time.
-*   Have a 30 day billing cycle.
-*   Are in USD.
+* Include 14 days free trial
+* Can be changed or cancelled at any time.
+* Have a 30 day billing cycle.
+* Are in USD.
+* Are full featured (for this reason, we use volume based pricing for our entry level plans and fixed based pricing for our premium plan). Each plan is designed to be cheaper as your sales volume grows. Higher level plans offer better support.
 
-We offer the following plans. They are designed to be cheaper as your sales volume grows and you upgrade.
-
-[![](/images/merchant/pricing.png)](https://www.vwa.la/#/pricing) 
-
-[Startup plan](https://www.vwa.la/#/pricing)
---------------------------------------------
+#### [Startup plan](https://www.vwa.la/#/pricing) 
 
 The start-up plan:
 
-*   Has a low cost monthly base fee.
-*   Has all features, with some minor limits.
+* Has a low cost monthly base fee.
+* Has all features, with some minor limits.
 
 The start-up plan is designed to give you time to grow your influencer marketing program. That's why we have a minimal base fee. Because the startup plan is full featured, we do charge a commission (4.95%) on all referral generated orders. This is a % of the total referral order earnings within each 30 day billing period. Note: we exclude all customer discounts, taxes and shipping costs in our calculations.
 
 See the FAQ section for a example of how commission is calculated.
 
-[Growth/Standard plans](https://www.vwa.la/#/pricing)
------------------------------------------------------
+#### [Growth plan](https://www.vwa.la/#/pricing) 
 
-Eventually your sales will outgrow the start-up plan and you will want to **reduce your costs**. So once you start earning a ROI from vwa.la, it will be cheaper for you to upgrade to either the growth or standard plans. These plans offer a progressively cheaper commission fee.
+Eventually your sales will outgrow the start-up plan and you will want to **reduce your costs**. So once you start earning a ROI from vwa.la, it will be cheaper for you to upgrade to either the growth or standard plans. The growth plan is similiar to the startup plan, but offers cheaper volume based pricing and higher priority support.
 
-FAQ
----
+#### [Standard plan](https://www.vwa.la/#/pricing) 
 
-####How is per influencer order commission calculated?
+Our premium plan, designed for high sales volume merchants. The standard plan gives you the garantee of a fixed priced monthly price.
+
+## FAQ
+
+#### How is per influencer order commission calculated?
 
 For every influencer order, commission is calculated based on the order total, minus customer discounts, taxes and shipping costs.
 
 I.e.
 
-*   For an order with a value of $30 (minus shipping and taxes)
-*   Minus a 20% customer discount
-*   The order amount would equal $24
-*   Our commission for that order would be calculated as X% of $24. E.g. on the standard plan, 1.95% of $24 would be $0.468.
+* For an order with a value of $30 (minus shipping and taxes)
+* Minus a 20% customer discount
+* The order amount would equal $24
+* Our commission for that order would be calculated as X% of $24. E.g. on the standard plan, 1.95% of $24 would be $0.468.
 
-####What if I change my plan?
+#### What if I change my plan?
 
 It's free to upgrade / downgrade your plan at any time. If you change billing plan mid-month, we pro-rata your billing.
 
-####How am I billed?
+#### How am I billed?
 
 All billing is through your Shopify account.
 
-####How long is a billing cycle?
+#### How long is a billing cycle?
 
 Our billing cycles are exactly 30 days, commencing from the date of install.
 
-####Which plans include a 14 free trial?
+#### Which plans include a 14 free trial?
 
 The 14 day trial applies to all plans.
 
 This trial period is intended for evaluation use. To protect our business from those who wish to run pre-sales activities on vwa.la and then cancel before the trial period ends, we reserve the right to charge you commission per referral order during the trial period if your referral sales volumes are significant.
+
+#### How do I uninstall / cancel billing?
+
+Simply go to your Shopify admin page > apps section and remove the app. 

@@ -12,12 +12,12 @@
       uri: 'https://docs.vwa.la/influencer/getting-started/'
     - title: How do I earn commission?
       uri: 'https://docs.vwa.la/influencer/how-do-i-earn-commission/'
+    - title: How is commission paid?
+      uri: 'https://docs.vwa.la/influencer/how-is-commission-paid/'
     - title: 'So Im an influencer, what now?'
       uri: 'https://docs.vwa.la/influencer/so-im-an-influencer-what-now/'
     - title: Free product
       uri: 'https://docs.vwa.la/influencer/free-product/'
-    - title: What are store promotions?
-      uri: 'https://docs.vwa.la/influencer/what-are-store-promotions/'
 - subject: merchant
   routes:
     - title: Welcome

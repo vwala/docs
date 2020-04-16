@@ -13,13 +13,12 @@ Customisation is an important goal for us. We want you to have full control over
 
 You can customise:
 
-*   Your branding (logo and primary brand colour)
-*   The appearance and behaviour of your in-store sign-up widget
-*   The appearance and behaviour of your influencer sign-up page
-*   Business and notification rules that change the behaviour of your influencer marketing program.
+* Your branding (logo and primary brand colour)
+* The appearance and behaviour of your in-store sign-up widget
+* The appearance and behaviour of your influencer sign-up page
+* Business and notification rules that change the behaviour of your influencer marketing program.
 
-Your branding
--------------------------------
+## Your branding
 
 You can change the logo and primary colour of your vwa.la dashboard, in-store widget and sign-up page.
 
@@ -55,14 +54,13 @@ If you share your influencer signup link to potential influencers, the influence
 
 ![](/images/merchant/2019-01-20-09-19-48.png)
 
-In-store widget launcher
-------------------------
+## In-store widget launcher
 
 When you install vwa.la, we automatically install our in-store widget launcher into your store front. This is to help you quickly set up a way to promote your influencer marketing program to potential influencers. When someone clicks the launcher, your influencer signup/login page will appear. The launcher is optional and configurable. You can:
 
-*   Enable/disable it on either desktop/mobile devices
-*   Change it's position and;
-*   Customize it's text
+* Enable/disable it on either desktop/mobile devices
+* Change it's position and;
+* Customize it's text
 
 ![](/images/merchant/2019-01-20-08-55-56.png)
 
@@ -72,8 +70,7 @@ When you install vwa.la, we automatically install our in-store widget launcher i
 **Are there any alternatives to using the widget?  
 **Yes. You can disable the widget on desktop/mobile devices and then instead [add a Shopify Page to your store.](/merchant/adding-a-page-to-your-store)
 
-Business rules
---------------
+## Business rules
 
 You can change the behavior of vwa.la in the business rules section (my account > store settings). Please see the tool-tips within the forms for more detail.
 
@@ -89,22 +86,19 @@ You can change the behavior of vwa.la in the business rules section (my account 
 
 ![](/images/merchant/2019-01-20-09-10-23.png)
 
-Notification rules
-------------------
+## Notification rules
 
 You can change which events trigger an email to be sent.
 
 ![](/images/merchant/2019-01-20-09-06-56.png)
 
-Marketplace rules
------------------
+## Marketplace rules
 
 We offer brands and influencers a marketplace to discover each other. You can remove your store from the market here (i.e. disable 'show to influencers').
 
 ![](/images/merchant/2019-01-20-09-08-55.png)
 
-Email templates
----------------
+## Email templates
 
 In this section, you can customise the email templates that we send to your influencers. 
 
@@ -130,8 +124,7 @@ The best solution to adding video to your email templates, is to simply include 
 </video>
 ```
 
-Email marketing integration
----------------------------
+## Email marketing integration
 
 You can sync your influencers data to Mailchimp or Klaviyo. If your preferred platform is not supported reach out to us. You can also export your influencer data to CSV from the influencer page.
 

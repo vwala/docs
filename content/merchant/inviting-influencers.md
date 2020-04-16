@@ -9,8 +9,7 @@ sidebar: "merchant"
 rank: 9
 ---
 
-How do I sign-up influencers?
------------------------------
+## How do I sign-up influencers?
 
 Below we've outlined a few approaches that you can use to sign-up your influencers.
 
@@ -24,7 +23,7 @@ Simply replace `mystore.com` with the domain name of your store and then share t
   
 ##Option 2: Invite customers to become influencers from your website
 
-When you install [vwa.la](https://www.vwa.la), we automatically install a lightweight widget into your store homepage that will take care of:
+When you install vwa.la, we automatically install a lightweight widget into your store homepage that will take care of:
 
 1.  Educating your customers about your influencer marketing program and;
 2.  Signing them up as influencer marketers.
@@ -60,7 +59,7 @@ There are two groups of people that you want to engage.
 
 We recommend that you invite your best customers to join your influencer marketing program. You can do this easily using option 1 and 2 mentioned above. What we really like about both of these approaches is that you're guaranteed to organically build an influencer network of people who really respect and care about your brand and products.
 
-**2\. Partner with social media influencers**
+2\. **Partner with social media influencers**
 
 We highly recommend that you partner with high value social media influencers. These people will become your VIP influencers. It's no secret that direct engagement with the right people on social media can generate substantial leads and sales for your store. Just make sure that the people you approach have a direct synergy with your brand.
 

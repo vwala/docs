@@ -14,7 +14,7 @@ We've had quite a few merchants ask us how to integrate with other apps. We're g
 
 #### Mailchimp
 
-You can automatically sync your influencer list (and there marketing performance stats) to Mailchimp. You can set this up via `my account > store settings > mailchimp`. Your data will be automatically synced twice per day.
+You can automatically sync your influencer list (and their marketing performance stats) to Mailchimp. You can set this up via `my account > store settings > mailchimp`. Your data will be automatically synced twice per day.
 
 Your mailchimp list will contain the following influencer fields:
 
@@ -37,7 +37,11 @@ Your mailchimp list will contain the following influencer fields:
 
 #### Klaviyo
 
-You can automatically sync your influencer list (and there marketing performance stats) to Klaviyo. You can set this up via `my account > store settings > klaviyo`. Your data will be automatically synced twice per day.
+You can automatically sync your influencer list (and their marketing performance stats) to Klaviyo. You can set this up via `my account > store settings > klaviyo`. Your data will be automatically synced twice per day.
+
+#### ActiveCampaign
+
+You can automatically sync your influencer list (and their marketing performance stats) to ActiveCampaign. You can set this up via `my account > store settings > ActiveCampaign`. Your data will be automatically synced twice per day.
 
 #### Other
 

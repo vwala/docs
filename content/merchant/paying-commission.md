@@ -8,7 +8,7 @@ keywords:
 sidebar: "merchant"
 rank: 13
 ---
-We've designed [vwa.la](https://www.vwa.la) to make paying your influencer's their commission fast and simple.
+We've designed vwa.la to make paying your influencer's their commission fast and simple.
 
 We support multiple payment methods. You can pay influencer commission by cash or in-store credit. We also implement a number of security safeguards to ensure that you do not pay commissions on orders incorrectly.
 
