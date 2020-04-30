@@ -58,7 +58,7 @@ The simplest and recommended payment method to use is our PayPal integration. Pa
 We have two PayPal payment integrations.
 
 1. Simple and;
-2. Advanced
+2. Advanced (recommended)
 
 You can configure your preferred method via `my account > store settings > payments`.
 
@@ -73,7 +73,7 @@ Benefits:
 
 Limitations:
 
-- You can only pay 6 influencers at a time. This is a limitation of `PayPal adaptive payments`, the technology that this payment method uses. The `advanced` solution does not have this limitation.
+- You can only pay 6 influencers at a time. This is a limitation of `PayPal adaptive payments`, the technology that this payment method uses. The `advanced` solution does not have this limitation. We recommend `advanced` for this reason.
 
 **How it works**
 

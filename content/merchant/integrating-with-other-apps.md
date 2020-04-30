@@ -49,7 +49,12 @@ If your provider is not supported let us know. Otherwise, we have solved integra
 
 ## ReCharge
 
-To integrate with ReCharge, you'll need to ensure that ReCharge creates orders with the influencers discount code. You'll need to set this up manually for each ReCharge subscription using ReCharge.
+We support automated ReCharge integration, however due to limitations with ReCharge, some vwa.la functionality is limited. 
+
+- ReCharge does not use the standard Shopify checkout, so things like Shopify discount codes and Shopify customer IP order tracking are broken. We depend on both of these Shopify features to track discount code and link based influencer commission. 
+- As a workaround, you can enable our ReCharge integration (via `my account > store settings > ReCharge`). This will give us access to listen to your ReCharge subscription events. We use this information to restore link and code based commission tracking for initial charges (not recurring charges^). If you want discount code commission tracking to work, the caveat is that you must manually re-create influencer codes in ReCharge^ (you must use the exact same name as in Shopify and keep them up to date). Because the discount codes for ReCharge subscription orders are created in ReCharge, you will need to set the customer discount of those codes in your ReCharge configuration.
+
+^ We continue to assess the ReCharge API with the goal of fully automating these features. 
 
 ## Wordpress
 
