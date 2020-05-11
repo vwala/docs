@@ -9,14 +9,24 @@ sidebar: "merchant"
 rank: 5
 ---
 
-Customisation is an important goal for us. We want you to have full control over the appearance and behaviour of vwa.la. All customisation can be done from your vwa.la dashboard (I.e. my account > store settings page).
+Customise the appearance and behaviour of your vwa.la marketing program
+
+All customisation can be done from your dashboard via `my account > store settings`.
 
 You can customise:
 
-* Your branding (logo and primary brand colour)
-* The appearance and behaviour of your in-store sign-up widget
-* The appearance and behaviour of your influencer sign-up page
-* Business and notification rules that change the behaviour of your influencer marketing program.
+- Your branding (logo and primary brand colour)
+- The appearance and behaviour of your in-store sign-up widget and page
+    - Visibility, position and text
+    - Custom T&Cs approval checkbox
+- Business and notification rules that change the behaviour of your influencer marketing program   
+- Customise your email templates
+- Setup integration with: 
+    - Mailchimp
+    - ActiveCampaign
+    - Klaviyo
+    - ReCharge
+    - PayPal
 
 ## Your branding
 
@@ -40,7 +50,7 @@ Our in-store widget allows your influencers to signup, login and use their marke
 
 ![](/images/merchant/2019-01-20-09-28-04.png)
 
-Note: The launcher is optional/configurable. See below for details.**  
+Note: The launcher is optional/configurable. See below for details.
   
 Signup/login page**
 
@@ -58,9 +68,9 @@ If you share your influencer signup link to potential influencers, the influence
 
 When you install vwa.la, we automatically install our in-store widget launcher into your store front. This is to help you quickly set up a way to promote your influencer marketing program to potential influencers. When someone clicks the launcher, your influencer signup/login page will appear. The launcher is optional and configurable. You can:
 
-* Enable/disable it on either desktop/mobile devices
-* Change it's position and;
-* Customize it's text
+- Enable/disable it on either desktop/mobile devices
+- Change it's position and;
+- Customize it's text
 
 ![](/images/merchant/2019-01-20-08-55-56.png)
 

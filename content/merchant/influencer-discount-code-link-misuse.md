@@ -28,7 +28,7 @@ You can disable automatic approval of new influencer sign-ups and force influenc
 
 We recommend you outline your T&Cs to all new influencers clearly. This can/should be done by ensure that you have customised the followed:
 
-- [Create a page](/merchant/adding-a-page-to-your-store) on your store that introduces your influencer marketing program and states your T&Cs clearly. 
+- Create a T&Cs page and add a URL to your T&Cs page to your sign up page (via `my account > store settings > signup page`). You can use this guide as a [template](/merchant/adding-a-page-to-your-store).
 - Customise your new influencer welcome email template (via `my account > store settings`)
 - Ensure your promotion policy is correctly set up
 

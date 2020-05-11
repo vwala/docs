@@ -14,18 +14,18 @@ Flexible, fair pricing
 
 All of our plans:
 
-* Include 14 days free trial
-* Can be changed or cancelled at any time.
-* Have a 30 day billing cycle.
-* Are in USD.
-* Are full featured (for this reason, we use volume based pricing for our entry level plans and fixed based pricing for our premium plan). Each plan is designed to be cheaper as your sales volume grows. Higher level plans offer better support.
+-  Include 14 days free trial
+-  Can be changed or cancelled at any time.
+-  Have a 30 day billing cycle.
+-  Are in USD.
+-  Are full featured (for this reason, we use volume based pricing for our entry level plans and fixed based pricing for our premium plan). Each plan is designed to be cheaper as your sales volume grows. Higher level plans offer better support.
 
 #### [Startup plan](https://www.vwa.la/#/pricing) 
 
 The start-up plan:
 
-* Has a low cost monthly base fee.
-* Has all features, with some minor limits.
+-  Has a low cost monthly base fee.
+-  Has all features, with some minor limits.
 
 The start-up plan is designed to give you time to grow your influencer marketing program. That's why we have a minimal base fee. Because the startup plan is full featured, we do charge a commission (4.95%) on all referral generated orders. This is a % of the total referral order earnings within each 30 day billing period. Note: we exclude all customer discounts, taxes and shipping costs in our calculations.
 
@@ -47,10 +47,10 @@ For every influencer order, commission is calculated based on the order total, m
 
 I.e.
 
-* For an order with a value of $30 (minus shipping and taxes)
-* Minus a 20% customer discount
-* The order amount would equal $24
-* Our commission for that order would be calculated as X% of $24. E.g. on the standard plan, 1.95% of $24 would be $0.468.
+-  For an order with a value of $30 (minus shipping and taxes)
+-  Minus a 20% customer discount
+-  The order amount would equal $24
+-  Our commission for that order would be calculated as X% of $24. E.g. on the standard plan, 1.95% of $24 would be $0.468.
 
 #### What if I change my plan?
 

@@ -17,18 +17,18 @@ When you join a store's influencer marketing program, you'll be issued a unique 
 
 ![](/images/influencer/2018-12-22-11-01-26.png)
 
-To copy the influencer link or code, click the appropriate _copy icon (square shape)_ in the table. You can then paste your copied link/code elsewhere.**  
+To copy the influencer link or code, click the appropriate _copy icon (square shape)_ in the table. You can then paste your copied link/code elsewhere.
   
 Why is my account pending, approved or revoked?**
 
 You account (and it's discount code and link) can only be used if your account status is active.
 
-* **Pending:** If your account status pending  this means that your account is pending approval by the store. Please wait for the store to approve your account before using your code or link. Once approved, you will be notified by email.
-* Note: Some stores require you to link your preferred social media account (i.e. that will be used for marketing) before your account will be approved. You should do this on sign-up to fast track the approval process. It is important to note that vwa.la only stores limited information about you - specifically, we only store your social media username and your average # of posts, comments and reactions within the last 30 days)
-* **Cancelled\\Revoked:** If the status is cancelled, the store has cancelled your discount code / link.
-* **Approved**: You're ready to start marketing and earning!
+- **Pending:** If your account status pending  this means that your account is pending approval by the store. Please wait for the store to approve your account before using your code or link. Once approved, you will be notified by email.
+- Note: Some stores require you to link your preferred social media account (i.e. that will be used for marketing) before your account will be approved. You should do this on sign-up to fast track the approval process. It is important to note that vwa.la only stores limited information about you - specifically, we only store your social media username and your average # of posts, comments and reactions within the last 30 days)
+- **Suspended:** If the status is suspended, the store has revoked your access and your discount code and link have been disabled.
+- **Approved**: You're ready to start marketing and earning!
 
-## How do I create product specific influencer links?
+### How do I create product specific influencer links?
 
 You can create a product specific influencer link, by adding the following to any product URL from a store. E.g.
 
@@ -44,8 +44,8 @@ So if your influencer discount code was sarah, replace _?ac=MYCODE_ with _?ac=sa
 
 Sales commission is credited to you when:
 
-* A customer completes an order using your influencer link or;
-* A customer completes an order using your influencer discount code
+- A customer completes an order using your influencer link or;
+- A customer completes an order using your influencer discount code
 
 #### How does link tracking work?
 We use cookies, local storage and IP matching to track your influencer leads. These trackers exist for 30 days and then expire. This is consistent with the majority of influencer marketing products on the market today.
@@ -64,19 +64,19 @@ When an order is received, we correlate it to a specific promotion. We use the c
 
 E.g.
 
-* Your influencer commission is 10%.
-* When customers use your influencer code, they get a 20% discount.
-* You've referred Sarah from Instagram and she has created an order with the store worth $80 ($100 before discount). This amount does not include taxes / shipping.
-* Your commission is calculated as 10% of $80. Which is $8.
+- Your influencer commission is 10%.
+- When customers use your influencer code, they get a 20% discount.
+- You've referred Sarah from Instagram and she has created an order with the store worth $80 ($100 before discount). This amount does not include taxes / shipping.
+- Your commission is calculated as 10% of $80. Which is $8.
 
 ## How can I track my commission?
 
 You can view all orders that your influencer account has generated from the vwa.la > Orders page. From this page, you'll be able to see:
 
-* The order you created
-* The order's value
-* The order's status
-* Your commission (amount owed / paid)
+- The order you created
+- The order's value
+- The order's status
+- Your commission (amount owed / paid)
 
 ![](/images/influencer/2018-12-22-11-15-20.png)
 

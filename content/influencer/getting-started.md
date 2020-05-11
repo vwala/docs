@@ -18,19 +18,19 @@ Being an influencer can be rewarding. If you refer someone to a store and they t
 
 ## Benefits of being an influencer
 
-* It's free to join
-* Earn income from your existing social network
-* Support the brands and products that you love
-* Receive exclusive access to referrer only offers and promotions
+- It's free to join
+- Earn income from your existing social network
+- Support the brands and products that you love
+- Receive exclusive access to referrer only offers and promotions
 
 ## What do I do as an influencer?
 
 When you join a store's influencer marketing program, you will be issued a unique, personalised link and discount code for that store. Your job is to use your link or code to promote the store's brand and products via your website, blog or social media channel(s). You can do this in many ways, for example:
 
-* Posting your personal content that promotes the brand's products
-* Creating product review blogs or vlogs. E.g. a Youtube review
-* Sharing the store's posts or ads (with your link/code included)
-* Word of mouth marketing 
+- Posting your personal content that promotes the brand's products
+- Creating product review blogs or vlogs. E.g. a Youtube review
+- Sharing the store's posts or ads (with your link/code included)
+- Word of mouth marketing 
 
 ## Where do I get my influencer link / discount code?
 
@@ -50,10 +50,10 @@ Our system automatically monitors all usage of influencer links and codes and re
   
 You should not:
 
-* Use Bots to generate leads. 
-* Spam social media groups / channels
-* Post your influencer code on coupon websites and;
-* Buy products using your influencer discount code. **Note:** most stores don't accept this behaviour, however a few do. Check each store's terms and conditions or reach out to the store directly via their customer support (via their web page) to confirm.
+- Use Bots to generate leads. 
+- Spam social media groups / channels
+- Post your influencer code on coupon websites and;
+- Buy products using your influencer discount code. **Note:** most stores don't accept this behaviour, however a few do. Check each store's terms and conditions or reach out to the store directly via their customer support (via their web page) to confirm.
 
 ## What is vwa.la?
 
@@ -61,6 +61,6 @@ vwa.la provides an influencer marketing platform for online retail stores. We he
 
 With your vwa.la account, you can:
 
-* Get your store specific influencer link and discount code
-* View your influencer leads and sales
-* View your sale commission (owed and paid)
+- Get your store specific influencer link and discount code
+- View your influencer leads and sales
+- View your sale commission (owed and paid)

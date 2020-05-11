@@ -13,8 +13,8 @@ rank: 4
 
 vwa.la can be quickly installed in two ways:
 
-* From the Shopify app store [https://apps.shopify.com/vwala](https://apps.shopify.com/vwala) or;
-* From the our [merchant signup page.](https://www.vwa.la/#/s/create)
+-  From the Shopify app store [https://apps.shopify.com/vwala](https://apps.shopify.com/vwala) or;
+-  From the our [merchant signup page.](https://www.vwa.la/#/s/create)
 
 During installation, we ask that you select a billing plan.
 

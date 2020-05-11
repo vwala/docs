@@ -16,9 +16,9 @@ A promotion policy is the same as a sales promotion but instead of applying to y
 
 It allows you to:
 
-* Control how much commission your influencers earn per sale
-* Control if (and how much) discount your customers receive when using an influencer's discount code.
-* Control which products influencers can earn sales commission from and/or; which products customers will receive discounts for.
+-  Control how much commission your influencers earn per sale
+-  Control if (and how much) discount your customers receive when using an influencer's discount code.
+-  Control which products influencers can earn sales commission from and/or; which products customers will receive discounts for.
 
 ## Can I set influencer specific commission rules?
 Yes. You can [segment your influencers into groups](/merchant/influencer-group-specific-commission/) and configure promotion policy rules for each group separately. 

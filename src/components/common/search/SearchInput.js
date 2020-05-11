@@ -1,5 +1,5 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 import Icon from '../Icon'
 
 export const SearchInput = ({ theme, isHome, onClick }) => {
@@ -13,7 +13,7 @@ export const SearchInput = ({ theme, isHome, onClick }) => {
                     name="homesearch"
                     type="text"
                     className="input-reset form-text ba b--transparent flex-auto ml2 whitney lh-normal f4 f4-ns bg-transparent white-placeholder"
-                    placeholder="Search documentation..."
+                    placeholder="Search"
                     autoComplete="off"
                     onFocus={onClick}
                     onClick={onClick}
@@ -30,7 +30,7 @@ export const SearchInput = ({ theme, isHome, onClick }) => {
                     name="globalnavsearch"
                     type="text"
                     className={`${theme.searchBox} search-navbar-input-field f8 pa2 pl8 pr4 ba f8 fw4 br3 whitney form-text bn br-pill w-sidebar dn db-l lh-normal`}
-                    placeholder="Search documentation..."
+                    placeholder="Search"
                     autoComplete="off"
                     onFocus={onClick}
                 />

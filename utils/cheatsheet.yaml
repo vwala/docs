@@ -30,17 +30,15 @@
       uri: 'https://docs.vwa.la/merchant/installation-guide/'
     - title: Customising vwa.la
       uri: 'https://docs.vwa.la/merchant/customisation/'
-    - title: Adding a page to your store
-      uri: 'https://docs.vwa.la/merchant/adding-a-page-to-your-store/'
-    - title: >-
-        How to create a test influencer account or bulk upload influencers from
-        another platform?
-      uri: >-
-        https://docs.vwa.la/merchant/how-to-create-a-test-account-or-bulk-upload-data/
-    - title: How do influencer links work?
-      uri: 'https://docs.vwa.la/merchant/how-do-influencer-links-work/'
     - title: Inviting influencers
       uri: 'https://docs.vwa.la/merchant/inviting-influencers/'
+    - title: Adding a page to your store
+      uri: 'https://docs.vwa.la/merchant/adding-a-page-to-your-store/'
+    - title: How do influencer links work?
+      uri: 'https://docs.vwa.la/merchant/how-do-influencer-links-work/'
+    - title: Creating a test influencer account or bulk importing influencers
+      uri: >-
+        https://docs.vwa.la/merchant/how-to-create-a-test-account-or-bulk-upload-data/
     - title: Promotions
       uri: 'https://docs.vwa.la/merchant/promotions/'
     - title: Influencer commission

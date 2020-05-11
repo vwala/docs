@@ -11,16 +11,14 @@
           link: /merchant/installation-guide/
         - title: Customising vwa.la
           link: /merchant/customisation/
-        - title: Adding a page to your store
-          link: /merchant/adding-a-page-to-your-store/
-        - title: >-
-            How to create a test influencer account or bulk upload influencers
-            from another platform?
-          link: /merchant/how-to-create-a-test-account-or-bulk-upload-data/
-        - title: How do influencer links work?
-          link: /merchant/how-do-influencer-links-work/
         - title: Inviting influencers
           link: /merchant/inviting-influencers/
+        - title: Adding a page to your store
+          link: /merchant/adding-a-page-to-your-store/
+        - title: How do influencer links work?
+          link: /merchant/how-do-influencer-links-work/
+        - title: Creating a test influencer account or bulk importing influencers
+          link: /merchant/how-to-create-a-test-account-or-bulk-upload-data/
         - title: Promotions
           link: /merchant/promotions/
         - title: Influencer commission

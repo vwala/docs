@@ -15,17 +15,17 @@ vwa.la is an influencer marketing platform. We help you create, grow and manage 
 
 If you're new to our platform, you will be interested in the following:
 
-* [Installation](/merchant/installation-guide) 
-* [Pricing](/merchant/how-our-pricing-works) 
-* [Post-install customisation](/merchant/getting-started) 
+- [Installation](/merchant/installation-guide) 
+- [Pricing](/merchant/how-our-pricing-works) 
+- [Post-install customisation](/merchant/getting-started) 
 
 ## Existing users
 
 vwa.la is highly customisable. Existing users will find the following subjects of importance:
 
-* [Customisation](/merchant/getting-started) 
-* [3rd party integration](/merchant/integrating-with-other-apps) 
-* [Paying commission](/merchant/paying-commission) 
+- [Customisation](/merchant/getting-started) 
+- [3rd party integration](/merchant/integrating-with-other-apps) 
+- [Paying commission](/merchant/paying-commission) 
 
 ## Need help?
 

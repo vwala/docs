@@ -15,12 +15,12 @@ In vwa.la your influencers earn sales commission on all orders that they create 
 
 An order is credited to an influencer if the following conditions are true:
 
-* The customer who made the order followed the influencer's link to your store.
-* The customer who made the order used the influencer's discount code in your shopping cart.
+-  The customer who made the order followed the influencer's link to your store.
+-  The customer who made the order used the influencer's discount code in your shopping cart.
 
 We use cookies, local storage and IP matching to track your influencer leads. These trackers exist for 30 days and then expire.
 
-You can customize your lead tracking time window and/or disable link based commissions from **My account > Store settings > Business rules**. 
+You can customize your lead tracking time window and/or disable link based commissions from `My account > Store settings > Business rules`.
 
 ## How order commission is calculated?
 
@@ -30,9 +30,9 @@ When an order is received, we use the rules that you've specified in your promot
 
 E.g.
 
-* The influencer commission for Sarah is 10%
-* Sarah has generated an order for the store worth $100. $110 including taxes and shipping.
-* Sarah's commission is calculated as 10% of $100. Which is $10.
+-  The influencer commission for Sarah is 10%
+-  Sarah has generated an order for the store worth $100. $110 including taxes and shipping.
+-  Sarah's commission is calculated as 10% of $100. Which is $10.
 
 ## How do I customize commission (promotion policy)?
 

@@ -347,10 +347,10 @@ Usage (In Ghost editor):
 
 .post-content h6 {
     font-size: 1.45rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: var(--vr-3);
     margin: var(--vr-4) 0 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 0.2px;
     word-spacing: 3px;
 }
