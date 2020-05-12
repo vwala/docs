@@ -1,4 +1,5 @@
 import React from 'react';
+import { CurrentRelease } from '../../constants';
 import { Spirit } from '../../styles/spirit-styles';
 import { NavBar } from '../common';
 import { SearchModal } from '../common/search';
@@ -36,7 +37,7 @@ const HomeHeader = () => (
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
-                    to="/releases/2019-12-10/"
+                    to={`/releases/${CurrentRelease}/`}
                     title="Product releases"
                     icon="blocks"
                     color="midgrey"

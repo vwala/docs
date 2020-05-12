@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { CurrentRelease } from '../constants';
 
 export const getPostHeaderConfig = ({ pathname }) => {
 
@@ -87,7 +88,7 @@ export const getPostHeaderConfig = ({ pathname }) => {
 
     if (pathname.match(/^\/releases\//i)) {
         postHeaderConfig.title = `Product releases`
-        postHeaderConfig.mainLink = `/releases/2019-12-10/`
+        postHeaderConfig.mainLink = `/releases/${CurrentRelease}/`
         postHeaderConfig.bgClass = `bg-concepts`
     }
 
