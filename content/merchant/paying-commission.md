@@ -217,6 +217,20 @@ We are investigating the potential of using Cryptocurrency to pay out influencer
 
 ## FAQ
 
+### How can I see payable commission?
+
+You can see commission `owed`, `payable` and `paid` stats in the following places:
+
+- The `stats` page. Switch the chart view to `commission`
+- The `influencer` page. The table has columns that show these stats for each influencer
+- An `influencer`'s profile page. The `chart` and the `overview` section of an influencer's profile also displays these stats
+
+### What is the difference between commission owed and commission payable?
+
+`Commission owed` is the total unpaid commission earned by your influencer(s).
+
+`Commission payable` is <= `commission owed`. It is the amount of unpaid commission that can be paid to the influncer at this time. This amount is calculated using your `payment rules` (Payment rules are customisable. Please see the `payment rules` section below)
+
 ### Why can't I pay commission?
 
 When trying to pay commission, you may see the following message:
@@ -226,15 +240,15 @@ When trying to pay commission, you may see the following message:
 This is normal behaviour. This occurs when:
 
 - You do not owe any commission or;
-- You owe commission, but it is not payable at this time. Payable commission is determined based on your payment rules (which are customisable).
+- You owe commission, but it is not payable at this time. Payable commission is determined based on your `payment rules` (Payment rules are customisable. Please see the `payment rules` section below).
 
 ### What are payment rules?
 
-Payment rules ensure that you do not pay commission on orders that are cancelled, refunded or fraudulent. 
+Payment rules ensure that you do not pay commission on newly created orders that may change (i.e. cancelled, refunded or amended). 
 
-Therefore to prevent incorrect payments, you can only pay commission that are satisfy the following rules:
+Therefore to prevent incorrect commission payments, you can only pay commission when the following `payment rules` are satisifed:
 
-- Orders must be:
+- An influencer referal order must be:
    - Paid
    - Fulfilled (delivered)
    - At least 15 days old
@@ -246,26 +260,41 @@ All of these rules are **customisable** (see below).
 
 ### How can I customise my payable commission rules?
 
-Commission payment rules can be customized via `my account > store settings`. Changing the rules here, will affect all future payments.
+Commission payment rules can be customized via `my account > store settings > business rules`. Changing the rules here, will affect all future payments.
 
-If you wish to override your payment rules for a single payment only, you can do so from within the payment form. E.g. from the `payment`, `influencer` or `orders` table, select `pay commission`. When the form opens, go to the `prepare payment` step and then click `customise` to reveal a list of payment customisation options. 
+If you wish to override your payment rules for a single payment only, you can do so from within the `pay commission` form. E.g. from the `payment`, `influencer` or `orders` table, select `pay commission` in the actions menu. When the form opens, go to the `prepare payment` step and then click `customise` to reveal a list of payment customisation options. 
 
-### How can I see payable commission?
+### I could not make a PayPal payment
 
-You can see commission `owed`, `payable` and `paid` stats in the following places:
+If you are using our `simple` PayPal integration (default) to pay your influencer's their commission, then you may experience the following issue:
 
-- The `stats` page. Switch the chart view to `commission`.
-- The `influencer` page. The table has columns with these stats
-- An `influencer`'s profile page. The `overview` section of their profile has a table with columns showing these stats
+- Your payment is in a `pending approval` or `cancelled` state because you did not `approve` the PayPal transaction. This occurs when:
+   - Your browser blocked vwa.la from opening the PayPal approval popup window or; 
+   - The PayPal popup appeared, but you did not approve (or cancel) the payment approval form or; 
+   - The PayPal popup appeared and you approved the payment, but PayPal gave an error when approving the payment;
 
-### I got an error from PayPal
+If PayPal rejected your payment, you will receive either one of the following errors:
 
-If you are using our `simple` PayPal integration (default behaviour) to pay your influencer's their commission, then you may experience PayPal service outage issues. These issues are infrequent but they can occur. In this situation:
+- PayPal displayed a `service outage` error or;
+- PayPal displayed a `payment can not be made at this time` error.  
 
-- The commission payment is in a `locked` status
+**What do I do If i get a `service outage` error from PayPal?**
+
+- PayPal periodically experiences service outage issues. You should wait a few hours before attempting to make future payments.
+- When you receive this error, your vwa.la `payments` page will list the failed payment, with a `pending approval` status. See the `pending approval` status explanation below for what this means,
+
+**What do I do If i get a `payment can not be made at this time` error from PayPal?**
+
+- It is likely that PayPal is rejecting the payment. PayPal will block any payment that it believes is atypical behaviour. You should contact PayPal customer support via your PayPal account and inform them that your payments are valid behaviour and that PayPal should stop blocking them. You should inform them that you are using PayPal's `apdative payments` technology and provide them with the time of the payment.
+- When you receive this error, your vwa.la `payments` page will list the failed payment, with a `cancelled` status.
+
+**What does a `pending approval` payment status mean?**
+
+This means that when you used the `pay commission` form, we created a PayPal payment but you did/could not approve it. As a result:
+
 - No money has or will be transferred from your PayPal account
-- The lock prevents double payment of your commission and will be automatically released in a few hours once the PayPal transation expires. We will then automatically update our records to show that the payment was cancelled. 
-- Once the lock is released you can repeat the payment.
+- The influencer orders affected by the commission payment are in a temporarilly `locked` status. The lock prevents double payment of your commission and will be automatically released in a few hours once the PayPal transation expires. When the lock is released we will automatically update our records to show that the payment was cancelled. 
+- Once the lock is released you can retry the payment.
 - If you continue to experience PayPal errors, you should switch to our `advanced` PayPal integration (documented above). This uses a more advanced PayPal technology behind the scenes.
 
 ### Do I need a PayPal account to pay commission?

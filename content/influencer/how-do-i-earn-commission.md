@@ -19,7 +19,7 @@ When you join a store's influencer marketing program, you'll be issued a unique 
 
 To copy the influencer link or code, click the appropriate _copy icon (square shape)_ in the table. You can then paste your copied link/code elsewhere.
   
-Why is my account pending, approved or revoked?**
+Why is my account pending, approved or revoked?
 
 You account (and it's discount code and link) can only be used if your account status is active.
 

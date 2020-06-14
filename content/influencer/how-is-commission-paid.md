@@ -23,7 +23,7 @@ They may choose any of these methods when paying your sales commission. Please s
 
 To ensure that your commissions are always correct, we impose the following rules on a store before they can pay your commission:
 
-- Your commission will not be paid for orders that have not been paid by the purchaser or fulfilled by the store (i.e. the transaction payment must have been cleared and the product must have been delivered)
+- Your commission will not be paid for orders that have not been paid by the customer or fulfilled (i.e. delivered to the customer) by the store 
 - Orders must be at least 30 days old (this is a default, each store has a different wait period).
 
 The above constraints protect all parties from incorrect payments which, can occur due to customer refunds, changes or fraud.
@@ -34,11 +34,18 @@ If the order is cancelled, commissions will not be paid. An order may be cancell
 ## Who pays me? vwa.la or the store?
 The store will pay you via vwa.la, using their chosen payment method.
 
+
+## What is the difference between `commission owed` and `commission paid`?
+
+Commission owed is the total unpaid commission that you have earned.
+
+Commission payable is <= commission owed. It is the amount of unpaid commission that can be paid to you this time. It is based on the store's payment rules. I.e. referral orders must be paid and fulfilled and must be older than 30 days (to compensate for order refunds, cancellations etc).
+
 ## How do I setup PayPal with vwa.la?
 
 You must:
 
-- Ensure that your vwa.la email address is the same as your PayPal account. You can also add your vwa.la email address to an existing PayPal account if that suits you.
+- Ensure that your vwa.la email address is the same as your PayPal account. You can also add your vwa.la email address to an existing PayPal account if that suits you. To change your vwa.la email address, click your `profile picture` on the top right of the app and then click `my account`.
 - In PayPal, ensure that your PayPal account email is confirmed (verified)
 - In PayPal, ensure that you have linked and verified a non-expired credit card or bank account to your PayPal account
 - In PayPal, ensure that your account accepts the currency used by the store.
