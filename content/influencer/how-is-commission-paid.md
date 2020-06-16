@@ -35,7 +35,7 @@ If the order is cancelled, commissions will not be paid. An order may be cancell
 The store will pay you via vwa.la, using their chosen payment method.
 
 
-## What is the difference between `commission owed` and `commission paid`?
+## What is the difference between `commission owed` and `commission payable`?
 
 Commission owed is the total unpaid commission that you have earned.
 

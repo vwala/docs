@@ -288,6 +288,10 @@ If PayPal rejected your payment, you will receive either one of the following er
 - It is likely that PayPal is rejecting the payment. PayPal will block any payment that it believes is atypical behaviour. You should contact PayPal customer support via your PayPal account and inform them that your payments are valid behaviour and that PayPal should stop blocking them. You should inform them that you are using PayPal's `apdative payments` technology and provide them with the time of the payment.
 - When you receive this error, your vwa.la `payments` page will list the failed payment, with a `cancelled` status.
 
+**What do I do If i get a `the receiver does not accept payments in this currency` error from PayPal?**
+
+If you receive a `the receiver does not accept payments in this currency` error, this indicates that the influencer's PayPal account does not support your store's currency. To fix this issue, the influencer must go to their PayPal account and using the `currencies > add currency` page, add your store's currency.
+
 **What does a `pending approval` payment status mean?**
 
 This means that when you used the `pay commission` form, we created a PayPal payment but you did/could not approve it. As a result:
