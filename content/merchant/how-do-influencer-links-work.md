@@ -18,15 +18,11 @@ Each influencer is given a unique, personalised link and discount code to your s
 -  The lead's shopping cart will be pre-filled with the influencer's discount code. Note: If the lead makes a purchase and doesn't use the discount code and; that purchase was made within the 30 day cookie tracking window, then the order will still be rewarded to the influencer.
 -  We update our statistics and notify both the merchant and influencer of the lead event
 
-## Can a link refer to a specific product / collection?
+## Can influencer links go to a specific product / collection?
 
-Yes they can. By default, an influencer link will send a lead to your store's homepage. You can however have the link send them to a product / collection page, simply by adding **?ac=code** to any product / collection URL.  
-  
-E.g.
+Yes they can. You can configure this behaviour for all influencers, using your `promotion policy` rules page. You will want to set the link behavour rule for each influencer group accordingly.
 
-[**mystore.com**/collections/makeup/products/mac-foundation?ac=**InfluencerCodeHere**](http://mystore.com/collections/makeup/products/mac-foundation?ac=InfluencerCodeHere) 
-
-Important: Replace [mystore.com](http://mystore.com) with your domain name.
+Influencers can also create ad-hoc product/collection specific links. This is useful when they want to promote a specific product in their marketing. For information on how this is done, please see the influencer guide's tutorial on [creating product or collection specific links](/influencer/how-do-i-earn-commission/#product-specific).
 
 ## Can I change the cookie tracking time window?
 

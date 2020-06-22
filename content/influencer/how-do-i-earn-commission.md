@@ -13,32 +13,46 @@ In vwa.la you will earn sales commission on all non-personal orders that are cre
 
 ## Where is my influencer link / code?
 
-When you join a store's influencer marketing program, you'll be issued a unique referral link and discount code. You can find both your link and discount code on the vwa.la > Home page, within the Discount Codes / Links table.
+When you join a store's influencer marketing program, you'll be issued a unique influencer link and discount code. You can find both your link and discount code on your vwa.la dashboard, simply scroll down to the `Codes / Links` section. 
 
 ![](/images/influencer/2018-12-22-11-01-26.png)
 
-To copy the influencer link or code, click the appropriate _copy icon (square shape)_ in the table. You can then paste your copied link/code elsewhere.
-  
-Why is my account pending, approved or revoked?
+To copy either your influencer link or code, click the `copy icon` (square shape) in the table. You can then paste your copied link/code to your preferred marketing medium (i.e. your social media channels, your blog, email campaigns etc).
 
-You account (and it's discount code and link) can only be used if your account status is active.
+## How do I create product specific influencer links?
 
-- **Pending:** If your account status pending  this means that your account is pending approval by the store. Please wait for the store to approve your account before using your code or link. Once approved, you will be notified by email.
-- Note: Some stores require you to link your preferred social media account (i.e. that will be used for marketing) before your account will be approved. You should do this on sign-up to fast track the approval process. It is important to note that vwa.la only stores limited information about you - specifically, we only store your social media username and your average # of posts, comments and reactions within the last 30 days)
-- **Suspended:** If the status is suspended, the store has revoked your access and your discount code and link have been disabled.
+You can create a product/collection specific influencer link, by adding your `influencer code` to any product URL from the store that you are marketing. E.g.
+
+#### Product specific link example
+
+You can convert a product link such as https://paperlike.com/products/paperlike-for-ipad to an influencer link, by changing it to become:
+
+[https://paperlike.com/discount/**YOUR-CODE-HERE**?redirect=/products/paperlike-for-ipad](https://paperlike.com/discount/code?redirect=/products/paperlike-for-ipad)
+
+#### Collection specific link example
+
+The same concept applies to collection links.
+
+[https://lianox.com/discount/**YOUR-CODE-HERE**?redirect=/collections/bts-merchandise](https://lianox.com/discount/code?redirect=/collections/bts-merchandise)
+
+So if your influencer discount code was `sarah`, replace `discount/YOUR-CODE-HERE` with `discount/sarah`.
+
+What happens when someone clicks this link?
+
+- Your code will be automatically added to the customer's shopping cart
+- The `?redirect=/products/` or `?redirect=/collections/` parameter is important. This will redirect the person to the product page that you want to take them. You must include a `/` in front of `products` or `collections`.
+- If you want to add additional URL parameters, add them to the end of the URL using the following format: `&my_param=some_value`. The `&` is required.
+
+## What does my account status mean? Is my account approved?
+
+You account's discount code and link will only work if your account status is `approved`.
+
+Your dashboard shows your status. Your status can be either:
+
 - **Approved**: You're ready to start marketing and earning!
+- **Pending:** This means that your account is pending approval by the store. Please wait for the store to approve your account before using your code or link. Once approved, you will be notified by email. Our technical support can not help with approvals.
+- **Suspended:** If the status is suspended, the store has revoked your access and your discount code and link have been disabled.
 
-### How do I create product specific influencer links?
-
-You can create a product specific influencer link, by adding the following to any product URL from a store. E.g.
-
-#### Collection specific
-[https://www.nipandfab.com.au/collections/teen-skin-fix?ac=**MYCODE**](https://www.nipandfab.com.au/collections/teen-skin-fix?ac=MYCODE)
-
-#### Product specific
-[https://www.nipandfab.com.au/collections/teen-skin-fix/products/teen-skin-fix-zero-shine-moisturiser?ac=**MYCODE**](https://www.nipandfab.com.au/collections/teen-skin-fix/products/teen-skin-fix-zero-shine-moisturiser?ac=MYCODE)
-
-So if your influencer discount code was sarah, replace _?ac=MYCODE_ with _?ac=sarah_.
 
 ## How do I earn commission?
 
@@ -47,14 +61,14 @@ Sales commission is credited to you when:
 - A customer completes an order using your influencer link or;
 - A customer completes an order using your influencer discount code
 
-#### How does link tracking work?
+### How does link tracking work?
 We use cookies, local storage and IP matching to track your influencer leads. These trackers exist for 30 days and then expire. This is consistent with the majority of influencer marketing products on the market today.
 
-#### When someone clicks my link is my influencer code added to their cart?
+### When someone clicks my link is my influencer code added to their cart?
 Yes, your influencer discount code is automatically added to the customers' cart when they click your influencer link. This approach simplifies their shopping experience and increases your conversion rate.
 
-#### Does the customer receive a discount when using my influencer discount code?
-Yes, the customer will receive a discount when they use your influencer discount code. The exact amount is set by the store. Check the vwa.la > Promotions page for the customer discount (%) value.
+### Does the customer receive a discount when using my influencer discount code?
+Yes, the customer will receive a discount when they use your influencer discount code. The exact amount is set by the store. See `promotion policy` page of your dashboard for specific details.
 
 ## How is my commission calculated?
 
@@ -80,6 +94,6 @@ You can view all orders that your influencer account has generated from the vwa.
 
 ![](/images/influencer/2018-12-22-11-15-20.png)
 
-#### What happens if a customer returns a product or changes their order?
+### What happens if a customer returns a product or changes their order?
 
 We only allow commissions to be paid out for orders that have been fulfilled and are at least 30 days old. This prevents incorrect commission payments from being made. We also track the full life-cycle of orders. This means that we track order changes, refunds and cancellations so you can be assured that influencer rewards are always correctly calculated.
