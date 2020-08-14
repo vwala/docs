@@ -59,9 +59,9 @@
 <url> <loc>https://docs.vwa.la/influencer/free-product/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/merchant/customisation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/releases/2020-05-30/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://docs.vwa.la/merchant/paying-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/merchant/how-do-influencer-links-work/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/influencer/how-do-i-earn-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/influencer/how-is-commission-paid/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://docs.vwa.la/merchant/paying-commission/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.vwa.la/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
