@@ -64,7 +64,7 @@ You can configure your preferred method via `my account > store settings > payme
 
 ### Simple
 
-This is the default setting.
+This is the default setting. It uses `PayPal adaptive payments` technology.
 
 Benefits:
 
@@ -74,13 +74,14 @@ Benefits:
 Limitations:
 
 - You can only pay 6 influencers at a time. This is a limitation of `PayPal adaptive payments`, the technology that this payment method uses. The `advanced` solution does not have this limitation. We recommend `advanced` for this reason.
+- Some users have experienced intermittent outage or transaction rejection issues with PayPal's service when using `simple` (the solution is to use `advanced`). 
 
 **How it works**
 
 When you pay using this payment method:
 
 - We automatically create a PayPal payment and open a PayPal `popup window`. Your browser must **allow popups** from vwa.la.
-- Paypal will then ask you to log in and `approve the payment`. If you don't have a PayPal account, you can alternatively use this form to pay anonymously using your credit card.
+- Paypal will then ask you to log in and `approve the payment`. 
 - Once the transaction is approved, your influencers will be notified of their payment via email (from both us and PayPal).
 - Your orders and payment history pages will automatically update to show the current status of the payment (i.e. completed, pending recipient action etc.)
 
@@ -97,9 +98,13 @@ To cancel the payment, **DO NOT** close the window. Instead, click the cancel bu
 
 ### Advanced
 
+This is our recommended approach. It uses `PayPal PayOuts API` technology.
+
 Benefits:
 
 - You can pay an unlimited number of influencers in a single transaction.
+- No need to authorise every PayPal payment.
+- PayPal's most reliable solution.
 
 Limitations:
 
@@ -118,7 +123,7 @@ When you pay using this payment method:
 
 **How to set up the `advanced` method**
 
-See the setup instructions below.
+See the `PayPal advanced setup` section below for detailed instructions.
 
 **Important notes about the `advanced` method**
 
@@ -303,11 +308,9 @@ This means that when you used the `pay commission` form, we created a PayPal pay
 
 ### Do I need a PayPal account to pay commission?
 
-If you want to pay commission via PayPal, you can do so anonymously when using our `simple` PayPal integration (default behaviour). I.e. when you use the `pay commission` feature from within the app, we will set up the PayPal payment and redirect you to PayPal's website. You can then ignore the prompt to log in and instead, choose the option to pay anonymously by credit card. 
+If you want to use PayPal, then yes, you require a PayPal account.
 
-PayPal calls this a `guest` payment. There are some important limitations however: 
-
-- PayPal guest payments [require all recipients to have a PayPal business account](https://web.archive.org/web/20160304223407/https://developer.paypal.com/docs/classic/products/ap-guest-payments/). This is likely not the case, as most influencers will have personal accounts or unclaimed accounts. To use guest payments, you would have to ensure that all of your influencers have a PayPal business account.
+Previously we supported the ability to pay anonymously using credit card (a `guest` checkout), however due to technical limitations with how PayPal works, we can no longer support it. 
 
 ### Other
 
