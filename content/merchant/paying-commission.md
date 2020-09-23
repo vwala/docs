@@ -185,8 +185,9 @@ Limitations:
 
 To pay using this payment method:
 
-- Click `pay by commission` to open the payment form.
-- Choose the `store credit` option in the `who to pay` field. Note: This option will only be visible if you have selected 1 influencer before opening the payment form.
+- Go to the influencer page and sort the table by the commission payable column (from most to least). This will allow you to see which influencers have unpaid commission that is payable at this time (Note: To learn more about payment rules and how to customise them, see the payment rules section below). 
+- Then select 1 influencer who you wish to pay commission in the table. Then in the `actions` menu above the table, click `pay by commission` to open the payment form. If you select more than 1 influencer, the payment form will not give the option to use store credit.  
+- Choose the `store credit` option in the `how to pay` field (Note: This option will only be visible if you have selected 1 influencer before opening the payment form).
 - Click `next` to preview the commission amount that is to be paid.
 - Shopify does not allow 3rd party applications to automatically create gift cards on your store's behalf. Therefore, you'll need to create a gift card or single use fixed amount discount code manually in your Shopify admin console for the displayed commission amount. Once you've created the gift card/discount code, you must copy and paste it into the payment form. Then click `pay`.
 - We will then mark the affected orders as 'commission paid' and will send a notification to the influencer with their gift card / discount code information.
@@ -336,7 +337,7 @@ If your PayPal account is not a business account, you must:
 #### Step 2: Enable `PayPal PayOuts`
 
 - Go to https://developer.paypal.com/developer/accountStatus/
-- Ensure that `PayOuts` is enabled (a green tick in both the sandbox and live columns of the table below). 
+- Ensure that `PayOuts` is enabled (a green tick in both the sandbox and live columns of the table below). It make take 24 hours for this change to take effect. 
 ![](/images/merchant/pp-enable-payouts.png)
 - Non-US customers will need to contact PayPal support by [phone](https://www.paypal.com/au/smarthelp/contact-us) or [email](https://www.paypal-support.com/s/contactsupport) to activate the `PayOuts` feature. This process usually takes 24 hours. If you choose to contact PayPal via email, use the following screenshot as an example of how to complete the form.
 ![](/images/merchant/pp-contact-support.png)
@@ -344,7 +345,7 @@ If your PayPal account is not a business account, you must:
 *Sample text*
 > I run an online business. We have a team of influencer marketers who promote our products in exchange for commission. Please enable the PayPal payouts technology for my account. It is essential to simplifying the bulk payment of our influencers. Thankyou
 
-#### Step 3: Create a PayPal REST API app
+#### Step 3: Create a `live` PayPal REST API app
 
 **Go to PayPal**
 
@@ -357,7 +358,7 @@ If your PayPal account is not a business account, you must:
    - Name: `vwala commission payments` (optional)
    - Email: *Your PayPal business account's email address*
    - Save the form
-- Open the app that you have just created. You should now see the applications' `client id` and `secret`. You will need to click `show` to reveal the secret. 
+- Open the app that you have just created (make sure you are using the **live version**). You should now see the applications' `client id` and `secret`. You will need to click `show` to reveal the secret. 
    - Copy and paste the `client id` and `secret` fields into the `vwa.la > my account > store settings > payments` form (instructions below).
    ![](/images/merchant/pp-live-credentials.png)
    - Ensure that the following options are enabled for the application.
@@ -368,8 +369,8 @@ If your PayPal account is not a business account, you must:
 
 - Go to `my account > store settings > payments`.
 - In the `PayPal setup` section, choose `advanced`. This will prompt you to copy & paste your PayPal `client Id` and `secret` from the previous step.
+- Click `save` to save your changes.
 - To verify that your setup is correct, click `test`
-- Click `save`.
 ![](/images/merchant/pp-setup.png)   
 
 

@@ -191,6 +191,7 @@
 
 .post-content img,
 .post-content video {
+    /* display: none; */
     display: block;
     margin: 1.5em auto;
     max-width: 100%;

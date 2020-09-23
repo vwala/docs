@@ -42,9 +42,9 @@ class Post extends React.Component {
             sideBarLayout.justification = `justify-between`
         } else if (sidebar || toc) {
             // Layout #2: navigation left only, either TOC or sidebar
-            sideBarLayout.leftSidebar = sidebar ?
-                <SidebarNav location={location} sidebar={sidebar} /> :
-                <div className="nr3 sticky top-25"><TOC listClasses="lefty" className="mt5 mb5 mt10-ns mb0-ns" showHeading={false} /></div>
+            sideBarLayout.leftSidebar = sidebar
+                ? <SidebarNav location={location} sidebar={sidebar} />
+                : <div className="nr3 sticky top-25"><TOC listClasses="lefty" className="mt5 mb5 mt10-ns mb0-ns" showHeading={false} /></div>
             sideBarLayout.justification = `justify-start`
         } else {
             // Layout #3: no sidebar navigation

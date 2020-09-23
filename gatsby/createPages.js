@@ -29,7 +29,7 @@ module.exports = async ({ graphql, actions }) => {
         fromPath: `/releases`,
         isPermanent: true,
         redirectInBrowser: true,
-        toPath: `/releases/2020-05-30/`,
+        toPath: `/releases/2020-09-30/`,
     })
 
     createRedirect({

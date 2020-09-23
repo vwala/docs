@@ -41,6 +41,8 @@ const plugins = [
                     resolve: `gatsby-remark-images`,
                     options: {
                         maxWidth: 590,
+                        // loading: 'eager',
+                        // tracedSVG: true
                     },
                 },
                 `gatsby-remark-autolink-headers`,
