@@ -19,8 +19,7 @@ We support multiple payment methods. You can pay influencer commission by cash o
 
 **Supported in-store credit payment methods**
 
-- Gift cards
-- Fixed price discount codes
+- Single use, fixed amount discount codes
 
 ## How to pay
 
@@ -177,21 +176,19 @@ Your store may allow for the user to change currency. However, Shopify only supp
 
 You can choose to pay your influencers their commission using store credit.
 
-Limitations:
-
-- You can pay only 1 influencer at a time with this method.
-
 **How it works**
 
 To pay using this payment method:
 
 - Go to the influencer page and sort the table by the commission payable column (from most to least). This will allow you to see which influencers have unpaid commission that is payable at this time (Note: To learn more about payment rules and how to customise them, see the payment rules section below). 
-- Then select 1 influencer who you wish to pay commission in the table. Then in the `actions` menu above the table, click `pay by commission` to open the payment form. If you select more than 1 influencer, the payment form will not give the option to use store credit.  
-- Choose the `store credit` option in the `how to pay` field (Note: This option will only be visible if you have selected 1 influencer before opening the payment form).
-- Click `next` to preview the commission amount that is to be paid.
-- Shopify does not allow 3rd party applications to automatically create gift cards on your store's behalf. Therefore, you'll need to create a gift card or single use fixed amount discount code manually in your Shopify admin console for the displayed commission amount. Once you've created the gift card/discount code, you must copy and paste it into the payment form. Then click `pay`.
-- We will then mark the affected orders as 'commission paid' and will send a notification to the influencer with their gift card / discount code information.
-- You can track your payment history on the `payments` page.
+- Select 1 or more influencers who you wish to pay commission. 
+- Then in the `actions` menu above the table, click `pay commission`.
+- Choose the `store credit` option in the `how to pay` field
+- Click `next` to preview the commission amount that is to be paid. The preview will show all influencers that are to be paid commission and the amount they will receive. The `code` column will specify the credit code that we will automatically create for each influencer in the payment. This code is a single use, fixed amount shopify discount code. 
+- Click `pay`.
+- We will then automatically create the store credit codes and notify each influencer. 
+- You can track your payment history on the `payments` page. 
+- You can `cancel` a credit payment via the `payments` page.
 
 ## By Bank Account
 

@@ -47,7 +47,7 @@ You must:
 - Ensure that your vwa.la email address is the same as your PayPal account. You can also add your vwa.la email address to an existing PayPal account if that suits you. To change your vwa.la email address, click your `profile picture` on the top right of the app and then click `my account`.
 - In PayPal, ensure that your PayPal account email is confirmed (verified)
 - In PayPal, ensure that you have linked and verified a non-expired credit card or bank account to your PayPal account
-- In PayPal, ensure that your account accepts the currency used by the store.
+- In PayPal, go to the `currencies` page and ensure that your account accepts the currency used by the store. 
 
 ## Is PayPal required?
 
