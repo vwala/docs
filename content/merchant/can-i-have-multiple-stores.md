@@ -9,12 +9,17 @@ sidebar: "merchant"
 rank: 14
 ---
 
-Yes, you can.
+##Can I have multiple stores?
 
-You can manage multiple Shopify stores from a single vwa.la account if, those stores use the same email address. You can then manage your influencer marketing program for both stores from the same vwa.la user account. Simply log in, go to your dashboard menu and then select the store you want to manage from menu as below:
+If you have multiple shopify stores with the vwa.la app installed to each, you can manage them all from a single vwa.la login. For technical and billing reasons, each Shopify store will require a unique install of the vwa.la app.
 
-![](/images/merchant/2017-08-29-17-59-58.png)
+To manage multiple Shopify stores from a single vwa.la login, you must ensure that each Shopify store's admin email uses the same email address. With this approach, you can view/manage each of your stores individually by toggling between them in the app menu.
 
-**How will billing work?**
+###I have multiple stores, can I use a single vwa.la install to manage both?
 
-Due to the way shopify billing works, each store that you install is managed as a separate billing agreement with Shopify.
+Please see `Can I have multiple stores?` above. You may wish to considered a single shopify store approach instead. A single shopify store, can support different URLs (top level or subdomain) and different currencies. This approach will reduce your maintenance complexity and reduce your shopify plan / app costs.
+
+#### Useful links 
+
+- [Multiple URLs per store](https://help.shopify.com/en/manual/online-store/os/domains/managing-domains/international-domains?utm_source=jacksonlo&utm_medium=twitter&utm_campaign=cross-border_international_domains): You can have multiple top level URLs (store.com and store.ca) or subdomain URLs (store.com, ca.store.com) send users to your store. 
+- [Multiple currencies per store](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency): Your customers will see/transact in their local currency, but your Shopify store will use a single currency of your choice for all product prices/order amounts. All orders will convert the local transaction currency, into your store's currency. 
