@@ -42,4 +42,10 @@ Referral/affiliate/influencer/ambassador marketing bascially mean the same thing
 
 #### How often do you release updates?
 
-Every week, since 2017. We are constantly adding new features and improvements. So if you have a feature request, let us know. All feature requests are added to a job queue with a simple voting structure. The more times a feature is requested, the higher it's priority. 
+Every week, since 2017. 
+
+We are constantly adding new features and improvements. So if you have a feature request, let us know. All feature requests are added to a job queue with a simple voting structure. The more times a feature is requested, the higher it's priority. There is generally a wait time before requested features are delivered, depending on our work load and feature complexity. We do our best to be very accomodating.
+
+#### Do you support development stores? 
+
+Not at this time. You'll need a production store that can activate a billing plan to use the product and evaluate the free trial. If you are a developer and want to use a development store, let us know.
