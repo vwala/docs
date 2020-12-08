@@ -33,9 +33,9 @@ You can enable/disable personal orders via my account > store settings > busines
 
 ![](/images/merchant/2019-02-02-18-31-03.png)
 
-## How to bulk import influencers from another app
+## How to import influencers from another app
 
-For those of you who are moving to vwa.la from another app, we can help you auto-load your influencers into your vwa.la account. All we need from you is an Excel/CSV file with their account details. Most apps will provide an export feature, if not, you'll need to manually create this file. Then simply email the file to [support@vwa.la](mailto:support@vwa.la) and we will handle the upload process for you.
+For those of you who are moving to vwa.la from another app, we can help you import your influencers into your vwa.la account. All we need from you is a CSV file with their account details (if using Excel please save your Excel file to CSV). Most apps will provide an export feature, if not, you'll need to manually create this file. Then simply email the file to [support@vwa.la](mailto:support@vwa.la) and we will handle the upload process for you.
 
 At a minimum, the file should contain the following fields:
 
