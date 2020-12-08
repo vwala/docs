@@ -35,22 +35,22 @@ You can enable/disable personal orders via my account > store settings > busines
 
 ## How to import influencers from another app
 
-For those of you who are moving to vwa.la from another app, we can help you import your influencers into your vwa.la account. All we need from you is a CSV file with their account details (if using Excel please save your Excel file to CSV). Most apps will provide an export feature, if not, you'll need to manually create this file. Then simply email the file to [support@vwa.la](mailto:support@vwa.la) and we will handle the upload process for you.
+If you are moving to vwa.la from another app, we can help you import your influencers into your account. All we need from you is a `CSV` file with their account details (if using Excel please save your Excel file to `CSV`). Most apps will provide an export feature, if not you'll need to manually create this file. Then simply email the `CSV` file to [support@vwa.la](mailto:support@vwa.la) and we will handle the upload process for you.
 
 At a minimum, the file should contain the following fields:
 
--  Name
--  Email
--  A unique personalised influencer id (used to create a link/discount code). This must not conflict with an existing discount code in your store.  
-    
+- Required
+    - First name
+    - Last name
+    - Email
+    - Code: A unique personalised influencer id (used to create a link/discount code). This must not conflict with an existing discount code in your store.  
+- Optional:    
+    - Facebook/Instagram/Youtube/Twitter username  
+    - The influencer group that they should be added to. I.e. Normal, VIP.
 
-Optionally, the following fields are also highly desirable:
+#### Required CSV format
 
--  Facebook/Instagram/Youtube/Twitter username  
-    
--  The influencer group that they should be added to. I.e. Normal, VIP.
-
-#### Example CSV file contents
+Please match the column names. Order is not important
 
 firstName,lastName,email,code  
 Karen,Jane,[a@local.com](mailto:a@local.com),karenl  
