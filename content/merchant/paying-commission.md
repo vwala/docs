@@ -252,7 +252,7 @@ Payment rules ensure that you do not pay commission on newly created orders that
 Therefore to prevent incorrect commission payments, you can only pay commission when the following `payment rules` are satisifed:
 
 - An influencer referal order must be:
-   - Paid
+   - Paid (by customer)
    - Fulfilled (delivered)
    - At least 15 days old
 - Optionally, you can also require influencers to have met the following minimum criteria before they are eligible to be paid:

@@ -14,7 +14,7 @@ rank: 3
 vwa.la allows stores to pay influencer commission using a variety of methods:
 
 - By PayPal
-- By store credit (gift card or single use discount code)
+- By store credit (single use, fixed amount discount code)
 - By bank transfer 
 
 They may choose any of these methods when paying your sales commission. Please see the stores' terms and conditions on their website for details. Alternatively, contact the store directly via their website contact details.
@@ -51,7 +51,7 @@ You must:
 
 ## Is PayPal required?
 
-The majority of stores prefer to use PayPal. However the store may choose to pay you via bank transfer or via in store credit (i.e. gift card, fixed amount discount code). 
+The majority of stores prefer to use PayPal. However the store may choose to pay you via bank transfer or via in store credit (i.e. single use fixed amount discount code). 
 
 ## What happens if a customer returns a product or changes their order?
 

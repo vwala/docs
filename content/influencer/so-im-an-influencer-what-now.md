@@ -18,13 +18,13 @@ Be authentic, after all you are your own brand! As the pool of influencers const
 
 ## FAQs
 
-#### Where do I share my influencer link and discount code?
+#### Where do I share my influencer link and code?
 
-There are several ways for you to share your influencer link and discount code. Social media is your best friend and you can use each social media platform differently. Lets break it down:
+There are several ways for you to share your influencer link and code. Social media is your best friend and you can use each social media platform differently. Lets break it down:
 
 Instagram
 
-- Include your discount code in your post  the example below shows how the influencer shared their influencer code on their Instagram post
+- Include your code in your post  the example below shows how the influencer shared their influencer code on their Instagram post
 
 ![](https://downloads.intercomcdn.com/i/o/92697354/1d837147d0cdb4f93db03968/insta.jpg)
 
@@ -34,12 +34,12 @@ Instagram
 
 Youtube
 
-- Similar to Instagram, you can include your discount code in the description section. The great news is Youtube allows URL link to be shared in the same section, so be sure to include your influencer link too!
-- You can also share your discount code with your followers by mentioning it in your video, simple
+- Similar to Instagram, you can include your code in the description section. The great news is Youtube allows URL link to be shared in the same section, so be sure to include your influencer link too!
+- You can also share your code with your followers by mentioning it in your video, simple
 
 Facebook
 
-- The best way to utilize your Facebook profile is by linking / reposting the content you created on Instagram / Youtube. This way, you will also include your influencer link and discount code in your Facebook post
+- The best way to utilize your Facebook profile is by linking / reposting the content you created on Instagram / Youtube. This way, you will also include your influencer link and code in your Facebook post
 
 #### How do I promote a specific brand / product?
 
@@ -60,7 +60,7 @@ You should not:
 - Use Bots to generate leads. 
 - Spam social media groups / channels
 - Post your influencer code on coupon websites and;
-- Buy products using your influencer discount code. **Note:** most stores don't accept this behaviour, however a few do. Check each store's terms and conditions or reach out to the store directly via their customer support (via their web page) to confirm.
+- Buy products using your influencer code. **Note:** most stores don't accept this behaviour, however a few do. Check each store's terms and conditions or reach out to the store directly via their customer support (via their web page) to confirm.
 
 #### How do I get more followers?
 

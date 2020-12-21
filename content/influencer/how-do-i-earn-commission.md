@@ -1,6 +1,6 @@
 ---
 title: "How do I earn commission?"
-meta_title: "Get your referral link/discount code, earn commission and get paid
+meta_title: "Get your referral link/code, earn commission and get paid
 "
 meta_description: ""
 keywords:
@@ -9,11 +9,11 @@ keywords:
 sidebar: "influencer"
 rank: 2
 ---
-In vwa.la you will earn sales commission on all non-personal orders that are created using either your influencer link or discount code.
+You earn sales commission on all non-personal orders that are created using either your influencer link or code.
 
 ## Where is my influencer link / code?
 
-When you join a store's influencer marketing program, you'll be issued a unique influencer link and discount code. You can find both your link and discount code on your vwa.la dashboard, simply scroll down to the `Codes / Links` section. 
+When you join a store's marketing program, you'll be issued a unique influencer link and code. You can find both your link and code on your dashboard, simply scroll down to the `Codes & Links` section. 
 
 ![](/images/influencer/2018-12-22-11-01-26.png)
 
@@ -21,7 +21,7 @@ To copy either your influencer link or code, click the `copy icon` (square shape
 
 ## How do I create product specific influencer links?
 
-You can create a product/collection specific influencer link, by adding your `influencer code` to any product URL from the store that you are marketing. E.g.
+You can create a product or collection specific influencer link, by adding your `influencer code` to any product URL from the store that you are marketing. E.g.
 
 #### Product specific link example
 
@@ -35,7 +35,7 @@ The same concept applies to collection links.
 
 [https://lianox.com/discount/**YOUR-CODE-HERE**?redirect=/collections/bts-merchandise](https://lianox.com/discount/code?redirect=/collections/bts-merchandise)
 
-So if your influencer discount code was `sarah`, replace `discount/YOUR-CODE-HERE` with `discount/sarah`.
+So if your influencer code was `sarah`, replace `discount/YOUR-CODE-HERE` with `discount/sarah`.
 
 What happens when someone clicks this link?
 
@@ -45,13 +45,13 @@ What happens when someone clicks this link?
 
 ## What does my account status mean? Is my account approved?
 
-You account's discount code and link will only work if your account status is `approved`.
+You account's code and link will only work if your account status is `approved`.
 
 Your dashboard shows your status. Your status can be either:
 
 - **Approved**: You're ready to start marketing and earning!
-- **Pending:** This means that your account is pending approval by the store. Please wait for the store to approve your account before using your code or link. Once approved, you will be notified by email. Our technical support can not help with approvals.
-- **Suspended:** If the status is suspended, the store has revoked your access and your discount code and link have been disabled.
+- **Pending approval:** This means that your account is pending approval by the store. Please wait for the store to approve your account before using your code or link. Once approved, you will be notified by email. Our technical support can not help with approvals.
+- **Suspended:** If the status is suspended, the store has revoked your access and your code and link have been disabled.
 
 
 ## How do I earn commission?
@@ -59,20 +59,20 @@ Your dashboard shows your status. Your status can be either:
 Sales commission is credited to you when:
 
 - A customer completes an order using your influencer link or;
-- A customer completes an order using your influencer discount code
+- A customer completes an order using your influencer code
 
 ### How does link tracking work?
-We use cookies, local storage and IP matching to track your influencer leads. These trackers exist for 30 days and then expire. This is consistent with the majority of influencer marketing products on the market today.
+We use cookies, local storage and IP matching to track your leads (people who click on your link). These trackers exist for 30 days and then expire. This is consistent with the majority of influencer marketing products on the market today.
 
 ### When someone clicks my link is my influencer code added to their cart?
-Yes, your influencer discount code is automatically added to the customers' cart when they click your influencer link. This approach simplifies their shopping experience and increases your conversion rate.
+Yes, your influencer code is automatically added to the customers' cart when they click your influencer link. This approach simplifies their shopping experience and increases your conversion rate.
 
-### Does the customer receive a discount when using my influencer discount code?
-Yes, the customer will receive a discount when they use your influencer discount code. The exact amount is set by the store. See `promotion policy` page of your dashboard for specific details.
+### Does the customer receive a discount when using my influencer code?
+Usually, the customer will receive a discount when they use your influencer code. See the `policy` within your dashboard's `Codes & Links` section for more details.
 
 ## How is my commission calculated?
 
-In vwa.la each store will have one or more influencer promotions. These are like sales promotions but for influencers. Each promotion will define its own influencer commission policy. I.e. If you sell product X you get 15% commission on orders containing X. For every promotion that you join, you will be given a unique, personalised influencer link and discount code. This allows us to track your promotion specific performance and ensure that you earn the correct commission.
+In vwa.la each store will have one or more influencer promotions. These are like sales promotions but for influencers. Each promotion will define its own influencer commission policy. I.e. If you sell product X you get 15% commission on orders containing X. For every promotion that you join, you will be given a unique, personalised influencer link and code. This allows us to track your promotion specific performance and ensure that you earn the correct commission.
 
 When an order is received, we correlate it to a specific promotion. We use the commission rules that the store has specified for that promotion to calculate your commission. Commissions are calculated on the pre-tax and shipping value of the order minus any customer discounts. If an order is refunded or changed, your commission will be re-calculated based on the new value.
 
