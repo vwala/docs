@@ -627,7 +627,7 @@ img{
     }
 }
 .b--blue{
-    border-color:#00bfc8
+    border-color:#00DDDD
 }
 .b--green{
     border-color:#a4d037
@@ -723,7 +723,7 @@ img{
     border-color:#85cdf5
 }
 .b--blue-l2{
-    border-color:#00bfc8
+    border-color:#00DDDD
 }
 .b--blue-l1{
     border-color:#56baf1
@@ -6243,7 +6243,7 @@ img{
     }
 }
 .blue{
-    color:#00bfc8
+    color:#00DDDD
 }
 .green{
     color:#a4d037
@@ -6339,7 +6339,7 @@ img{
     color:#85cdf5
 }
 .blue-l2{
-    color:#00bfc8
+    color:#00DDDD
 }
 .blue-l1{
     color:#56baf1
@@ -6519,7 +6519,7 @@ img{
     color:inherit
 }
 .bg-blue{
-    background-color:#00bfc8
+    background-color:#00DDDD
 }
 .bg-green{
     background-color:#a4d037
@@ -6618,7 +6618,7 @@ img{
     background-color:#85cdf5
 }
 .bg-blue-l2{
-    background-color:#00bfc8
+    background-color:#00DDDD
 }
 .bg-blue-l1{
     background-color:#56baf1
@@ -6795,11 +6795,11 @@ img{
     background-color:#d3e1e9
 }
 .bg-lgr-blue{
-    background:-webkit-gradient(linear,left top,left bottom,from(#85cdf5),to(#00bfc8));
-    background:linear-gradient(#85cdf5,#00bfc8)
+    background:-webkit-gradient(linear,left top,left bottom,from(#85cdf5),to(#00DDDD));
+    background:linear-gradient(#85cdf5,#00DDDD)
 }
 .bg-rgr-blue{
-    background:radial-gradient(circle farthest-corner at left bottom,#85cdf5 0,#00bfc8) 100%
+    background:radial-gradient(circle farthest-corner at left bottom,#85cdf5 0,#00DDDD) 100%
 }
 .bg-lgr-green{
     background:-webkit-gradient(linear,left top,left bottom,from(#c0df75),to(#a4d037));
@@ -6879,7 +6879,7 @@ img{
     background:radial-gradient(circle farthest-corner at left bottom,#435258 0,#272f33) 100%
 }
 .hover-blue:focus,.hover-blue:hover{
-    color:#00bfc8
+    color:#00DDDD
 }
 .hover-green:focus,.hover-green:hover{
     color:#a4d037
@@ -6975,7 +6975,7 @@ img{
     color:#85cdf5
 }
 .hover-blue-l2:focus,.hover-blue-l2:hover{
-    color:#00bfc8
+    color:#00DDDD
 }
 .hover-blue-l1:focus,.hover-blue-l1:hover{
     color:#56baf1
@@ -7155,7 +7155,7 @@ img{
     color:inherit
 }
 .hover-bg-blue:focus,.hover-bg-blue:hover{
-    background-color:#00bfc8
+    background-color:#00DDDD
 }
 .hover-bg-green:focus,.hover-bg-green:hover{
     background-color:#a4d037
@@ -7251,7 +7251,7 @@ img{
     background-color:#85cdf5
 }
 .hover-bg-blue-l2:focus,.hover-bg-blue-l2:hover{
-    background-color:#00bfc8
+    background-color:#00DDDD
 }
 .hover-bg-blue-l1:focus,.hover-bg-blue-l1:hover{
     background-color:#56baf1
@@ -14115,7 +14115,7 @@ td,th{
 }
 .nested-links a,.nested-links a:focus,.nested-links a:hover{
     -webkit-transition:color .15s ease-in;
-    color:#00bfc8;
+    color:#00DDDD;
     transition:color .15s ease-in
 }
 .trans-from-up{
@@ -15221,7 +15221,7 @@ td,th{
     filter:invert(100%)
 }
 .fill-blue g,.fill-blue path{
-    fill:#00bfc8
+    fill:#00DDDD
 }
 .fill-green g,.fill-green path{
     fill:#a4d037
@@ -15314,7 +15314,7 @@ td,th{
     fill:#85cdf5
 }
 .fill-blue-l2 g,.fill-blue-l2 path{
-    fill:#00bfc8
+    fill:#00DDDD
 }
 .fill-blue-l1 g,.fill-blue-l1 path{
     fill:#56baf1
@@ -15497,7 +15497,7 @@ td,th{
     fill:#fff
 }
 .stroke-blue g,.stroke-blue path,.stroke-blue path path{
-    stroke:#00bfc8
+    stroke:#00DDDD
 }
 .stroke-green g,.stroke-green path{
     stroke:#a4d037
@@ -15590,7 +15590,7 @@ td,th{
     stroke:#85cdf5
 }
 .stroke-blue-l2 g,.stroke-blue-l2 path{
-    stroke:#00bfc8
+    stroke:#00DDDD
 }
 .stroke-blue-l1 g,.stroke-blue-l1 path{
     stroke:#56baf1

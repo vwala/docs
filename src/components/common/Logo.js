@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 const Logo = ({ height, theme }) => {
-    const fillColor = theme === `light` ? `#FFFFFF` : `#00bfc8`
+    const fillColor = theme === `light` ? `#FFFFFF` : `#00DDDD`
     return <div class="f-headline-l white header-heading-shadow" style={{ fontSize: '2.4rem', fontWeight: 500 }}>
         <Link to="/" style={{ textDecoration: 'none', color: fillColor }}>
             vwa.la

@@ -96,7 +96,7 @@
 
 .post-content blockquote {
     padding: 0 0 0 1.5em;
-    border-left: #00bfc8 2px solid;
+    border-left: #00DDDD 2px solid;
 }
 
 .post-content blockquote p:last-child {
@@ -165,7 +165,7 @@
 }
 
 .post-content a:hover {
-    color: #00bfc8;
+    color: #00DDDD;
     box-shadow: var(--blue) 0 -1px 0 inset;
     text-decoration: none;
 }

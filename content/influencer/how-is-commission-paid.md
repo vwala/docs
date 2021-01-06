@@ -17,7 +17,7 @@ vwa.la allows stores to pay influencer commission using a variety of methods:
 - By store credit (single use, fixed amount discount code)
 - By bank transfer 
 
-They may choose any of these methods when paying your sales commission. Please see the stores' terms and conditions on their website for details. Alternatively, contact the store directly via their website contact details.
+To see which of these methods a store supports, please go to your dashboard's `link/code section` and see the `policy` column.
 
 ## Who pays me? vwa.la or the store?
 The store will pay you via vwa.la, using their chosen payment method.

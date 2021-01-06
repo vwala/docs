@@ -729,8 +729,8 @@ kbd {
 /* Core Concepts */
 /* ----------------------------------------------------------------------- */
 .bg-concepts {
-    background: #00bfc8;
-    background-image: linear-gradient(120deg, #00BFC8 1%, #00BFC8 14%, #40BAF5 97%);
+    background: #00DDDD;
+    background-image: linear-gradient(120deg, #00DDDD 1%, #00DDDD 14%, #40BAF5 97%);
     background-size: cover;
     background-position: center;
 }
@@ -744,11 +744,11 @@ kbd {
 }
 
 .influencer-color {
-    color: #00bfc8;
+    color: #00DDDD;
 }
 
 .b--influencer-color {
-    border-color: #00bfc8;
+    border-color: #00DDDD;
 }
 
 .releases-color {
@@ -880,7 +880,7 @@ kbd {
     left: -2.4rem;
     bottom: .8rem;
     width: 4px;
-    background: #00bfc8;
+    background: #00DDDD;
     border-radius: 0 2px 2px 0;
 }
 
