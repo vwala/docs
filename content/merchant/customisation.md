@@ -16,7 +16,7 @@ All customisation can be done from your dashboard via `my account > store settin
 You can customise:
 
 - Your branding (logo and primary brand colour)
-- The appearance and behaviour of your in-store sign-up widget and page
+- The appearance and behaviour of your in-store signup page launcher (button) and signup page
     - Visibility, position and text
     - Custom T&Cs approval checkbox
 - Business and notification rules that change the behaviour of your influencer marketing program   
@@ -30,19 +30,19 @@ You can customise:
 
 ## Your branding
 
-You can change the logo and primary colour of your vwa.la dashboard, in-store widget and sign-up page.
+You can change the logo and primary colour of your vwa.la dashboard, in-store signup page and sign-up page.
 
 ![](/images/merchant/2019-01-20-08-55-22.png)
 
 **The Logo image** must be a URL. We recommend that you re-use the logo from your store page that is being hosted by [http://cdn.shopify.com.](http://cdn.shopify.com) To get the URL, go to your store page and right-click on your logo image. Then copy and paste the URL into the vwa.la store settings form. You will see a preview if successful. Make sure you prefix the URL with http:// or https://.
 
-**The primary color** must be a dark color as white text will be displayed on top of it. It will be used in both the sign-up page and the widget's 'call to action' button. To find your colour, you can use [http://www.color-hex.com/.](http://www.color-hex.com/)
+**The primary color** must be a dark color as white text will be displayed on top of it. It will be used in both the sign-up page and the launcher's 'call to action' button. To find your colour, you can use [http://www.color-hex.com/.](http://www.color-hex.com/)
 
 And here are the results!
 
-#### Variant: Themed In-store widget (embedded in your store)
+#### Variant: Themed In-store signup page (embedded in your store)
 
-Our in-store widget allows your influencers to signup, login and use their marketing dashboard from within your store. When you customise your vwa.la theme, these pages will appear as follows:
+Our in-store signup page allows your influencers to signup, login and use their marketing dashboard from within your store. When you customise your vwa.la theme, these pages will appear as follows:
 
     Example theme color: green
 
@@ -52,9 +52,9 @@ Our in-store widget allows your influencers to signup, login and use their marke
 
 Note: The launcher is optional/configurable. See below for details.
   
-Signup/login page**
+**Signup/login page**
 
-When your in-store widget launcher is clicked, your influencer signup/login page will appear as follows.
+When your in-store signup page launcher is clicked, your influencer signup/login page will appear as follows.
 
 ![](/images/merchant/2019-01-20-09-18-09.png)
 
@@ -64,9 +64,9 @@ If you share your influencer signup link to potential influencers, the influence
 
 ![](/images/merchant/2019-01-20-09-19-48.png)
 
-## In-store widget launcher
+## Signup page launcher button
 
-When you install vwa.la, we automatically install our in-store widget launcher into your store front. This is to help you quickly set up a way to promote your influencer marketing program to potential influencers. When someone clicks the launcher, your influencer signup/login page will appear. The launcher is optional and configurable. You can:
+When you install vwa.la, we automatically install our in-store signup page launcher into your store front. This is to help you quickly set up a way to promote your influencer marketing program to potential influencers. When someone clicks the launcher, your influencer signup/login page will appear. The launcher is optional and configurable. You can:
 
 - Enable/disable it on either desktop/mobile devices
 - Change it's position and;
@@ -74,11 +74,11 @@ When you install vwa.la, we automatically install our in-store widget launcher i
 
 ![](/images/merchant/2019-01-20-08-55-56.png)
 
-**My changes are not visible?  
-**It can take a few minutes before your widget changes are applied. Please wait a few minutes and then refresh your store page.
+**My changes are not visible?**  
+It can take a few minutes before your launcher changes are applied. Please wait a few minutes and then refresh your store page. You will need to clear your browser cache to see the changes.
 
-**Are there any alternatives to using the widget?  
-**Yes. You can disable the widget on desktop/mobile devices and then instead [add a Shopify Page to your store.](/merchant/adding-a-page-to-your-store)
+**Are there any alternatives to using the launcher?**
+Yes. You can disable the launcher on desktop/mobile devices and then instead [add a Shopify Page to your store.](/merchant/adding-a-page-to-your-store)
 
 ## Business rules
 

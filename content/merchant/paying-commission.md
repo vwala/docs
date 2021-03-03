@@ -263,7 +263,7 @@ All of these rules are **customisable** (see below).
 
 ### How can I customise my payable commission rules?
 
-Commission payment rules can be customized via `my account > store settings > business rules`. Changing the rules here, will affect all future payments.
+Commission payment rules can be customized via `my account > store settings > commission payment rules`. Changing the rules here, will affect all future payments.
 
 If you wish to override your payment rules for a single payment only, you can do so from within the `pay commission` form. E.g. from the `payment`, `influencer` or `orders` table, select `pay commission` in the actions menu. When the form opens, go to the `prepare payment` step and then click `customise` to reveal a list of payment customisation options. 
 
