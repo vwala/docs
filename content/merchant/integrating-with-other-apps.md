@@ -34,6 +34,7 @@ Your mailchimp list will contain the following influencer fields:
     cunCont: Number of orders by new customers
     curCount:  Number of orders by returning customers
     cuRatioPc: Ratio of new to returning customers 
+    mrCount: Number of social media followers
 
 #### Klaviyo
 
