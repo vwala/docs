@@ -1,2 +1,2 @@
 
-export const CurrentRelease = "2021-06-15"
+export const CurrentRelease = "2021-07-15"
