@@ -6,6 +6,11 @@ export ALGOLIA_ADMIN_KEY=
 yarn build
 ```
 
+# Update meta
+```
+cd utils && node content-generator.js && cd ..
+```
+
 # Release
 ```
 yarn deploy
