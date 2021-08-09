@@ -14,8 +14,8 @@
       uri: 'https://docs.vwa.la/influencer/how-do-i-earn-commission/'
     - title: How is commission paid?
       uri: 'https://docs.vwa.la/influencer/how-is-commission-paid/'
-    - title: 'So Im an influencer, what now?'
-      uri: 'https://docs.vwa.la/influencer/so-im-an-influencer-what-now/'
+    - title: How do I promote the store?
+      uri: 'https://docs.vwa.la/influencer/how-do-i-promote-the-store/'
     - title: Free product
       uri: 'https://docs.vwa.la/influencer/free-product/'
 - subject: merchant
@@ -57,6 +57,8 @@
       uri: 'https://docs.vwa.la/merchant/exporting-your-data/'
 - subject: releases
   routes:
+    - title: '2021-07-15'
+      uri: 'https://docs.vwa.la/releases/2021-07-15/'
     - title: '2021-06-15'
       uri: 'https://docs.vwa.la/releases/2021-06-15/'
     - title: '2021-04-21'

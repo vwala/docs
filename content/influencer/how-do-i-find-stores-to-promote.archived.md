@@ -38,11 +38,11 @@ Once you find a store that you like, you can click on it's name/thumbnail to see
 
 ![](/images/influencer/2018-02-18-19-32-59.png)
 
-#### How to join a store's marketing program
+### How to join a store's marketing program
 
 If you're interested in joining the store, click the 'view website or join' link. You can find the form to join the store's marketing program on their website.
 
-#### What is rank? (i.e. A-E ratings)
+### What is rank? (i.e. A-E ratings)
 
 Each store has a rank. A rank is a relative score used to compare different stores. It is a live score that changes over time. It is based on a store's marketing performance within vwa.la and factors in variables such as:
 
