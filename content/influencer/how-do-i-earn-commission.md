@@ -102,7 +102,7 @@ You can view all orders that your influencer account has generated from the vwa.
 - The order's status
 - Your commission (amount owed / paid)
 
-![](/images/influencer/2018-12-22-11-15-20.png)
+![](/images/influencer/orders.png)
 
 ## What happens if a customer returns a product or changes their order?
 
