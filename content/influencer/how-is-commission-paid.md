@@ -20,7 +20,7 @@ vwa.la allows stores to pay influencer commission using a variety of methods:
 To see which of these methods a store supports, please go to your dashboard's `link/code section` and see the `policy` column.
 
 ## Who pays me? vwa.la or the store?
-The store will pay you via vwa.la, using their chosen payment method.
+The store will pay your commission via our software tools. We (vwa.la) do not have any visibility or influence over when/how commission is paid. The store uses our software to make commission payouts, according to their preferred payment method and schedule. For more guidance, please contact the store via their customer support email (or social media channels). The in-app support chat feature of your marketing dashboard (bottom right), is for vwa.la tech support only. Vwa.la tech support can only assist with general account questions.
 
 ## When is my sales commission paid?
 
