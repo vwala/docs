@@ -57,8 +57,8 @@
       uri: 'https://docs.vwa.la/merchant/exporting-your-data/'
 - subject: releases
   routes:
-    - title: '2021-08-10'
-      uri: 'https://docs.vwa.la/releases/2021-08-10/'
+    - title: '2022-01-23'
+      uri: 'https://docs.vwa.la/releases/2022-01-23/'
     - title: '2021-07-15'
       uri: 'https://docs.vwa.la/releases/2021-07-15/'
     - title: '2021-06-15'

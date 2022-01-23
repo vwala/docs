@@ -49,24 +49,23 @@ If you have an email list of existing customers or brand subscribers/followers, 
 
 If you have existing social media channels (i.e. Facebook, Instagram, Youtube), you can post about your influencer marketing program to raise awareness. If you want to increase the market reach of your post and improve your targeting, you can convert your post to a paid advertisement. This is easy to do on both Instagram and Facebook and does not need to be an expensive exercise. Experimenting with minimal spends (i.e. $10) to measure engagement is recommended.
 
-FAQ
----
+## FAQ
 
-#### Do you provide influencers?
+### Do you provide influencers?
 
 Your store is automatically listed in our influencer marketplace. This allows influencers to discover your brand/products and optionally, join your marketing program. These 'organic' influencer sign-ups can help grow your marketing program and can assist in creating a continual stream of promotional activity for your store.
 
 Note: You can hide your store from the marketplace via `my accont > store settings > marketplace`. 
 
-#### Who should I share my sign-up link with?
+### Who should I share my sign-up link with?
 
 There are two groups of people that you want to engage.
 
-###### 1. Convert your customers into influencers
+#### 1. Convert your customers into influencers
 
 We recommend that you invite your best customers to join your influencer marketing program. You can do this easily using option 1 and 2 mentioned above. What we really like about both of these approaches is that you're guaranteed to organically build an influencer network of people who really respect and care about your brand and products.
 
-###### 2. Partner with social media influencers
+#### 2. Partner with social media influencers
 
 We highly recommend that you partner with high value social media influencers. These people will become your VIP influencers. It's no secret that direct engagement with the right people on social media can generate substantial leads and sales for your store. Just make sure that the people you approach have a direct synergy with your brand.
 
