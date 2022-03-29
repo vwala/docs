@@ -176,7 +176,21 @@ Your store may allow for the user to change currency. However, Shopify only supp
 
 You can choose to pay your influencers their commission using store credit.
 
-**How it works**
+There are 2 ways this can be done. You can pay out unpaid commission as store credit manually via your dashboard; or you can allow your influencers to redeem their commission as store credit via their dashboard themselves. 
+
+You can enable/disable store credit payment options, via `my account > store settings > commission payment methods` 
+
+**How it works (allowing influencers to redeem store credit)**
+
+If enabled via your store settings, this approach:
+
+- Saves you time, as your influencers can redeem commission at their discretion. 
+- Each influencer's dasbhoard will have a `commission` section with the ability to view their commission owed, paid as well as track their store credit usage.
+- They can use the `commission > redeem commission as store credit` feature to redeem any unpaid commission
+- This will generate a single use, fixed amount discount code that they can use during their next purchase
+- If there is any balance remaining after their next purchase, they can use the remaining balance in a future purchase by acquiring a new credit code from their dashboard.
+
+**How it works (paying manually)**
 
 To pay using this payment method:
 
