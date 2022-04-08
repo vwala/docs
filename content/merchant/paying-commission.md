@@ -10,16 +10,18 @@ rank: 13
 ---
 We've designed vwa.la to make paying your influencer's their commission fast and simple.
 
-We support multiple payment methods. You can pay influencer commission by cash or in-store credit. We also implement a number of security safeguards to ensure that you do not pay commissions on orders incorrectly.
+We support multiple payment methods. You can pay influencer commission by cash or store credit. We also implement a number of security safeguards to ensure that you do not pay commissions on orders incorrectly.
 
 **Supported cash payment methods**
 
-- Paypal
-- Manual bank account transfers
+- Paypal (automated)
+- Manual (i.e. a manual bank account transfer outside vwa.la with automated vwa.la record keeping)
 
-**Supported in-store credit payment methods**
+**Supported store credit payment methods**
 
-- Single use, fixed amount discount codes
+- Single use, fixed amount discount codes (automated)
+
+These methods are explained in more detail below.
 
 ## How to pay
 
@@ -204,9 +206,11 @@ To pay using this payment method:
 - You can track your payment history on the `payments` page. 
 - You can `cancel` a credit payment via the `payments` page.
 
-## By Bank Account
+## Manual (e.g. manual bank transfer)
 
-You can choose to pay your influencers their commission outside of vwa.la, using your bank account or another means of manual transfer.
+You can choose to pay your influencers their commission outside of vwa.la, using your bank account or another means of manual transfer. 
+
+This method is useful when you want to mark commission as paid within vwa.la, but perform the payment outside of vwa.la using your preferred method. 
 
 Limitations:
 
@@ -220,7 +224,7 @@ To pay using this payment method:
 - Choose the `manual` transfer option in the `who to pay` field.
 - Click `next` to preview the commission amount that is to be paid.
 - Click `pay` to complete the payment. This will update the status of the selected influencer orders as commission `paid` and will notify the affected influencers. You'll then need to handle the actual transfer of money yourself outside of [vwa.la.](https://vwa.la).
-- We will then mark the affected orders as 'commission paid' and will send a notification to the influencer with their gift card / discount code information.
+- We will then mark the affected orders as 'commission paid' and will send a notification to the influencer.
 - You can track your payment history on the `payments` page.
 
 

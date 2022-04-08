@@ -44,10 +44,14 @@ Commission payable is <= commission owed. It is the amount of unpaid commission 
 
 You must:
 
-- Ensure that your vwa.la email address is the same as your PayPal account. You can also add your vwa.la email address to an existing PayPal account if that suits you. To change your vwa.la email address, click your `profile picture` on the top right of the app and then click `my account`.
+- Ensure that your vwa.la email address is the same as your PayPal account (alternatively you can add your vwa.la email address to your PayPal account as a secondary email address if that suits you). 
 - In PayPal, ensure that your PayPal account email is confirmed (verified)
 - In PayPal, ensure that you have linked and verified a non-expired credit card or bank account to your PayPal account
 - In PayPal, go to the `currencies` page and ensure that your account accepts the currency used by the store. 
+
+To change your vwa.la email address, click your `profile picture` on the top right of the app and then click `my account`.
+
+Once the above steps are complete, click the `check` button on the orange warning box that appears on your dashboard. The `check` button verification is performed by PayPal. All validation errors come directly from PayPal, not vwa.la - which means if your account verification fails, the source of the issue is with your PayPal account.
 
 ## Is PayPal required?
 
