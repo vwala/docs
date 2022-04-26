@@ -20,19 +20,20 @@ An order is credited to an influencer if the following conditions are true:
 
 We use cookies, local storage and IP matching to track your influencer leads. These trackers exist for 30 days and then expire.
 
-You can customize your lead tracking time window and/or disable link based commissions from `My account > Store settings > Business rules`.
+You can customize your lead tracking time window and/or disable link based commissions from `My account > Store settings > Commission tracking rules`.
 
 ## How order commission is calculated?
 
 Each influencer is given a unique, personalized influencer link and code.
 
-When an order is received, we use the rules that you've specified in your promotion policy to calculate influencer commission. Commissions are calculated on the pre-tax and shipping value of the order.
+When an order is received, we use the commission rules that you've specified on your `promotion policy` page to calculate influencer commission. Commissions are calculated on the net value of an order (I.e. the sum of all applicable line items minus disounts, taxes and shipping). 
 
 E.g.
 
--  The influencer commission for Sarah is 10%
--  Sarah has generated an order for the store worth $100. $110 including taxes and shipping.
--  Sarah's commission is calculated as 10% of $100. Which is $10.
+- The influencer commission rate for Jen is 10%
+- Jen has generated a referral order for the store
+- The sum of line items purchased equals $100 (after taxes and discounts are deducted). 
+- Jen's commission is calculated as 10% of $100. Which is $10.
 
 ## How do I customize commission (promotion policy)?
 
@@ -44,10 +45,23 @@ Please see our [payments guide](/merchant/paying-commission)
 
 ## FAQ
 
-#### Q. What happens if a customer returns a product and I already credited my influencer for it?
+### What happens if a customer returns a product and I already credited my influencer for it?
 
 We only allow commissions to be paid out for orders that have been fulfilled and are at least 30 days old. This prevents incorrect commission payments from being made. We also track the full life-cycle of your orders. This means that we track order changes, refunds and cancellations so you can be assured that influencer rewards are always correctly calculated.
 
-#### Q. What type of influencer reward structure do you support?
+### What type of influencer reward structure do you support?
 
-You can declare a percentage of your orders to be paid as commission to your influencers. Our research has shown this strategy to be the simplest and fairest approach. You can also create influencer specific promotions that allow you to reward different individuals differently (i.e. your VIP influencers)
+We support:
+
+- % rate commission
+- Fixed amount commission
+- Tiered commission using influencer groups
+
+### What type of customer discount structures do you support?
+
+We support:
+
+- % rate discounts
+- Fixed amount discounts
+- Buy X get Y discounts 
+- Spend X get Y discounts

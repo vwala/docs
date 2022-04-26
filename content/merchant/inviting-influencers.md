@@ -53,7 +53,11 @@ If you have existing social media channels (i.e. Facebook, Instagram, Youtube), 
 
 ### Do you provide influencers?
 
-Your store is automatically listed in our influencer marketplace. This allows influencers to discover your brand/products and optionally, join your marketing program. These 'organic' influencer sign-ups can help grow your marketing program and can assist in creating a continual stream of promotional activity for your store.
+Our goal is to simplify marketing team management at scale. So we provide software tools that solve influencer onboarding, administration, commission customisation/tracking/payouts, performance analytics and integration with 3rd party systems. We don't provide influencers. 
+
+We do however have a means for our existing influencers to discover your store and optionally, opt into joining your store. This is not our core business, but is a value add that you may find useful over time. 
+
+How does this work? Your store is automatically listed in our influencer marketplace. This allows influencers to discover your brand/products and optionally, join your marketing program. These 'organic' influencer sign-ups can help grow your marketing program and can assist in creating a continual stream of promotional activity for your store. You should consider these influencers as not gauranteed and supplemental to influencers that you actively recruit.
 
 Note: You can hide your store from the marketplace via `my accont > store settings > marketplace`. 
 
