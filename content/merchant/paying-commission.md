@@ -157,11 +157,21 @@ NOK
 DKK 
 CZK
 
+#### Not supported PayPal currencies
+
+Some countries are not supported by PayPal. Influencers from these countries will need to be paid via store credit or another method outside of vwa.la.
+
+Unsupported countries:
+
+Russia, Afghanistan, Democratic People's Republic of Korea (North Korea), Bangladesh, Cameroon, Central African Republic, Cote D'Ivoire (Ivory Coast), Equatorial Guinea, Gabon, Ghana, Haiti, Iran, Iraq, Lebanon, Liberia, Libya, Monaco, Moldova, Montenegro, Myanmar, Pakistan, Paraguay, Saint Lucia, South Sudan, Sudan, Syria, Timor-Leste, Uzbekistan and Zimbabwe.
+
 #### What if the recipient (influencer) doesn't have a PayPal account?
 This isn't an issue. PayPal payments will work even if the recipient does not have a PayPal account. The influencer will simply need to create a PayPal account using the same email address that they use for vwa.la to receive their payments. 
- #### What if the recipient's PayPal account is invalid/restricted?
+
+#### What if the recipient's PayPal account is invalid/restricted?
 We (and PayPal) will notify any influencer if their PayPal account is incomplete and requires their attention before PayPal will complete payment. Our orders feature will exclude paying out problematic influencers for 1 week after such an event. This means you can continue paying out other influencers whilst they fix their issue. 
- #### Are there fees? Who pays them?
+
+#### Are there fees? Who pays them?
 PayPal transactions incur a small transaction fee. The fee will be incurred by the recipient (the influencer). We recommend that you communicate this with your influencers to avoid confusion.
 
 #### My PayPal transaction failed, PayPal says that I should verify my bank account...
@@ -169,7 +179,8 @@ PayPal takes security and fraud very seriously. If you see this message when try
 
 #### vwa.la says that my commission payment is pending, what does that mean?
 If the influencer does not yet have a PayPal account, payments will be marked as pending. Once the influencer creates their PayPal account, they will claim your payment and the transaction will be marked as `paid`. 
- #### I support multiple currencies, which one does vwa.la use?
+
+#### I support multiple currencies, which one does vwa.la use?
 Your store may allow for the user to change currency. However, Shopify only supports a single operating currency. This means that from Shopify's perspective, all products and customer orders are always in your operating currency. vwa.la only uses your operating currency when calculating commission calculations and making payments.
 
 ## Store credit
