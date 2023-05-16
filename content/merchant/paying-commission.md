@@ -91,7 +91,7 @@ To cancel the payment, **DO NOT** close the window. Instead, click the cancel bu
 **Important notes about the `simple` method**
 
 - We pay influencers using the currency of your store. 
-- If the payment does not transfer immediately, the recipient has 14 days to accept the payment before PayPal will reverse their payment and return funds to your account.
+- If the payment does not transfer immediately, the recipient has 24 hours to accept the payment before PayPal will reverse their payment and return funds to your account.
 - PayPal limits us to paying a maximum of 6 people at a time. This is a limitation that affects all users of PayPal's adaptive payments broker solution. To work around this issue, simply replay the "Pay all by PayPal" step until all influencers are paid. If you are making payments each month, this should not be an issue. For larger merchants, we are looking at implementing a PayPal per-approval step which will allow you to grant vwa.la the ability to automate payments from your PayPal account.
 
 
