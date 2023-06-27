@@ -80,3 +80,9 @@ yarn-error.log
 # Cypress
 test/cypress/screenshots
 test/cypress/videos
+
+
+node_modules/
+.cache/
+public
+src/gatsby-types.d.ts
