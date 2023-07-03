@@ -7,9 +7,8 @@ import Layout from '../components/common/layout/Layout'
 import { MetaData } from '../components/common/meta'
 import { SearchModal } from '../components/common/search'
 import HomeHeaderBox from '../components/home/HomeHeaderBox'
-import { CurrentRelease } from '../constants'
+import { CurrentRelease, EnableSearch } from '../constants'
 import backgroundImage from "../images/home-hero.png"
-import { isProduction } from '../utils/environment'
 
 const Hero = styled.div`
   background-image: url(${backgroundImage});
@@ -80,7 +79,7 @@ const HomePage: React.FC<HomePageProps> = ({ data, location }) => {
           <Header location={location} />
           <VGroup style={{ justifyContent: "center", alignItems: "center", color: "#FFF", }}>
             <SubHeading>Need help?</SubHeading>
-            {!isProduction()
+            {EnableSearch
               ? <SearchModal isHome={true} />
               : null
             }

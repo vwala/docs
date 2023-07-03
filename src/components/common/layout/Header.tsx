@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 import React from 'react'
-import { isProduction } from '../../../utils/environment'
+import { EnableSearch } from '../../../constants'
 import HGroup from '../HGroup'
 import { Link } from '../Link'
 import Logo from '../Logo'
@@ -27,7 +27,7 @@ const Header = ({ location }) => {
                     </div>
                     : null
                 }
-                {!isProduction()
+                {EnableSearch
                     ? <div>
                         <SearchModal />
                     </div>
