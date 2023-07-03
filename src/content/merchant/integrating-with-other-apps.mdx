@@ -12,12 +12,13 @@ We've had quite a few merchants ask us how to integrate with other apps. We're g
 
 ## Email marketing
 
-#### Mailchimp
+### Mailchimp
 
-You can automatically sync your influencer list (and their marketing performance stats) to Mailchimp. You can set this up via `my account > store settings > mailchimp`. Your data will be automatically synced twice per day.
+You can automatically sync your influencer list (and their marketing performance stats) to Mailchimp. You can set this up via `customise > mailchimp`. Your data will be automatically synced twice per day.
 
 Your mailchimp list will contain the following influencer fields:
 
+<code>
     First name
     Last name 
     Email
@@ -35,16 +36,21 @@ Your mailchimp list will contain the following influencer fields:
     curCount:  Number of orders by returning customers
     cuRatioPc: Ratio of new to returning customers 
     mrCount: Number of social media followers
+</code>
 
-#### Klaviyo
+### Klaviyo
 
-You can automatically sync your influencer list (and their marketing performance stats) to Klaviyo. You can set this up via `my account > store settings > klaviyo`. Your data will be automatically synced twice per day.
+You can automatically sync your influencer list (and their marketing performance stats) to Klaviyo. You can set this up via `customise > klaviyo`. Your data will be automatically synced twice per day.
 
-#### ActiveCampaign
+### ActiveCampaign
 
-You can automatically sync your influencer list (and their marketing performance stats) to ActiveCampaign. You can set this up via `my account > store settings > ActiveCampaign`. Your data will be automatically synced twice per day.
+You can automatically sync your influencer list (and their marketing performance stats) to ActiveCampaign. You can set this up via `customise > ActiveCampaign`. Your data will be automatically synced twice per day.
 
-#### Other
+### Omnisend
+
+You can automatically sync your influencer list (and their marketing performance stats) to Omnisend. You can set this up via `customise > Omnisend`. Your data will be automatically synced twice per day.
+
+### Other
 
 If your provider is not supported let us know. Otherwise, we have solved integration with 3rd party email solutions in a general way. All you need to do is export your influencers from vwa.la and import them into your email program of choice. See [exporting your data](/merchant/exporting-your-data/) for details on how to do this.
 
@@ -58,18 +64,18 @@ This token is a credential that allows vwa.la to listen to your ReCharge orders.
 - Log into your ReCharge account and create an API token. Please follow their documentation carefully https://docs.rechargepayments.com/docs/recharge-api-key. 
 - A API token has 2 parts. A key (public ID) and a secret (i.e. password). We encrypt your password on save.
 - In ReCharge, after you have created your token, you must set the token's permissions to match the screenshot below. Otherwise our integration will not work.
-- After you have created your ReCharge API token, you must copy and paste the key and secret into your `vwa.la > my account > store settings > ReCharge` form. 
+- After you have created your ReCharge API token, you must copy and paste the key and secret into your vwa.la `customise > ReCharge` form. 
 - In vwa.la, click TEST to confirm your token is valid. Then click SAVE. 
 
-#### Figure 1: Your token KEY
+### Figure 1: Your token KEY
 
-![](/../../images/merchant/recharge-token-key.png)
+![](../../images/merchant/recharge-token-key.png)
 
-#### Figure 2: Your token SECRET and permissions
+### Figure 2: Your token SECRET and permissions
 
 Your permissions must match this screenshot
 
-![](/../../images/merchant/recharge-token-secret.png)
+![](../../images/merchant/recharge-token-secret.png)
 
 ### Step 2: Sync Shopify influencer discount codes with ReCharge
 
@@ -77,9 +83,9 @@ ReCharge does not use your Shopify discount codes, instead it requires you to du
 
 This requirement is documented here: https://support.rechargepayments.com/hc/en-us/articles/360008830533
 
-```
+<code>
 From the ReCharge documentation above: If you are using the Shopify Checkout Integration, you must create your discount code in both Shopify and Recharge. If the settings in Shopify and Recharge are in conflict, on recurring orders Recharge will give precedence to the settings in Recharge.
-```
+</code>
 
 Therefore, if you want your influencer's to earn commission when a ReCharge subscription order uses their code, you must manually re-create your influencer codes in ReCharge. The documentation above, documents the different ways your can do this. I.e. either manually, or using ReCharge's discount code CSV bulk import feature.
 

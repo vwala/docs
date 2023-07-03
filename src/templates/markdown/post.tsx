@@ -23,6 +23,16 @@ const Hero = styled.div`
   background-size: cover;
   width: 100%;
   height: 15vh;
+  filter: hue-rotate(-399deg);
+//   animation: 10s ease-in-out infinite;
+//   animation-name: emotion;
+//   @keyframes emotion {
+//     0% { filter: hue-rotate(0deg); }
+//     25% { filter: hue-rotate(90deg); }
+//     50% { filter: hue-rotate(180deg); }
+//     75% { filter: hue-rotate(270deg); }
+//     100% { filter: hue-rotate(360deg); }
+//   }
 `
 
 const Heading = styled.h1`
@@ -36,6 +46,26 @@ const LongText = styled.div`
     text-overflow: ellipsis;  /* Adds the ellipsis at the end */
     width: 200px;   
 `
+
+const Content = styled(VGroup)`
+  
+    & .gatsby-resp-image-wrapper {
+        margin-top: 100px;
+    }
+
+    &.gatsby-resp-image-wrapper {
+        margin-top: 100px;
+    }
+
+    .gatsby-resp-image-wrapper {
+        margin-top: 100px;
+    }
+
+    gatsby-resp-image-wrapper {
+        margin-top: 100px;
+    }
+`
+
 
 interface DataProps {
     location
@@ -93,9 +123,10 @@ export function Page(props: DataProps) {
                 margin: "-60px 20px 0px 20px",
                 background: "#fff",
                 padding: isTabletOrLarger ? "30px" : "30px",
-                borderRadius: "20px 20px 0px 0px"
+                borderRadius: "20px 20px 0px 0px",
+                // overflow: "hidden" breaks side bar sticky
             }}>
-                <HGroup style={{ alignItems: "center" }}>
+                <HGroup style={{ alignItems: "center", marginBottom: 20 }}>
                     <Link to="/">Home</Link>
                     <MuiIcon><KeyboardArrowRightIcon /></MuiIcon>
                     <Link to={`/${section}`}>{capitalise(section)}</Link>
@@ -114,11 +145,7 @@ export function Page(props: DataProps) {
                             marginRight: 30
                         }}>
                             <Heading>{data.mdx.frontmatter.title}</Heading>
-                            {/* <HGroup>
-                                <img src={imported image} style={{ filter: "greyscale(100%)", height: "30px", width: "30px", borderRadius: "50%" }} />
-                                <div>{data.mdx.frontmatter.date}</div>
-                            </HGroup> */}
-                            <VGroup>
+                            <Content>
                                 {children}
                                 <div style={{ marginTop: 30 }}>
                                     <PrevNextSection
@@ -127,7 +154,7 @@ export function Page(props: DataProps) {
                                         next={pageContext.next}
                                     />
                                 </div>
-                            </VGroup>
+                            </Content>
                         </div>
                         {hasToc
                             ? <div style={{ minWidth: "25%" }}>
@@ -145,7 +172,7 @@ export function Page(props: DataProps) {
                             </Collapsible>
                         </div>
                         <Heading>{data.mdx.frontmatter.title}</Heading>
-                        <VGroup>
+                        <Content>
                             {children}
                             <div style={{ marginTop: 30 }}>
                                 <PrevNextSection
@@ -154,7 +181,7 @@ export function Page(props: DataProps) {
                                     next={pageContext.next}
                                 />
                             </div>
-                        </VGroup>
+                        </Content>
                     </VGroup>
                 }
             </div>

@@ -34,13 +34,11 @@
       uri: 'https://docs.vwa.la/merchant/inviting-influencers/'
     - title: Adding a page to your store
       uri: 'https://docs.vwa.la/merchant/adding-a-page-to-your-store/'
-    - title: How do influencer links work?
-      uri: 'https://docs.vwa.la/merchant/how-do-influencer-links-work/'
+    - title: Influencer links & discount codes
+      uri: 'https://docs.vwa.la/merchant/influencer-links/'
     - title: Creating a test influencer account or bulk importing influencers
       uri: >-
         https://docs.vwa.la/merchant/how-to-create-a-test-account-or-bulk-upload-data/
-    - title: Promotions
-      uri: 'https://docs.vwa.la/merchant/promotions/'
     - title: Influencer commission
       uri: 'https://docs.vwa.la/merchant/influencer-commission/'
     - title: Influencer/group specific commission

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-export const MEDIA_QUERY_TABLET = '(min-width: 768px)'
+export const MEDIA_QUERY_TABLET = '(min-width: 900px)'
 
 function useMediaQuery(query: string): boolean {
     const getMatches = (query: string): boolean => {

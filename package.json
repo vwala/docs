@@ -2,9 +2,13 @@
   "name": "am-docs",
   "version": "2.0.0",
   "private": true,
-  "description": "am-docs",
+  "description": "vwa.la documentation",
+  "repository": "git@github.com:vwala/vwala.github.io.git",
+  "author": "vwa.la",
   "keywords": [
-    "gatsby"
+    "vwa.la",
+    "documentation",
+    "help"
   ],
   "scripts": {
     "cleannode": "rm -rf lib node_modules",
@@ -13,7 +17,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -56,6 +61,7 @@
     "algoliasearch": "^4.18.0",
     "date-fns": "^2.30.0",
     "fs": "^0.0.1-security",
+    "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
     "request": "^2.88.2",
     "typescript": "^5.1.3",

@@ -33,7 +33,7 @@ const globalStyles = css`
         font-feature-settings: "kern";
         line-height: 1.5;
         font-weight: 400;
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         color: #00001E;
     }
 
@@ -54,7 +54,6 @@ const globalStyles = css`
 
     h1, h2, h3, h4, h5, h6 {
         font-family: "Poppins";
-        // font-weight: 600;
     }
 
     h1 {
@@ -125,6 +124,14 @@ const globalStyles = css`
     img {
         width: 100%;
         height: auto;
+    }
+
+    code {
+        background: #e5eff5;
+        border-radius: 5px;
+        line-height: 1em;
+        padding: 0 5px 2px;
+        white-space: pre-wrap;
     }
 `
 

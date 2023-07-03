@@ -16,6 +16,16 @@ const Hero = styled.div`
   background-size: cover;
   width: 100%;
   height: 25vh;
+  filter: hue-rotate(-399deg);
+  // animation: 10s ease-in-out infinite;
+  // animation-name: emotion;
+  // @keyframes emotion {
+  //   0% { filter: hue-rotate(0deg); }
+  //   25% { filter: hue-rotate(90deg); }
+  //   50% { filter: hue-rotate(180deg); }
+  //   75% { filter: hue-rotate(270deg); }
+  //   100% { filter: hue-rotate(360deg); }
+  // }
 `
 
 const HomeSectionGrid = styled.div`
@@ -76,7 +86,7 @@ const HomePage: React.FC<HomePageProps> = ({ data, location }) => {
             }
           </VGroup>
         </Hero>
-        <div style={{ marginTop: -30 }}>
+        <div style={{ marginTop: -30, zIndex: 100 }}>
           <HomeSectionGrid>
             <HomeHeaderBox
               to="/merchant/welcome/"

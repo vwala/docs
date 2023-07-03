@@ -1,5 +1,5 @@
+import styled from '@emotion/styled'
 import React from 'react'
-
 import SidebarLink from './SidebarLink'
 import SidebarList from './SidebarList'
 import { getSidebarFile } from './getSidebarFile'
@@ -9,6 +9,10 @@ interface SidebarNavProps {
     location
     style?: React.CSSProperties
 }
+
+const Root = styled.nav`
+  margin: 0;
+`
 
 const SidebarNav = (props: SidebarNavProps) => {
 
@@ -23,7 +27,7 @@ const SidebarNav = (props: SidebarNavProps) => {
     }
 
     return (
-        <nav data-cy="sidebar" style={style}>
+        <Root style={style}>
             {sidebarfile.groups.map((group, i) => (
                 <div key={i} >
                     {group.items.some(item => (item.link === pathname)) ?
@@ -50,7 +54,7 @@ const SidebarNav = (props: SidebarNavProps) => {
                         </h4>}
                 </div>
             ))}
-        </nav>
+        </Root>
     )
 }
 

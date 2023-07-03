@@ -94,7 +94,15 @@ const config: GatsbyConfig = {
             // @see https://nickymeuleman.netlify.app/blog/table-of-contents#add-css-ids-to-all-headings
             // @see https://paulie.dev/posts/2022/08/mdx-esm-rehype-packages/
             require('rehype-slug'),
-            [require('rehype-autolink-headings'), { behavior: 'wrap' }]
+            [require('rehype-autolink-headings'), {
+              behavior: 'wrap',
+              properties: {
+                class: 'autolinked-header',
+                style: {
+                  color: "inherit"
+                }
+              },
+            }]
           ]
         }
       }

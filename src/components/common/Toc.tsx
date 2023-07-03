@@ -59,7 +59,9 @@ const LongText = styled.div`
     width: 250px;   
 `
 
-function renderItems(items: any[], activeId: string, style?: React.CSSProperties) {
+const maxLevels = 2
+
+function renderItems(items: any[], activeId: string, depth: number, style?: React.CSSProperties) {
     return (
         <ul style={style || { paddingInlineStart: 0, listStyleType: "none" }}>
             {items.map((item) => {
@@ -77,7 +79,7 @@ function renderItems(items: any[], activeId: string, style?: React.CSSProperties
                         >
                             <LongText>{item.title}</LongText>
                         </StyledLink>
-                        {item.items && renderItems(item.items, activeId, { listStyleType: "none" })}
+                        {depth + 1 <= maxLevels && item.items && renderItems(item.items, activeId, depth + 1, { listStyleType: "none" })}
                     </li>
                 )
             })}
@@ -90,7 +92,7 @@ function Toc(props) {
     const activeId = useActiveId(idList)
     return (
         <FormCollapse open={true} header={<strong>Contents</strong>}>
-            {renderItems(props.items, activeId)}
+            {renderItems(props.items, activeId, 1)}
         </FormCollapse>
     )
 }

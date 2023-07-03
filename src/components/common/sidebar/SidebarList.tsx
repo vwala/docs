@@ -7,6 +7,7 @@ const StyledList = styled.ul`
 
     position: relative;
     list-style-type: none;
+    margin: 0;
 
     ::before {
         background: #e5eff5;
