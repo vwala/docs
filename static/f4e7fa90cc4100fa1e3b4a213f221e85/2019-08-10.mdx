@@ -1,0 +1,35 @@
+---
+title: "Custom email reply to address, more stats, better exports"
+meta_title: "2019-08-10"
+meta_description: ""
+keywords:
+   - releases
+   - help
+sidebar: "releases"
+---
+ 
+Hi all, in this release:
+ 
+* We've added new stats! We now track influencer referrals and payable commission. Learn more about [payable commission](https://docs.vwa.la/merchant/paying-commission/#what-are-payment-rules) - how it is calculated and how payable commission rules can be customised. 
+* By default, the emails that we send on your behalf route replies to our support mailbox. You can now set a `reply-to` email address via `customise > email`. When set, all replies to the emails that we send on your behalf will be sent to your support email address.
+* Exports now respect your table filters/selections, allowing for fine-grained data exports. To export all, make sure that your table has no selections or active filters. 
+* We’ve introduced batch processing to improve the performance and scalability of the platform. For example, updating your promotion policy will trigger all affected codes/links to synchronise in the background. Progress of background tasks can be viewed via your in-app notifications window (right side panel). The same solution applies to our data export, 3rd party app sync (mailchimp/klaviyo) and lead event processing subsystems. 
+* We've added the ability to pay commission by influencer group. Use the `customise` section of the `pay commission` form to choose the group that you wish to pay.
+* We now proactively validate each influencer's PayPal account on signup and notify them of any account setup issues via their dashboard. Note: If your preferred commission payment method is not `PayPal` (i.e. set via `customise > payments`) then we will not notify your influencers if their account has `PayPal` setup issues.
+* We've fixed an issue with Mailchimp rate limiting changes breaking synchronisation for large merchants
+* We've fixed some issues with tooltip colours clashing
+* We've fixed some scenarios where UTM tags were not being tracked through complex link flows
+* We've improved our support for older mobile devices
+* We've made many improvements to our in-app chat solution
+* We significantly improved the performance and scalability of our in-store widget configuration hosting. This has multiple benefits, such as improved app startup times globally as well as reduced load on our real-time messaging system. 
+* We've upgraded our server technology as part of our continued effort to maintain software currency and security. 
+* We've upgraded our UX framework. This gave us the opportunity to adopt a better date/time picker. This should make date filtering simpler and more intuitive. The new framework also means that the application download size is improved further. 
+ 
+ 
+Thanks all for the feedback. If you need anything let us know :)
+ 
+ 
+
+
+
+
