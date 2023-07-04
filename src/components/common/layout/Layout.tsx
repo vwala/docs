@@ -2,6 +2,7 @@ import { Global, css } from '@emotion/react'
 import styled from '@emotion/styled'
 import { MDXProvider } from '@mdx-js/react'
 import React from 'react'
+import { isProduction } from '../../../utils/environment'
 import { ViewportHelper } from '../../debug'
 import { Link, RemoteLink } from '../Link'
 import VGroup from '../VGroup'
@@ -21,7 +22,7 @@ const markdownRenderers = {
 
 
 const Root = styled("div")`
-
+    background: ghostwhite;
 `
 
 const globalStyles = css`
@@ -152,12 +153,10 @@ const DefaultLayout: React.FC<DefaultLayoutProps> = ({
     <>
         <Root style={style}>
             <Global styles={globalStyles} />
-            <ViewportHelper />
-            {/* <Helmet>
-                <html lang="en"  />
-                <body />
-            </Helmet> */}
-
+            {!isProduction()
+                ? <ViewportHelper />
+                : null
+            }
             <SearchWrapper>
                 {/* {header || <Header location={location} />} */}
                 <VGroup>

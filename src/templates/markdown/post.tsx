@@ -11,33 +11,42 @@ import Layout from '../../components/common/layout/Layout'
 import { PrevNextSection } from '../../components/common/prev-next'
 import { SidebarNav } from '../../components/common/sidebar'
 import useMediaQuery, { MEDIA_QUERY_TABLET } from '../../hooks/useMediaQuery'
-import { MdxProps } from '../../queries/queries'
+import { MdxProps, SiteMetaProps } from '../../queries/queries'
 import { capitalise } from '../../utils/string'
 
 import { MuiIcon } from '../../components/common/Icon'
 import Header from '../../components/common/layout/Header'
+import { MetaData } from '../../components/common/meta'
+import { PageContainerOffset } from '../../constants'
 import backgroundImage from "../../images/home-hero.png"
 
 const Hero = styled.div`
-  background-image: url(${backgroundImage});
-  background-size: cover;
-  width: 100%;
-  height: 15vh;
-  filter: hue-rotate(-399deg);
-//   animation: 10s ease-in-out infinite;
-//   animation-name: emotion;
-//   @keyframes emotion {
-//     0% { filter: hue-rotate(0deg); }
-//     25% { filter: hue-rotate(90deg); }
-//     50% { filter: hue-rotate(180deg); }
-//     75% { filter: hue-rotate(270deg); }
-//     100% { filter: hue-rotate(360deg); }
-//   }
+    background-image: url(${backgroundImage});
+    background-size: cover;
+    width: 100%;
+    height: 15vh;
+    //   filter: hue-rotate(-399deg);
+    //   animation: 10s ease-in-out infinite;
+    //   animation-name: emotion;
+    //   @keyframes emotion {
+    //     0% { filter: hue-rotate(0deg); }
+    //     25% { filter: hue-rotate(90deg); }
+    //     50% { filter: hue-rotate(180deg); }
+    //     75% { filter: hue-rotate(270deg); }
+    //     100% { filter: hue-rotate(360deg); }
+    //   }
+
+    // Position children
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: ${PageContainerOffset};
 `
 
 const Heading = styled.h1`
-  margin-top: 0px;
-  margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 `
 
 const LongText = styled.div`
@@ -70,6 +79,7 @@ const Content = styled(VGroup)`
 interface DataProps {
     location
     data: {
+        site: SiteMetaProps
         mdx: MdxProps // & MxdFrontmatterImageBytes
     }
     children
@@ -103,13 +113,12 @@ export function Page(props: DataProps) {
     }
 
     return (
-        <Layout style={{ background: "#eee" }}>
-            {/* <MetaData
+        <Layout>
+            <MetaData
                 data={data}
                 location={location}
                 type="article"
-                image={imageUrl}
-            /> */}
+            />
             {/* <PostHeader location={location} /> */}
             {/* <Hero2 imageBytes={data.mdx.frontmatter.image.childImageSharp.gatsbyImageData}>
           <HeroText>{data.mdx.frontmatter.title}</HeroText>
@@ -120,7 +129,7 @@ export function Page(props: DataProps) {
             <div style={{
                 marginTop: -30,
                 position: "relative",
-                margin: "-60px 20px 0px 20px",
+                margin: `${PageContainerOffset} 20px 0px 20px`,
                 background: "#fff",
                 padding: isTabletOrLarger ? "30px" : "30px",
                 borderRadius: "20px 20px 0px 0px",

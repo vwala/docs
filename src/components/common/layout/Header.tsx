@@ -1,6 +1,7 @@
 import styled from '@emotion/styled'
 import React from 'react'
 import { EnableSearch } from '../../../constants'
+import { isProduction } from '../../../utils/environment'
 import HGroup from '../HGroup'
 import { Link } from '../Link'
 import Logo from '../Logo'
@@ -8,7 +9,7 @@ import { SearchModal } from '../search'
 
 
 const Root = styled.div`
-    padding: 10px 10px 10px 20px;
+    // padding: 20px 10px 10px 20px;
 `
 
 const Header = ({ location }) => {
@@ -27,7 +28,7 @@ const Header = ({ location }) => {
                     </div>
                     : null
                 }
-                {EnableSearch
+                {!isProduction() && EnableSearch
                     ? <div>
                         <SearchModal />
                     </div>

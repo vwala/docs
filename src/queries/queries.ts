@@ -75,7 +75,13 @@ export interface PostsQueryResult {
     }
 }
 
-///////////////// TODO from query file 
+export interface SiteMetaProps {
+    siteMetadata: {
+        title: string
+        description: string
+        siteUrl: string
+    }
+}
 
 // Query to read all markdown files
 export const siteMetaFields = graphql`
@@ -83,6 +89,7 @@ export const siteMetaFields = graphql`
         siteMetadata {
             title
             description
+            siteUrl
         }
     }
 `

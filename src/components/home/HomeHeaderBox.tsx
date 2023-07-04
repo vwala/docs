@@ -33,7 +33,7 @@ const Root = styled.div<RootProps>`
     // font-size: 1.35rem;
 
     @media screen and (min-width: 44rem) {
-        padding: 3.2rem;
+        padding: 3rem;
     }
 
     // First child level svg tags only
@@ -49,7 +49,7 @@ const Root = styled.div<RootProps>`
 `
 
 const Heading = styled.h3`
-
+    font-weight: 600;
 `
 
 const SubHeading = styled.h4`

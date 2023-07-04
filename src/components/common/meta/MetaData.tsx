@@ -1,16 +1,11 @@
 import React from 'react'
-import ArticleMetaMD from './ArticleMetaMD'
+import { SiteMetaProps } from '../../../queries/queries'
+import WebsiteMeta from './WebsiteMeta'
 
 interface MetaDataProps {
     data: {
-        site: {
-            siteMetadata: {
-                // siteUrl: string
-                title: string
-                description: string
-            }
-        }
-        markdownRemark?: object
+        site: SiteMetaProps
+        // markdownRemark?: object
     }
     location: {
         pathname: string
@@ -18,45 +13,39 @@ interface MetaDataProps {
     type: 'website' | 'series' | 'article'
     title?: string
     description?: string
-    image?: string | React.ReactElement
+    image?: string// | React.ReactElement
     fetchAuthorData?: boolean
     overwriteDefaultImage?: boolean
 }
 
-// TODO no idea what this is doing
-const MetaData: React.FC<MetaDataProps> = ({
-    data,
-    type,
-    title,
-    description,
-    image,
-    // location,
-}) => {
-    const { markdownRemark } = data || {}
+const MetaData = (props: MetaDataProps) => {
+
+    const { type, data, image } = props
+
+    console.log(props)
+
+    // const { markdownRemark } = data || {}
 
     // const { siteMetadata } = data.site
 
     // const canonical = url.resolve(siteMetadata?.siteUrl, location.pathname)
 
-    if (type === 'article') {
-        if (markdownRemark) {
-            return <ArticleMetaMD
-                data={data}
-            // canonical={canonical} 
-            />
-        }
-    } else if (type === 'website' || type === 'series') {
-        return (
-            null
-            // <WebsiteMeta
-            //     data={data}
-            //     // canonical={canonical}
-            //     title={title}
-            //     description={description}
-            //     image={image} // TODO expects a string url
-            //     type={type}
-            // />
-        )
+    if (type === "article") {
+        // TODO replace with page/post specific metadata
+        <WebsiteMeta
+            site={data.site}
+            image={image} // TODO expects a string url
+            type={type}
+        />
+        // return <ArticleMetaMD
+        //     data={data}
+        // />
+    } else {
+        return <WebsiteMeta
+            site={data.site}
+            image={image} // TODO expects a string url
+            type={type}
+        />
     }
 
     return null

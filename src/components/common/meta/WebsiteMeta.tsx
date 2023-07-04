@@ -1,29 +1,41 @@
-import PropTypes from 'prop-types'
 import React from 'react'
 import Helmet from "react-helmet"
+import { SiteMetaProps } from '../../../queries/queries'
 import ImageMeta from './ImageMeta'
 
+interface WebsiteMeta {
+    site: SiteMetaProps
+    // title: string
+    // description: string
+    type: string
+    image: string
+    // canonical: string
+}
 
-const WebsiteMeta = ({ data, canonical, title, description, image, type }) => (
-    <>
+const WebsiteMeta = (props: WebsiteMeta) => {
+
+    const { site, image, type } = props
+
+    return <>
         <Helmet>
-            <title>{title}</title>
-            <meta name="description" content={description} />
-            <link rel="canonical" href={canonical} />
-            <meta property="og:site_name" content={data.site.siteMetadata.title} />
+            <title>{site.siteMetadata.title}</title>
+            <meta name="description" content={site.siteMetadata.description} />
+            {/* <link rel="canonical" href={canonical} /> */}
+            <meta property="og:site_name" content={site.siteMetadata.title} />
             <meta property="og:type" content="website" />
-            <meta property="og:title" content={title} />
-            <meta property="og:description" content={description} />
-            <meta property="og:url" content={canonical} />
-            <meta name="twitter:title" content={title} />
+            <meta property="og:title" content={site.siteMetadata.title} />
+            <meta property="og:description" content={site.siteMetadata.description} />
+            {/* <meta property="og:url" content={canonical} /> */}
+            {/* <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:url" content={canonical} />
-            <meta name="twitter:site" content="@vwalamarketing" />
+            <meta name="twitter:site" content="@vwalamarketing" /> */}
+            {/* below was "url": "${canonical}", */}
             <script type="application/ld+json">{`
                     {
                         "@context": "https://schema.org/",
                         "@type": ${type && type === `series` ? `"Series"` : `"WebSite"`},
-                        "url": "${canonical}",
+                        "url": "${site.siteMetadata?.siteUrl}",
                         "image": {
                             "@type": "ImageObject",
                             "url": "${image}",
@@ -32,15 +44,15 @@ const WebsiteMeta = ({ data, canonical, title, description, image, type }) => (
                         },
                         "mainEntityOfPage": {
                             "@type": "WebPage",
-                            "@id": "${data.site.siteMetadata?.siteUrl}"
+                            "@id": "${site.siteMetadata?.siteUrl}"
                         },
-                        "description": "${description}"
+                        "description": "${site.siteMetadata.description}"
                     }
                 `}</script>
         </Helmet>
         <ImageMeta image={image} />
     </>
-)
+}
 
 // "publisher": {
 //     "@type": "Organization",
@@ -53,20 +65,5 @@ const WebsiteMeta = ({ data, canonical, title, description, image, type }) => (
 //     }
 // },
 
-WebsiteMeta.propTypes = {
-    data: PropTypes.shape({
-        site: PropTypes.shape({
-            siteMetadata: PropTypes.shape({
-                siteUrl: PropTypes.string.isRequired,
-                title: PropTypes.string.isRequired,
-            }).isRequired,
-        }).isRequired,
-    }).isRequired,
-    canonical: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    // image: PropTypes.string.isRequired, TODO
-    type: PropTypes.oneOf([`website`, `series`]).isRequired,
-}
 
 export default WebsiteMeta
