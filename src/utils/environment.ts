@@ -1,9 +1,5 @@
 export function getEnvironment() {
-    return process.env.APP_ENV
-}
-
-export function getVersion() {
-    return process.env.APP_VERSION
+    return process.env.NODE_ENV
 }
 
 export function isUnit() {
