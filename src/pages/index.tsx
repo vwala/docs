@@ -48,8 +48,6 @@ const SubHeading = styled.h1`
   text-shadow: 0 5px 18px rgba(0,0,0,.07);
 `
 
-
-
 interface HomePageProps {
   data: {
     site: {

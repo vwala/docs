@@ -2,7 +2,7 @@
 import styled from "@emotion/styled"
 import React from "react"
 
-const HGroupStyle = styled("div")`
+const HGroupStyle = styled.div`
   display: flex;
   flex-direction: row;
   flex-grow: 1;

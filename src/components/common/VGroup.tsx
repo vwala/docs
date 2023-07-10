@@ -2,7 +2,7 @@
 import styled from "@emotion/styled"
 import React from "react"
 
-const VGroupStyle = styled("div")`
+const VGroupStyle = styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1;

@@ -56,9 +56,9 @@ const SidebarLink = (props: SidebarLinkProps) => {
     if (link) {
         if (link.match(/^\s?http(s?)/gi)) {
             // use anchor links for external links
-            return <StyledA active={active} href={link} target="_blank" rel="noopener noreferrer">{title}</StyledA>
+            return <StyledA active={!!active} href={link} target="_blank" rel="noopener noreferrer">{title}</StyledA>
         } else {
-            return <StyledLink active={active} to={link}>{title}</StyledLink>
+            return <StyledLink active={!!active} to={link}>{title}</StyledLink>
         }
     } else {
         return (

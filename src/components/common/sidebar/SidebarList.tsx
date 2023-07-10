@@ -37,7 +37,7 @@ const SidebarList = ({ items, location }) => {
                     <SidebarLink
                         link={item.link}
                         title={item.title}
-                        active={(item.link === location.pathname)}
+                        active={(item.link == location.pathname)}
                     />
                     {/* <div>{(item.link === location.pathname).toString()}</div> */}
                 </StyledListItem>
