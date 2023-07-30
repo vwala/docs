@@ -2,7 +2,7 @@ import { GatsbyConfig } from "gatsby"
 import algoliaQueries from "./utils/algolia-queries"
 
 const config: GatsbyConfig = {
-  pathPrefix: "/docs", // TODO required?
+  // pathPrefix: "/",
   siteMetadata: {
     title: `vwa.la help`,
     siteUrl: `https://docs.vwa.la`,
