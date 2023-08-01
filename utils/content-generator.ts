@@ -172,7 +172,7 @@ const run = async (subject: string, title: string) => {
             routes: routes.map((x) => {
                 return {
                     title: x.title,
-                    uri: `https://docs.vwa.la${x.uri}`,
+                    uri: `https://help.vwa.la${x.uri}`,
                 }
             }),
         })
