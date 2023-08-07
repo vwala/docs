@@ -2,7 +2,7 @@
 
 // // TODO: this should be available as global var without the need to query
 // // the siteMetadata.
-// const SITEURL = process.env.SITE_URL || `https://docs.vwa.la`
+// const SITEURL = process.env.SITE_URL || `https://help.vwa.la`
 
 // const imageUrls = {
 //     default: url.resolve(SITEURL, `/images/meta/hero.png`),
@@ -20,7 +20,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import React from 'react'
 
-// const SITEURL = process.env.SITE_URL || 'https://docs.vwa.la'
+// const SITEURL = process.env.SITE_URL || 'https://help.vwa.la'
 
 // const imageUrls = {
 //   default: '/images/meta/hero.png', // Update the path to your default image

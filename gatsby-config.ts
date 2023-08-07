@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
   // pathPrefix: "/",
   siteMetadata: {
     title: `vwa.la help`,
-    siteUrl: `https://docs.vwa.la`,
+    siteUrl: `https://help.vwa.la`,
     description: `Everything you need to know about the vwa.la influencer marketing platform.`,
     // image: `/gatsby-icon.png`
   },
