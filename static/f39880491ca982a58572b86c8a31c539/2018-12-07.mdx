@@ -1,0 +1,55 @@
+---
+title: "A major UX release with many fixes"
+meta_title: "2018-12-07"
+meta_description: ""
+keywords:
+    - releases
+    - help
+sidebar: "releases"
+---
+
+Hi all,
+
+This release is a substantial step forward for us. It includes:
+
+* A major re-write of our front end. We've re-written and consolidated all of our front-end sub-systems for improved design, performance, robustness and download size. This body of work sets a strong foundation for us to continue to improve our platform well into the future
+* Improved the loading time and trigger time of the in-app widget / tracker. It's now extremely light and fast acting
+* Improved merchant stats page for mobile devices
+* Added lead source stats. This is useful for understanding where your leads are coming from over time
+* We've added French and Chinese translations to our signup / login pages
+* We've added the ability to set your preferred language
+* You can now pay all commission by specific influencers
+* You can now omit commission payments to influencers who have not yet satisfied a minimum order amount or count (you can set this via `customise > commission payment rules`)
+* Improved IP address geolocation
+* Improved table selection. Selections are now preserved across pages
+* Fixed a bug on the influencer page, where searching for an influencer by name would leave the influencer table data in a filtered state that could not be reset
+* You can now change the default influencer group from the influencer group page
+* Improved our handling of expired PayPal transactions
+* Automatic Mailchimp region logic to make Mailchimp configuration simpler
+* You can now embed HTML tags in your mail templates
+* Our anti-fraud logic has been improved. We've added fuzzy name matching to prevent false positives
+* Improved our uninstall / re-install flow
+* We have prevented a theoretical PayPal race condition payment scenario by adding an explicit authorisation pending status
+* Our in-app chat, support and help docs can now be hidden from your influencers (via the `customise` page).
+* You can now choose to skip notifications when approving / revoking influencer codes. You can also approve/revoke multiple referrer codes at once
+* Added mobile UX improvements to our in-app chat and marketplace
+* Your influencers now see more information on their promotion policy page. I.e. they'll see whether there a minimum order amount/count limits before they will be paid. They'll also see details of your lead tracking / commission policy.
+* Switching between stores and user accounts now correctly resets your browser's notification message cache
+* We've added the default influencer group as a label to the promotion policy page. This should make it easier to read
+* Improved the promotion policy page UX. More changes to come here
+* Improved the table UX. All tables are now the same on all pages in terms of design - actions on the left, filters on the right
+* Invoice chart labels are now clearer
+* Improved the performance of our in-app drawers, tooltips, tabs, tables and modals.
+* Added influencer code validation to the re-name code form
+* Improved the readability of the `customise` page and simplified labels where required.
+* We've re-named all occurrences of referrer to influencer. This is our branding moving forward.
+
+**New mobile merchant dashboard UX**
+
+![](../../images/releases/2018-12-09-20-51-25.png)
+
+**Lead source statistics**
+
+![](../../images/releases/2018-12-09-20-54-37.png)
+
+If you have any feedback let us know
