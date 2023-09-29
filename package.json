@@ -11,12 +11,13 @@
     "help"
   ],
   "scripts": {
-    "cleannode": "rm -rf lib node_modules",
     "clean": "gatsby clean",
+    "cleannode": "rm -rf lib node_modules",
+    "setnode": "source $NVM_DIR/nvm.sh && nvm use 20",
     "develop": "cross-env NODE_ENV=development gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
+    "start": "npm run setnode && gatsby develop",
+    "build": "npm run setnode && gatsby build",
+    "serve": "npm run setnode && gatsby serve",
     "typecheck": "tsc --noEmit",
     "deploy": "cross-env NODE_ENV=production gatsby build && gh-pages -d public -b gh-pages"
   },
