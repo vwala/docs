@@ -8,7 +8,83 @@ keywords:
 sidebar: "merchant"
 rank: 15
 ---
-We've had quite a few merchants ask us how to integrate with other apps. We're going to start documenting integration set-ups here.
+
+We support the following 3rd party app integrations.
+
+## Google analytics 4+
+
+You can enable real-time synchronisation of events from vwa.la to your Google Analytics account. You can then use these events within your Google Analytics account to measure performance and create custom reports. 
+
+### Events 
+We send the following events to Google Analytics:
+
+- New influencer
+- New lead
+- New order
+
+Important:
+
+- We prefix all events sent to Google Analytics with `vwala`. So you can easily create segmentation rules to filter events within your reports.
+- Events received by Google Analytics are not immediately visible within reports. Google can take between 24-48 hours to prepare new events for use within your reports.
+
+### Setup 
+
+To enable synchronisation, you must:
+
+1. Create a Google Analytics `Web Stream` to obtain a `Measurement Id` and then create a `Measurement Protocol API secret`
+1. Copy/paste the `Measurement Id` and  `Measurement Protocol API secret` into your vwa.la dashboard's `customise > Google Analytics` section
+
+#### Setup step 1: Google Analytics setup
+
+- Create a Google Analytics account (analytics.google.com) and then create or configure a web stream for your website's domain (i.e. yoursite.com). A web stream enables web browsers (or web apps like vwa.la) to send events to your Google Analytics account.
+- Every Google Analytics web stream has a unique identifier called a `Measurement ID`. 
+    - You will need to provide us with your `Measurement ID` so that we can send events to your Google Analytics account (See Figure 1 and 2 below).
+    - You will also need to provide vwa.la with permission to send events to your web stream. This is done by creating a `Measurement Secret` (See Figure 3 and 4 below).
+
+##### Figure 1: Google Analytics > Streams
+Using the Google Analytics menu, go to the `Admin` page (bottom left of menu). Then go to `Property Settings > Data Collection... > Data Streams`. You must have a web stream for your domain here. Create one if it does not exist. Please see the Google Analytics help for more information on creating streams.
+
+![](../../images/merchant/ga-streams.png)
+
+##### Figure 2: Google Analytics > Stream Details
+When you open a stream, you will find the `Measurement Id`
+
+![](../../images/merchant/ga-stream-detail.png)
+
+##### Figure 3: Google Analytics > Stream  Measurement API Secret
+To get your stream's API secret, click on the `Events > Measurement Protocol API secret` section. Then copy the `secret value` from this page
+
+![](../../images/merchant/ga-stream-api-secret.png)
+
+##### Figure 4: Google Analytics > Stream  Measurement API Secret
+![](../../images/merchant/ga-stream-api-secret-2.png)
+
+#### Setup step 2: vwa.la setup
+
+- Go to your vwa.la dashboard's `customise` page and scroll to the `Google Analytics` section. 
+    - Click `Enable`
+    - Paste your Google Analytics `Measurement Id` and `Measurement Protocol API Secret` 
+    - Click `save` to save your changes. 
+
+### Reporting example
+
+Creating reports within Google Analytics is a complex topic, please follow the Google documentation for advice. 
+
+The following steps however document how to create a basic report:
+
+- In the Google Analytics menu, go to the `Explore` section 
+- Create a new `Exploration` (i.e. a custom report)
+- The report builder form, requires you to specify one or more `Segments`, `Dimensions` and `Metrics`. 
+- A segment filters events. So you will first need to create new segment that filters your Google Analytics events (i.e. to only include events sent from the vwa.la app) please see the following screenshot. 
+- You can add this segment to your reports (drag drop into report builder).
+- You can then use any dimension/metric as per your reporting requirements.
+
+![](../../images/merchant/ga-report-segment.png)
+
+
+
+
+
 
 ## Email marketing
 

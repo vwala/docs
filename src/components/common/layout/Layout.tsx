@@ -68,14 +68,20 @@ const globalStyles = css`
     }
 
     h3 {
-        // font-size: 1.8rem;
-        font-weight: 400;
+        font-weight: 400;        
     }
 
-    h3 {
-        // font-size: 1.8rem;
-        font-weight: 300;
-    }
+    h4 {
+        // font-weight: 300;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+    }    
+
+    h5 {
+        // font-weight: 400;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+    }    
 
     summary {
         text-transform: uppercase;
