@@ -11,7 +11,7 @@
     "help"
   ],
   "scripts": {
-    "clean": "gatsby clean",
+    "clean": "gatsby clean && rm -rf lib node_modules",
     "cleannode": "rm -rf lib node_modules",
     "setnode": "source $NVM_DIR/nvm.sh && nvm use 20",
     "develop": "cross-env NODE_ENV=development gatsby develop",
