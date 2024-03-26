@@ -2,15 +2,17 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
-const Box = ({ children, to, href, className, elevation, radius, onWhite }) => {
+const Box = ({ children, to, href }) => {
+
     // Make sure the passed values are numbers and fall back to the defaults
-    const elevationNum = parseInt(elevation) || parseInt(Box.defaultProps.elevation)
-    const radiusNum = parseInt(radius) || parseInt(Box.defaultProps.radius)
-    const baseBoxClass = `bg-white`
-    // Shadow classes
-    const shadowClasses = `shadow-${elevationNum} ${(href || to ? `box-shadow-hover shadow-${elevationNum}-hover` : ``)}`
-    // Border radius clss
-    const radiusClasses = `br${radiusNum}`
+    // const elevationNum = parseInt(elevation) || parseInt(Box.defaultProps.elevation)
+    // const radiusNum = parseInt(radius) || parseInt(Box.defaultProps.radius)
+
+    // const baseBoxClass = `bg-white`
+    // // Shadow classes
+    // const shadowClasses = `shadow-${elevationNum} ${(href || to ? `box-shadow-hover shadow-${elevationNum}-hover` : ``)}`
+    // // Border radius clss
+    // const radiusClasses = `br${radiusNum}`
 
     if (to) {
         // internal links

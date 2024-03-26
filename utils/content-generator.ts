@@ -1,9 +1,7 @@
-import isAfter from 'date-fns/isAfter'
-import parse from 'date-fns/parse'
-import fs from 'fs'
+import * as fs from 'fs'
 import request from 'request'
 import { promisify } from 'util'
-import yaml from 'write-yaml'
+var yaml = require('write-yaml')
 
 interface Route {
     uri: string
@@ -21,7 +19,7 @@ const groupBy = (xs: any[], key: string) => {
 
 const getFiles = (directory: string) => {
     return promisify(fs.readdir)(directory).then((filenames) => {
-        filenames = filenames.filter((fn: string) => fn.endsWith('.md'))
+        filenames = filenames.filter((fn: string) => fn.endsWith('.mdx'))
         return Promise.all(filenames.map((filename: string) => filename))
     })
 }
@@ -81,18 +79,19 @@ const download = (uri: string, filename: string) => {
 let cheatSheet: any[] = []
 
 const saveCheatSheet = () => {
-    let targetPath = '../utils/cheatsheet.yaml'
+    let targetPath = './utils/cheatsheet.yaml'
     yaml.sync(targetPath, cheatSheet)
 }
 
 const run = async (subject: string, title: string) => {
     try {
         let routes: Route[] = []
-        let sourceDir = `../content/${subject}/`
-        let targetPath = `../src/data/sidebars/${subject}.yaml`
+        let sourceDir = `./src/content/${subject}/`
+        let targetPath = `./src/data/sidebars/${subject}.yaml`
         let isReleases = subject == 'releases'
         let files = await getFiles(sourceDir)
         let links: any[] = []
+        console.log(files)
 
         for (let file of files) {
             if (file.indexOf('.archived') > -1) {
@@ -109,7 +108,7 @@ const run = async (subject: string, title: string) => {
             let rank = parseInt(extractToken(raw, /rank: (\d+)/i, 1) || '0')
 
             routes.push({
-                uri: `/${subject}/` + file.replace(/\.md/g, '').replace(/( ){2,}/g, '-').replace(/[^a-zA-Z0-9-]/g, '').toLowerCase() + '/',
+                uri: `/${subject}/` + file.replace(/\.mdx/g, '').replace(/( ){2,}/g, '-').replace(/[^a-zA-Z0-9-]/g, '').toLowerCase() + '/',
                 title,
                 subTitle,
                 rank,
@@ -125,7 +124,7 @@ const run = async (subject: string, title: string) => {
 
             for (let url of images) {
                 if (url.indexOf('intercom') > -1) {
-                    name = getImageFileName(url)
+                    let name = getImageFileName(url)
                         .toLowerCase()
                         .replace(/\+/g, '-')
                         .replace('screen-shot-', '')
@@ -133,7 +132,7 @@ const run = async (subject: string, title: string) => {
                         .replace(/\./g, '-')
                         .replace(/-(jpg|png|svg|jpeg|gif)$/gi, '.$1')
 
-                    let outPath = `../static/images/${subject}/${name}`
+                    let outPath = `./static/images/${subject}/${name}`
                     let outUri = `/images/${subject}/${name}`
                     console.log(outUri)
 
@@ -154,7 +153,7 @@ const run = async (subject: string, title: string) => {
                 x.title = x.subTitle
             })
             routes.sort((a, b) => {
-                return isAfter(parse(a.subTitle), parse(b.subTitle)) ? -1 : 1
+                return new Date(a.subTitle).valueOf() > new Date(b.subTitle).valueOf() ? -1 : 1
             })
         } else {
             routes.sort((a, b) => {

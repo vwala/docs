@@ -3,7 +3,7 @@ import { CurrentRelease } from '../constants'
 
 export const getPostHeaderConfig = ({ pathname }) => {
 
-    const postHeaderConfig = {
+    const postHeaderConfig: any = {
         bgClass: `bg-api-reference`,
     }
 

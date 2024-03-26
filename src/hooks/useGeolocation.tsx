@@ -83,6 +83,7 @@ function useGeolocation(
                 })
                 setGeoObject(value)
             } catch (error) {
+                // @ts-ignore
                 setGeoObject(error)
             }
         }

@@ -156,14 +156,14 @@ export const onCreateNode: GatsbyNode["onCreateNode"] = (props) => {
         })
 
         // Example of derived field passed into page
-        createNodeField({
-            node,
-            name: `timeToRead`,
-            value: readingTime(node.body)
-        })
+        // createNodeField({
+        //     node,
+        //     name: `timeToRead`,
+        //     value: readingTime(node.body)
+        // })
     }
 }
 
-function readingTime(node: any) {
-    return 10
-}
+// function readingTime(node: any) {
+//     return 10
+// }

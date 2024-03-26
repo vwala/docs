@@ -1,6 +1,10 @@
 import { GatsbyConfig } from "gatsby"
 import algoliaQueries from "./utils/algolia-queries"
 
+declare var process: {
+  env: any
+}
+
 const config: GatsbyConfig = {
   // pathPrefix: "/",
   siteMetadata: {

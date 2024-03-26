@@ -9,11 +9,11 @@ import { MuiIcon } from '../Icon'
 interface PrevNextProps {
     link: string
     title: string
-    group: string
+    group?: string
     description: string
 }
 
-const PrevNext = (props: { prev: PrevNextProps, next: PrevNextProps }) => {
+const PrevNext = (props: { prev?: PrevNextProps, next?: PrevNextProps }) => {
 
     const { prev, next } = props
 

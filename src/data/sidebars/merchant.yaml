@@ -1,5 +1,5 @@
 - groups:
-    - group: Merchant Help
+    - group: Help
       items:
         - title: Welcome
           link: /merchant/welcome/

@@ -7,16 +7,17 @@ import PropTypes from 'prop-types'
 * duplicates, and are sorted ascending by name. The tags array can be used to
 * programmatically generate a tags cloud or menu.
 */
+// @ts-ignore
 export const getTagsforPostCollection = function getTagsforPostCollection(posts, linkPrefix) {
     let tags = []
     // remove any added `/`, as we add them later again
     linkPrefix = /^(?:\/?)([a-zA-Z\d-]*)(?:\/?)/i.exec(linkPrefix)[1]
 
-    _.forEach(posts, ({ node }) => {
-        // TODO 
-        // const publicTags = tagsHelper(node, { visibility: `public`, fn: tag => tag })
-        // tags.push(publicTags)
-    })
+    // _.forEach(posts, ({ node }) => {
+    //     // TODO 
+    //     // const publicTags = tagsHelper(node, { visibility: `public`, fn: tag => tag })
+    //     // tags.push(publicTags)
+    // })
 
     tags = _.flattenDeep(tags)
 

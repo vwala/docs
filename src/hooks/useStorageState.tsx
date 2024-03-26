@@ -136,12 +136,15 @@ function useStorageState<S>(
     useEffect(() => {
         // eslint-disable-next-line no-negated-condition
         if (typeof document !== "undefined") {
+
+            // @ts-ignore
             document.addEventListener(
                 customEventTypeName,
                 listenToCustomEventWithinDocument
             )
 
             return () => {
+                // @ts-ignore
                 document.removeEventListener(
                     customEventTypeName,
                     listenToCustomEventWithinDocument
@@ -183,6 +186,7 @@ function useStorageState<S>(
         storage.removeItem(k)
     }, [k])
 
+    // @ts-ignore
     return [value, set, remove]
 }
 

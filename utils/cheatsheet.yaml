@@ -34,11 +34,11 @@
       uri: 'https://help.vwa.la/merchant/inviting-influencers/'
     - title: Adding a page to your store
       uri: 'https://help.vwa.la/merchant/adding-a-page-to-your-store/'
-    - title: Influencer links & discount codes
-      uri: 'https://help.vwa.la/merchant/influencer-links/'
     - title: Creating a test influencer account or bulk importing influencers
       uri: >-
         https://help.vwa.la/merchant/how-to-create-a-test-account-or-bulk-upload-data/
+    - title: Influencer links & discount codes
+      uri: 'https://help.vwa.la/merchant/influencer-links/'
     - title: Influencer commission
       uri: 'https://help.vwa.la/merchant/influencer-commission/'
     - title: Influencer/group specific commission
@@ -55,6 +55,8 @@
       uri: 'https://help.vwa.la/merchant/exporting-your-data/'
 - subject: releases
   routes:
+    - title: '2024-03-26'
+      uri: 'https://help.vwa.la/releases/2024-03-26/'
     - title: '2023-05-16'
       uri: 'https://help.vwa.la/releases/2023-05-16/'
     - title: '2022-01-23'

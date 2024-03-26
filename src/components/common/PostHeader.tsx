@@ -5,7 +5,7 @@ import React from 'react'
 import { getPostHeaderConfig } from '../../utils/getPostHeaderConfig'
 
 const PostHeader = ({ location }) => {
-    const { title, subtitle, bgClass, mainLink, subLink } = getPostHeaderConfig(location)
+    const { title, subtitle, mainLink, subLink } = getPostHeaderConfig(location)
 
     if (title) {
         return (

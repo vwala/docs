@@ -1,6 +1,8 @@
 - groups:
     - group: Releases
       items:
+        - title: '2024-03-26'
+          link: /releases/2024-03-26/
         - title: '2023-05-16'
           link: /releases/2023-05-16/
         - title: '2022-01-23'

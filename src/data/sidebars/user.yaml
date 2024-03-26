@@ -1,5 +1,5 @@
 - groups:
-    - group: User Account Help
+    - group: User account help
       items:
         - title: I can't log in
           link: /user/i-cant-log-in/

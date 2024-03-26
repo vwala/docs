@@ -1,7 +1,7 @@
 import React, { FC, useEffect, useState } from 'react'
 import Modal from 'react-modal'
 import Icon from '../Icon'
-import Search from './Search'
+// import Search from './Search'
 import SearchInput from './SearchInput'
 
 interface SearchModalProps {
@@ -38,7 +38,7 @@ const SearchModal: FC<SearchModalProps> = ({ isHome }) => {
                 <div>
                     <Icon name="Search" />
                     <label htmlFor="globalsearch">Search</label>
-                    <Search />
+                    {/* <Search /> */}
                 </div>
             </Modal>
         </>

@@ -1,4 +1,5 @@
 export function getEnvironment() {
+    // @ts-ignore
     return process.env.NODE_ENV
 }
 
